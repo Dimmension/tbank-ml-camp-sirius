@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-venv
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -171,4 +168,3 @@ cython_debug/
 #.idea/
 
 draft
->>>>>>> Stashed changes
