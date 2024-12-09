@@ -1,150 +1,449 @@
-user_name
-report_lost_card
-credit_limit
-book_flight
-what_are_your_hobbies
-international_fees
-who_do_you_work_for
-confirm_reservation
-cook_time
-credit_score
-maybe
-todo_list
-date
-vaccines
-damaged_card
-bill_balance
-tell_joke
-alarm
-schedule_meeting
-meeting_schedule
-yes
-are_you_a_bot
-report_fraud
-last_maintenance
-spending_history
-directions
-order_status
-plug_type
-play_music
-change_speed
-ingredient_substitution
-restaurant_reviews
-oil_change_how
 translate
-what_can_i_ask_you
-payday
-change_accent
-flight_status
-weather
-international_visa
-travel_notification
-pay_bill
-book_hotel
-timezone
-restaurant_suggestion
-whisper_mode
-order
-tire_change
-find_phone
-thank_you
-shopping_list_update
-income
-calendar_update
-new_card
-insurance
-food_last
-next_holiday
-what_song
-recipe
-next_song
-measurement_conversion
-where_are_you_from
-direct_deposit
-mpg
-pto_request_status
-pto_used
-reminder
-goodbye
-carry_on
-todo_list_update
-redeem_rewards
-min_payment
-no
-distance
-roll_dice
-smart_home
-pto_balance
-pto_request
-application_status
-spelling
-how_busy
-cancel
-timer
-change_user_name
-expiration_date
-tire_pressure
-calculator
-sync_device
-flip_coin
-meal_suggestion
-reset_settings
-freeze_account
-current_location
-insurance_change
-what_is_your_name
-change_volume
+in spanish, meet me tomorrow is said how
+
 transfer
-credit_limit_change
-do_you_have_pets
-card_declined
-w2
-nutrition_info
-replacement_card_duration
-calories
-taxes
-gas_type
-share_location
-traffic
+transfer ten dollars from my wells fargo account to my bank of america account
+
+timer
+create a new timer
+
 definition
-bill_due
-calendar
-change_language
-accept_reservations
-schedule_maintenance
-repeat
-apr
-exchange_rate
-lost_luggage
-shopping_list
-order_checks
-greeting
-update_playlist
-travel_suggestion
-rollover_401k
-travel_alert
-car_rental
-change_ai_name
-interest_rate
-transactions
-how_old_are_you
-balance
-reminder_update
-ingredients_list
-fun_fact
-text
+may i please have a definition for the work churlish
+
 meaning_of_life
-uber
-cancel_reservation
-oil_change_when
-restaurant_reservation
-make_call
+i want to know what the purpose of life is
+
+insurance_change
+explain how do i get new insurance
+
+find_phone
+please help me in finding my phone
+
+travel_alert
+is traveling to france safe
+
+pto_request
+please request pto for march 2 and 3
+
 improve_credit_score
-jump_start
-rewards_balance
-account_blocked
-routing
-pin_change
-who_made_you
+what are some ways to raise my credit score
+
+fun_fact
+tell me something interesting about lake tahoe
+
+change_language
+i need new language
+
+payday
+when's the next time i get paid
+
+replacement_card_duration
+what's the time of arrival on my new credit card
+
 time
+what time is it in france
+
+application_status
+what is the present status of my credit card application
+
+flight_status
+when is my flight going to board
+
+flip_coin
+flip a normal coin
+
+change_user_name
+will you start calling me chaz
+
+where_are_you_from
+what place were you born at
+
+shopping_list_update
+i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there
+
+what_can_i_ask_you
+what categories of questions can you answer
+
+maybe
+i do not have that information
+
+oil_change_how
+procedure to change oil in car
+
+restaurant_reservation
+please reserve a table for 2 at lucky's under the name melissa at 7 pm
+
+balance
+do i have more than $100 in my pnc account
+
+confirm_reservation
+please double check my reservations for six at mani
+
+freeze_account
+may you stop a paymet on my account
+
+rollover_401k
+will my 401k rollover
+
+who_made_you
+who is your designer
+
+distance
+whats the travel time to redmond right now
+
+user_name
+do you know who i am
+
+timezone
+what is the timezone of saigon
+
+next_song
+i want you to skip past this song to the next track
+
+transactions
+show all purchases of video games
+
+restaurant_suggestion
+where do you want to eat tonight
+
+rewards_balance
+whats the reward balance for my visa
+
+pay_bill
+can you assist with my utility bill payment
+
+spending_history
+could you tell me what kind of money i've recently spent
+
+pto_request_status
+will i be permitted to take my vacation
+
+credit_score
+please lookup my experion credit score
+
+new_card
+who has the best credit card offering for a college student
+
+lost_luggage
+who do i contact for lost luggage
+
+repeat
+i want to hear that again
+
+mpg
+how well is the gas mileage while i'm in the city
+
+oil_change_when
+when is it time to change your oil
+
+yes
+that's definitely true
+
+travel_suggestion
+what's the best place to visit in arizona
+
+insurance
+what is covered under my insurance
+
+todo_list_update
+can you cancel my todo list please
+
+reminder
+please read my reminder list
+
+change_speed
+can you speak more slowly
+
+tire_pressure
+i need you to check the air levels in my tires and let me know if i have enough in them
+
+no
+ill pass
+
+apr
+is the apr on my card that ends 1234 what it should be based on my credit score
+
+nutrition_info
+how healthy is shepard's pie
+
+calendar
+what is tuesday's calendar like
+
+uber
+i need you to schedule an uber pickup for me and three other people at 7pm to go to abe's pizza
+
+calculator
+help me solve this math equation
+
+date
+give me the date
+
+carry_on
+can i take more than one carry on
+
+pto_used
+how many days off have i used
+
+schedule_maintenance
+i'd like an appointment at your earliest availability for an oil change
+
+travel_notification
+i'm going to be in canada from october 23rd to november 2nd, so can i let my bank know
+
+sync_device
+sync phone
+
+thank_you
+that you so much for the help
+
+roll_dice
+i would like you to roll a dice
+
+food_last
+is my milk safe to drink after being in the refrigerator for a week
+
+cook_time
+how long do i need to cook pot au feu for
+
+reminder_update
+remind me to call my mom
+
+report_lost_card
+i want to report a stolen card
+
+ingredient_substitution
+would it be a problem to sub chips instead of fries
+
+make_call
+call alex
+
+alarm
+i'd like alarms set for 11am and 132pm
+
+todo_list
+repeat my to do list
+
+change_accent
+will you please do the male british accent
+
+w2
+i need a w2 form, how do i get one
+
+bill_due
+when do i need to pay my dte energy bill
+
+calories
+what is the calorie content of lays chips
+
+damaged_card
+my card was damaged by bleach
+
+restaurant_reviews
+does mcdonald's have good reviews
+
+routing
+what would the routing number for chase be
+
+do_you_have_pets
+what type of pet is in your home
+
+schedule_meeting
+how do i set up a meeting
+
+gas_type
+what is the best type of gas for this car
+
+plug_type
+what kind of sockets do the us use
+
+tire_change
+tell me when to next change my tires
+
+exchange_rate
+how much is 100 dollars in euros
+
+next_holiday
+what day is the next holiday
+
+change_volume
+make your volume quieter please
+
+who_do_you_work_for
+do you work for another person
+
+credit_limit
+what is the limit on my victoria's secret card
+
+how_busy
+how much to wait before dining in the jack in the box at 4 pm
+
+accept_reservations
+does spago in beverly hills allow customers to make reservations
+
+order_status
+was my order delivered
+
+pin_change
+i forgot my pin number for my credit union bank account, can you help
+
+goodbye
+see ya!
+
+account_blocked
+my account looks to be blocked and i have no idea why
+
+what_song
+whats this song
+
+international_fees
+does my visa have international transaction fees
+
+last_maintenance
+on what day, month and year did i get new tires
+
+meeting_schedule
+what if any meetings do i have today
+
+ingredients_list
+i need a list of ingredients required to make lamb stew
+
+report_fraud
+contact the bank about fraud activity on my card
+
+measurement_conversion
+what is the total number of pints in two quarts
+
+smart_home
+could you tell me the temperature of the ac
+
+book_hotel
+by chance would it be possible to reserve me a hotel in afghanistan at the zoo for the 10th to the 15th
+
+current_location
+talk to me about where im at right now
+
+weather
+what's is the current weather forecast
+
+taxes
+how much money a year do i spend in taxes
+
+min_payment
+what is the minimum amount due on my cable bill
+
+whisper_mode
+set up whisper mode
+
+cancel
+quit talking
+
+international_visa
+if i plan on travelling to this country, do i need a visa
+
+vaccines
+is it necessary to get a shot for travel to india
+
+pto_balance
+how many vacation days have i saved up
+
+directions
+where is the closest subway entrance to me to go to brooklyn
+
+spelling
+spell: dessert
+
+greeting
+how ya doin
+
+reset_settings
+factory settings restoration
+
+what_is_your_name
+what may i call you
+
+direct_deposit
+how do i set up direct deposit for my first national account
+
+interest_rate
+what kind of interest can i expect with my chase account
+
+credit_limit_change
+how do i change my credit limit
+
+what_are_your_hobbies
+do you have hobbies
+
+book_flight
+can you find me a round trip flight from denver international to new york international on the 3rd through the 7th
+
+shopping_list
+will you please read the things on my shopping list
+
+text
+send a text to joe
+
+bill_balance
+how much is my kill bill bill for
+
+share_location
+give my location to stan
+
+redeem_rewards
+cash in my credit card rewards
+
+play_music
+let me hear the song sympathy for the devil
+
+calendar_update
+you can remove the field trip from my calendar for march 12, 2019
+
+are_you_a_bot
+are you secretly real
+
 gas
+what is the gas level in my gas tank
+
+expiration_date
+what is the date that my visa card expires
+
+update_playlist
+add this song to travel
+
+cancel_reservation
+i would like to cancel my reservation for nenuco's restaurant to x- tapas
+
+tell_joke
+what's the funniest thing you've got
+
+change_ai_name
+can i start calling you dave
+
+how_old_are_you
+what is your age again
+
+car_rental
+i need a car rental this week
+
+jump_start
+how can i jump start my car if my battery is dead
+
+meal_suggestion
+can you give me a chinese meal suggestion
+
+recipe
+i would like to learn to make cookies
+
+income
+what's my income before taxes
+
+order
+order more bread please
+
+traffic
+is there much traffic between here and work right now
+
+order_checks
+i need more checks because i am out
+
+card_declined
+is there a reason my card was declined
