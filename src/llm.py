@@ -7,13 +7,13 @@ import pandas as pd
 with open(r"data\classes.txt", "r") as file:
     LABELS =  [line.strip() for line in file.readlines() if line.strip()]
 
-descriptions = pd.read_csv(r'data\label_desc_context.csv')
+descriptions = pd.read_csv(r'data\label_desc_context_new.csv')
 LABELS_DESCRIPTIONS = []
 
 for i, row in descriptions.iterrows():
     LABELS_DESCRIPTIONS.append({
-        'intent': row['label'],
-        'description': row['intent'],
+        'intent': row['intent'],
+        'description': row['description'],
         'context': row['text']
     })
 
