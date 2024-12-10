@@ -4,6 +4,10 @@ from sklearn.preprocessing import MinMaxScaler
 from rank_bm25 import BM25Okapi
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import CrossEncoderReranker
+from langchain_community.cross_encoders import HuggingFaceCrossEncoder
+
 import time
 
 
@@ -13,9 +17,12 @@ class RetrievalSystem:
     def __init__(self,
                  data_path,
                  model_name="BAAI/bge-large-en",
+                 reranker_name="BAAI/bge-reranker-v2-m3",
                  top_k=30,
                  top_n=30,
                  top_r=30,
+                 top_m=15,
+                 theshhold=1e-6,
                  fusion_weight=0.7,
                  query_instruction="retrieve most appropriate labels: "):
         """
@@ -24,16 +31,20 @@ class RetrievalSystem:
         Args:
             data_path (str): Path to the JSON file containing labels with descriptions.
             model_name (str): Name of the BGE model.
+            reranker_name (str): Name of the BGE reranker.
             top_k (int): Number of results to retrieve from semantic search.
             top_n (int): Number of results to retrieve from BM25 search.
             top_r (int): Number of final results to return after reranking.
+            theshhold (int): Theshhold for checking if query is oos.
             fusion_weight (float): Weight given to BM25 scores during fusion.
             query_instruction (str): Instruction for query embedding.
         """
         self.top_k = top_k  # for semantic search
         self.top_n = top_n  # for BM25
         self.top_r = top_r  # top from semantic + BM25
+        self.top_m = top_m # for BGE reranking
         self.fusion_weight = fusion_weight
+        self.theshhold = theshhold
 
         # Load data
         with open(data_path, "r") as f:
@@ -54,6 +65,12 @@ class RetrievalSystem:
             model_kwargs=model_kwargs,
             encode_kwargs=encode_kwargs,
             query_instruction=query_instruction
+        )
+
+        # Initialize HuggingFace BGE reranker
+        self.reranker = HuggingFaceCrossEncoder(
+            model_name=reranker_name,
+            model_kwargs=model_kwargs
         )
 
         # Create FAISS vector store
@@ -105,17 +122,36 @@ class RetrievalSystem:
             for res, score in zip(bm25_results, fused_scores)
         ]
 
-        # Reranking
+        # Reranking 1
         reranked_results = sorted(fused_results, key=lambda x: x["score"], reverse=True)[:self.top_r]
         # print(reranked_results)
 
         # Return top labels
-        label_list = [res["intend"] for res in reranked_results]
-        # label_descr_dict = {item['intend']: item['description'] for item in reranked_results}
-        return label_list
+        label_list = np.array([res["intend"] for res in reranked_results])
+        
+        # Reranking 2
+        descriptions = [[query, self.get_description(label)] for label in label_list]
+        reranking2_scores = self.reranker.score(descriptions)
+        true_indices = np.argsort(reranking2_scores)[::-1]
+        top_labels = label_list[true_indices][:self.top_m]
+
+        # check if query is 'oos'
+        is_oos = self.check_is_oos(reranking2_scores[true_indices])            
+        return top_labels, is_oos
     
     def get_description(self, label):
         return self.data[label]
+    
+    def check_is_oos(self, values):
+        mean_diff = 0
+        for i in range(self.top_r - 1):
+            mean_diff += values[i] - values[i+1]
+        
+        mean_diff /= (self.top_r - 1)
+        if mean_diff <= self.theshhold:
+            return True
+        return False
+
 
 
 # Example Usage

@@ -16,18 +16,26 @@ model = GeminiAI()
 n=3
 for i in range(n):
     print(f"Current label: {label}\n")
-    top_labels = retrieval.process_query(query, top_r=20)
-    top_labels.append(label)
-    top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
+    top_labels, is_oos = retrieval.process_query(query, top_r=20, top_m=10)
 
-    print(f"Top labels suggested:\n{top_labels}\n")
-    # print(len(top_labels))
+    # check if query is out of domain example
+    if not is_oos: 
+        # check if init label is already in top label list
+        if label not in top_labels:
+            top_labels.append(label)
+            
+        top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
 
-    response = model.classify_intent(query=query, dataset_label=label, suggested_intends=top_labels_with_descriptions)
-    print(f"LLM response: {response}\n")
+        print(f"Top labels suggested:\n{top_labels}\n")
+        # print(len(top_labels))
 
-    print("-------------------")
-    if response != "True":
-        label = response
+        response = model.classify_intent(query=query, dataset_label=label, suggested_intends=top_labels_with_descriptions)
+        print(f"LLM response: {response}\n")
+
+        print("-------------------")
+        if response != "True":
+            label = response
+    else:
+        print("Out of Domain example")
 
 print(f"FINAL LABEL: {label}\n")
