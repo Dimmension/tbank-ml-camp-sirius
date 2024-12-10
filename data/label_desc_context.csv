@@ -1,0 +1,151 @@
+intent,text,label
+"A casual farewell or goodbye message, indicating the end of the interaction.",see ya!,goodbye
+A casual greeting or expression of interest in how the assistant is doing.,how ya doin,greeting
+A casual inquiry asking if the assistant has hobbies or interests.,do you have hobbies,what_are_your_hobbies
+A casual query about the assistant’s age.,what is your age again,how_old_are_you
+"A command to share the user’s current location with a specific person, such as Stan.",give my location to stan,share_location
+A command to stop the current interaction or request the assistant to stop speaking.,quit talking,cancel
+"A detailed question about actionable steps or strategies to improve their credit score, such as paying down debt, disputing errors, or managing credit utilization.",what are some ways to raise my credit score,improve_credit_score
+"A general query about the capabilities of the assistant, seeking a list of categories or examples of questions they can ask.",what categories of questions can you answer,what_can_i_ask_you
+A message of gratitude expressing thanks for help or assistance provided.,that you so much for the help,thank_you
+"A query about the calorie content of a specific food item, such as Lay's chips.",what is the calorie content of lays chips,calories
+"A query about the current balance of rewards or points associated with a specific credit card, such as Visa.",whats the reward balance for my visa,rewards_balance
+A query about the current level of gas in the user’s car tank.,what is the gas level in my gas tank,gas
+A query about the current weather conditions or forecast for a specific location.,what's is the current weather forecast,weather
+"A query about the rules for carrying multiple items, such as bags, on a flight.",can i take more than one carry on,carry_on
+"A query about the spending limit on a specific credit card, such as a Victoria’s Secret card.",what is the limit on my victoria's secret card,credit_limit
+"A query about the type of power sockets or plugs used in a specific region, such as the US.",what kind of sockets do the us use,plug_type
+"A query about the user’s income, typically before taxes.",what's my income before taxes,income
+A query about visa requirements for traveling to a specific country.,"if i plan on travelling to this country, do i need a visa",international_visa
+A query asking the assistant to identify the currently playing song.,whats this song,what_song
+A query asking the assistant what name it goes by or how the user can address it.,what may i call you,what_is_your_name
+"A query to convert measurements, such as pints to quarts or other units.",what is the total number of pints in two quarts,measurement_conversion
+"A query to retrieve the user’s credit score from a specific credit reporting agency, like Experian.",please lookup my experion credit score,credit_score
+"A question about obtaining a W-2 form, typically for tax purposes, including the process or source to acquire it.","i need a w2 form, how do i get one",w2
+"A question about the appropriate timing for an oil change, either based on mileage or time.",when is it time to change your oil,oil_change_when
+"A question about the coverage details of the user’s insurance policy, such as what is included or excluded.",what is covered under my insurance,insurance
+"A question about the creator or developer of the assistant, reflecting curiosity about its origin or purpose.",who is your designer,who_made_you
+"A question about the safety of consuming food, such as milk, based on how long it has been stored.",is my milk safe to drink after being in the refrigerator for a week,food_last
+"A question about whether a particular restaurant accepts reservations, such as Spago in Beverly Hills.",does spago in beverly hills allow customers to make reservations,accept_reservations
+"A request for guidance on setting up direct deposit, possibly for a specific bank account.",how do i set up direct deposit for my first national account,direct_deposit
+A request for help with resetting or changing a PIN for a bank account.,"i forgot my pin number for my credit union bank account, can you help",pin_change
+A request for instructions on how to change or increase the credit limit on their account.,how do i change my credit limit,credit_limit_change
+"A request for meal suggestions, such as a Chinese dish recommendation.",can you give me a chinese meal suggestion,meal_suggestion
+A request for the assistant to share a joke or something funny.,what's the funniest thing you've got,tell_joke
+"A request for the cooking time required to prepare a specific dish, like pot-au-feu.",how long do i need to cook pot au feu for,cook_time
+"A request for the current date, often to check the day or align plans.",give me the date,date
+"A request for the current timezone of a specified location, helping the user align their plans or understand time differences.",what is the timezone of saigon,timezone
+"A request for the full list of ingredients needed to prepare a specific dish, like lamb stew.",i need a list of ingredients required to make lamb stew,ingredients_list
+A request for the total amount due on a specific bill.,how much is my kill bill bill for,bill_balance
+"A request to add a song to a specific playlist, such as ""travel.""",add this song to travel,update_playlist
+"A request to adjust the assistant’s speaking volume, typically to make it quieter.",make your volume quieter please,change_volume
+"A request to arrange a car rental for a specific time, such as the current week.",i need a car rental this week,car_rental
+"A request to book a maintenance appointment, such as an oil change, at the earliest available time.",i'd like an appointment at your earliest availability for an oil change,schedule_maintenance
+"A request to book a round-trip flight, specifying dates and locations, such as Denver to New York.",can you find me a round trip flight from denver international to new york international on the 3rd through the 7th,book_flight
+"A request to display a list of recent transactions, specifically focused on video game purchases.",show all purchases of video games,transactions
+"A request to enable whisper mode, where the assistant speaks more quietly.",set up whisper mode,whisper_mode
+"A request to know the date of the last maintenance activity, such as getting new tires.","on what day, month and year did i get new tires",last_maintenance
+A request to know the number of vacation or paid time off (PTO) days the user has saved up.,how many vacation days have i saved up,pto_balance
+"A request to order more checks, as the user has run out.",i need more checks because i am out,order_checks
+"A request to place a phone call to a specific person, such as Alex.",call alex,make_call
+"A request to place an order for a specific item, such as more bread.",order more bread please,order
+"A request to provide nutritional information or health-related details about a specific dish, like shepherd’s pie.",how healthy is shepard's pie,nutrition_info
+"A request to provide the current exchange rate between two currencies, such as USD to EUR.",how much is 100 dollars in euros,exchange_rate
+"A request to provide the routing number of a specific bank, such as Chase.",what would the routing number for chase be,routing
+"A request to read or repeat the user's to-do list, listing tasks or items they’ve recorded.",repeat my to do list,todo_list
+A request to read out or provide a list of reminders the user has set.,please read my reminder list,reminder
+A request to read out the items currently on the user’s shopping list.,will you please read the things on my shopping list,shopping_list
+"A request to redeem credit card rewards for cash, travel, or other benefits.",cash in my credit card rewards,redeem_rewards
+"A request to replay or repeat a previously performed action, such as playing a song or repeating spoken information.",i want to hear that again,repeat
+"A request to reserve a hotel room for specific dates and possibly a location, such as near a zoo in Afghanistan.",by chance would it be possible to reserve me a hotel in afghanistan at the zoo for the 10th to the 15th,book_hotel
+"A request to review recent financial activity or spending, providing insight into where money has been spent recently.",could you tell me what kind of money i've recently spent,spending_history
+"A request to schedule a meeting, potentially involving date, time, and participant details.",how do i set up a meeting,schedule_meeting
+"A request to schedule a ride with Uber, including details like the number of passengers, time, and destination.",i need you to schedule an uber pickup for me and three other people at 7pm to go to abe's pizza,uber
+"A request to set, update, or modify a reminder, such as reminding the user to call their mom.",remind me to call my mom,reminder_update
+"A request to simulate flipping a coin, often to make a decision or resolve a disagreement.",flip a normal coin,flip_coin
+"A request to spell out a specific word, such as ""dessert.""",spell: dessert,spelling
+"A request to synchronize data or settings between devices, such as syncing a phone.",sync phone,sync_device
+A request to temporarily stop payments or transactions on a bank account due to security or financial reasons.,may you stop a paymet on my account,freeze_account
+"A request to update or remove an event from the user’s calendar, such as a field trip.","you can remove the field trip from my calendar for march 12, 2019",calendar_update
+"A response indicating refusal, disinterest, or declining an offer.",ill pass,no
+A response indicating that the system lacks sufficient information or certainty to provide a definitive answer.,i do not have that information,maybe
+A specific question about how long it will take to receive a replacement credit or debit card after it has been requested.,what's the time of arrival on my new credit card,replacement_card_duration
+An affirmative response indicating agreement or confirmation.,that's definitely true,yes
+The user is asking about the Annual Percentage Rate (APR) on a credit card and whether it aligns with their credit score.,is the apr on my card that ends 1234 what it should be based on my credit score,apr
+"The user is asking about the assistant’s or user’s home environment, specifically regarding pets.",what type of pet is in your home,do_you_have_pets
+"The user is asking about the current traffic conditions between two locations, such as home and work.",is there much traffic between here and work right now,traffic
+The user is asking about the interest rate they can expect with a specific bank or account.,what kind of interest can i expect with my chase account,interest_rate
+"The user is asking about the status of their flight, including the boarding time, delays, or other updates.",when is my flight going to board,flight_status
+"The user is asking for a detailed guide or procedure on how to perform an oil change on a car, possibly including tools and steps required.",procedure to change oil in car,oil_change_how
+"The user is asking for a recipe to prepare a specific dish, such as cookies.",i would like to learn to make cookies,recipe
+The user is asking for advice or timing on when they should change their car tires.,tell me when to next change my tires,tire_change
+The user is asking for an estimate of how much money they spend annually on taxes.,how much money a year do i spend in taxes,taxes
+"The user is asking for an interesting or surprising piece of information about a particular subject, possibly to learn something new or engage in a fun conversation.",tell me something interesting about lake tahoe,fun_fact
+"The user is asking for assistance with paying a bill, which might include utility, phone, or other recurring payments.",can you assist with my utility bill payment,pay_bill
+"The user is asking for directions to a specific location, such as the nearest subway entrance.",where is the closest subway entrance to me to go to brooklyn,directions
+"The user is asking for guidance on whom to contact regarding lost luggage, likely related to airline travel.",who do i contact for lost luggage,lost_luggage
+"The user is asking for guidance or steps on how to change their insurance provider, update their policy, or make adjustments to their current insurance plan.",explain how do i get new insurance,insurance_change
+The user is asking for help solving a math problem or equation.,help me solve this math equation,calculator
+The user is asking for information about meetings scheduled for the current day.,what if any meetings do i have today,meeting_schedule
+The user is asking for information about their current geographical location.,talk to me about where im at right now,current_location
+The user is asking for information or assistance in rolling over a 401k retirement account to another account or provider.,will my 401k rollover,rollover_401k
+The user is asking for instructions on jump-starting a car with a dead battery.,how can i jump start my car if my battery is dead,jump_start
+"The user is asking for the date of the next holiday, possibly to plan activities.",what day is the next holiday,next_holiday
+"The user is asking for the due date of a specific bill, such as their energy bill.",when do i need to pay my dte energy bill,bill_due
+"The user is asking for the expiration date of a specific card, such as a Visa card.",what is the date that my visa card expires,expiration_date
+"The user is asking for the minimum payment required for a specific bill, such as their cable bill.",what is the minimum amount due on my cable bill,min_payment
+The user is asking how many paid time off (PTO) days they have used so far.,how many days off have i used,pto_used
+"The user is asking if an alternative ingredient (e.g., chips instead of fries) can be used in a recipe or meal.",would it be a problem to sub chips instead of fries,ingredient_substitution
+"The user is asking if the system knows their name, possibly checking if the assistant recognizes or remembers their identity.",do you know who i am,user_name
+"The user is asking the assistant to play a specific song, such as ""Sympathy for the Devil.""",let me hear the song sympathy for the devil,play_music
+The user is asking to check the air pressure in their tires and confirm whether it is at an acceptable level.,i need you to check the air levels in my tires and let me know if i have enough in them,tire_pressure
+"The user is asking to create a new timer for a specific duration. This might be used for reminders, tracking time, or timing an activity.",create a new timer,timer
+"The user is asking to simulate rolling a dice, often for decision-making or gameplay.",i would like you to roll a dice,roll_dice
+The user is asking to skip the current track and play the next song in the playlist or queue.,i want you to skip past this song to the next track,next_song
+The user is asking whether the assistant is a bot or a real person.,are you secretly real,are_you_a_bot
+The user is asking whether their order has been delivered or its current status.,was my order delivered,order_status
+"The user is asking whether vaccinations are necessary for travel to a particular destination, such as India.",is it necessary to get a shot for travel to india,vaccines
+The user is asking why their credit card was declined or seeking assistance to resolve the issue.,is there a reason my card was declined,card_declined
+"The user is curious about the origins of the assistant, asking where it or its creators come from.",what place were you born at,where_are_you_from
+The user is inquiring about the assistant’s creator or employer.,do you work for another person,who_do_you_work_for
+"The user is inquiring about the quality or ratings of a specific restaurant, such as McDonald’s.",does mcdonald's have good reviews,restaurant_reviews
+"The user is inquiring about the travel time or distance to a specific location, often using real-time traffic or route data.",whats the travel time to redmond right now,distance
+"The user is inquiring about travel safety to a specific location, asking for information on risks, advisories, or precautions they should take.",is traveling to france safe,travel_alert
+The user is inquiring whether their credit card charges fees for international transactions.,does my visa have international transaction fees,international_fees
+"The user is looking for a clear and precise definition of a specific word. This request helps them understand the meaning, usage, or context of the word in question.",may i please have a definition for the work churlish,definition
+The user is reporting that their account appears to be blocked and seeks assistance in resolving the issue.,my account looks to be blocked and i have no idea why,account_blocked
+"The user is requesting a translation of a word, phrase, or sentence from one language to another. They might want to understand how something is said in a specific language or learn a new linguistic expression.","in spanish, meet me tomorrow is said how",translate
+"The user is requesting changes to their to-do list, such as canceling tasks or items.",can you cancel my todo list please,todo_list_update
+"The user is requesting information about or control over a smart home device, such as the temperature of the AC.",could you tell me the temperature of the ac,smart_home
+"The user is requesting to book a table at a specific restaurant, specifying details such as the number of people, the time, and the name under which to reserve.",please reserve a table for 2 at lucky's under the name melissa at 7 pm,restaurant_reservation
+"The user is seeking advice on the best credit card options available, particularly for specific demographics like college students.",who has the best credit card offering for a college student,new_card
+"The user is seeking recommendations for destinations or activities to do in a specific location, such as Arizona.",what's the best place to visit in arizona,travel_suggestion
+"The user is seeking recommendations for places to eat, possibly for a specific meal or occasion.",where do you want to eat tonight,restaurant_suggestion
+"The user wants information about events or appointments scheduled on a specific day, such as Tuesday.",what is tuesday's calendar like,calendar
+"The user wants the assistant to adjust its speaking speed, typically to speak more slowly.",can you speak more slowly,change_speed
+"The user wants the assistant to change its accent, such as switching to a male British voice.",will you please do the male british accent,change_accent
+"The user wants to cancel a reservation at a particular venue, such as Nenuco’s restaurant.",i would like to cancel my reservation for nenuco's restaurant to x- tapas,cancel_reservation
+"The user wants to change the name they use to address the assistant, such as calling it ""Dave.""",can i start calling you dave,change_ai_name
+The user wants to change the system's operating language to one they prefer or are more comfortable with.,i need new language,change_language
+"The user wants to know the current or expected wait time at a specific location, such as a restaurant.",how much to wait before dining in the jack in the box at 4 pm,how_busy
+"The user wants to know the current time in a specific location, often in a different time zone or country.",what time is it in france,time
+"The user wants to know the fuel efficiency (miles per gallon) of their vehicle, particularly for city driving.",how well is the gas mileage while i'm in the city,mpg
+The user wants to know the recommended or best type of gasoline for their car.,what is the best type of gas for this car,gas_type
+The user wants to know whether their paid time off (PTO) request has been approved or denied.,will i be permitted to take my vacation,pto_request_status
+The user wants to notify their bank about upcoming travel plans to avoid transaction issues during the trip.,"i'm going to be in canada from october 23rd to november 2nd, so can i let my bank know",travel_notification
+"The user wants to report a damaged card, possibly due to an accident or exposure to substances like bleach.",my card was damaged by bleach,damaged_card
+The user wants to report fraudulent activity on their credit card and seeks help contacting the bank.,contact the bank about fraud activity on my card,report_fraud
+The user wants to report their card as lost or stolen and seeks guidance or action to address the issue.,i want to report a stolen card,report_lost_card
+The user wants to request paid time off (PTO) for specific dates. This might involve submitting a formal request or checking the availability of PTO days.,please request pto for march 2 and 3,pto_request
+The user wants to restore the system or assistant to its factory default settings.,factory settings restoration,reset_settings
+"The user wants to send a text message to a specific contact, such as Joe.",send a text to joe,text
+"The user wants to set one or more alarms for specific times, ensuring reminders or wake-ups.",i'd like alarms set for 11am and 132pm,alarm
+"The user wants to update the name by which the assistant or system addresses them, either to a nickname or a different identifier.",will you start calling me chaz,change_user_name
+"The user wants to verify the details of an existing reservation, ensuring that everything is correct and confirmed.",please double check my reservations for six at mani,confirm_reservation
+"This is a query about the next payday, possibly related to their payroll schedule or upcoming payments.",when's the next time i get paid,payday
+"This is a request for assistance in locating a misplaced or lost phone. The user may want directions, notifications, or other means to find their device.",please help me in finding my phone,find_phone
+"This label covers user inquiries about the current status of an application, such as a credit card, loan, or other financial service.",what is the present status of my credit card application,application_status
+"This label indicates a user request to move money between two bank accounts, which may include specifying the amount, the source account, and the destination account.",transfer ten dollars from my wells fargo account to my bank of america account,transfer
+"This label indicates a user request to verify whether an item is on their shopping list and, if not, to add it.","i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there",shopping_list_update
+This label represents a philosophical inquiry about the purpose or meaning of life. The user seeks an abstract or thought-provoking response to this timeless question.,i want to know what the purpose of life is,meaning_of_life
+"This represents a query about the user’s bank account balance, often asking for specific details like whether they have more than a certain amount.",do i have more than $100 in my pnc account,balance
