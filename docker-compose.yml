@@ -1,0 +1,21 @@
+version: '0.1'
+
+services:
+  chromadb_tbank:
+    image: chromadb/chroma:0.5.7
+    container_name: chromadb
+    volumes:
+      - ./chromadb:/chroma/chroma
+    command: "--workers 1 --host 0.0.0.0 --port 8000 --proxy-headers --log-config chromadb/log_config.yml --timeout-keep-alive 30"
+    environment:
+      - IS_PERSISTENT=TRUE
+    restart: unless-stopped
+    ports:
+      - "4810:8000"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8000/api/v1/heartbeat" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
