@@ -2,10 +2,26 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import os
 import time
+import pandas as pd
 
 
 with open(r"data\classes.txt", "r") as file:
     LABELS =  [line.strip() for line in file.readlines() if line.strip()]
+
+
+# Read the CSV file into a DataFrame
+descriptions = pd.read_csv(r'data\label_desc_context.csv')
+
+# Initialize the list to store the descriptions
+LABELS_DESCRIPTIONS = []
+
+# Iterate over rows of the DataFrame and populate the list
+for i, row in descriptions.iterrows():
+    LABELS_DESCRIPTIONS.append({
+        'intent': row['label'],
+        'description': row['intent'],
+        'context': row['text']
+    })
 
 
 class GeminiAI:
@@ -15,21 +31,18 @@ class GeminiAI:
         self.model = genai.GenerativeModel(model_name="gemini-1.5-flash")
         
     def classify_intent(self, query, dataset_label, suggested_intends=LABELS):
-        # time.sleep(5)
+        time.sleep(5)
         system_prompt = f"""
-        You are an advanced AI designed to annotate user intends (label) for queries.
-        Follow these steps to process the query:\n
-        1. Verify if the provided label matches the query meaningfully and is part of 
-        the defined set of intents. If the label is correct, respond with 'True'.
-        2. If the provided label is incorrect, choose the most appropriate label 
+        You are an advanced AI designed to annotate user intends (label) for queries\n
+        Choose the most appropriate label 
         from the defined set of intents and respond with that label.
-        3. If the query does not fit any label in the defined set of intents, 
-        respond with 'oos', meaning 'out of scope'.
-
-        Defined set of the intends: {suggested_intends}
-        """
+        Every intent is provided with its description and the example of context in which this label may be used.
+        Return only name of the correct label, nothing else!
         
-        user_prompt = f"{system_prompt}\n\nQuery: {query}\nLabel: {dataset_label}\nIntent:"
+        Defined set of the intends with their descriptions and examples: {suggested_intends}
+        """
+        # print(suggested_intends)
+        user_prompt = f"{system_prompt}\n\nQuery: {query}\nIntent:"
         
         try:
             response = self.model.generate_content(user_prompt)

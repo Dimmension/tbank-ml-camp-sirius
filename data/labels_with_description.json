@@ -48,7 +48,7 @@
     "yes": "An affirmative response indicating agreement or confirmation.",
     "travel_suggestion": "The user is seeking recommendations for destinations or activities to do in a specific location, such as Arizona.",
     "insurance": "A question about the coverage details of the user\u2019s insurance policy, such as what is included or excluded.",
-    "todo_list_update": "The user is requesting changes to their to-do list, such as canceling tasks or items.",
+    "todo_list_update": "The user is requesting changes to their to-do list, such as adding and canceling tasks or items.",
     "reminder": "A request to read out or provide a list of reminders the user has set.",
     "change_speed": "The user wants the assistant to adjust its speaking speed, typically to speak more slowly.",
     "tire_pressure": "The user is asking to check the air pressure in their tires and confirm whether it is at an acceptable level.",

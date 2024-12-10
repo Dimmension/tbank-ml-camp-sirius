@@ -13,16 +13,16 @@ class RetrievalSystem:
     def __init__(self,
                  data_path,
                  model_name="BAAI/bge-large-en",
-                 top_k=15,
-                 top_n=15,
-                 top_r=7,
+                 top_k=30,
+                 top_n=30,
+                 top_r=30,
                  fusion_weight=0.7,
                  query_instruction="retrieve most appropriate labels: "):
         """
         Initialize the retrieval system.
 
         Args:
-            data_path (str): Path to the JSON file containing data.
+            data_path (str): Path to the JSON file containing labels with descriptions.
             model_name (str): Name of the BGE model.
             top_k (int): Number of results to retrieve from semantic search.
             top_n (int): Number of results to retrieve from BM25 search.
@@ -40,6 +40,8 @@ class RetrievalSystem:
             data = json.load(f)
 
         # Prepare documents and metadata
+        self.data = {key: value for key, value in data.items()}
+        # self.data = {item['intend']: item['description'] for item in data.items()}
         self.documents = [{"intend": intend, "description": description} for intend, description in data.items()]
         self.descriptions = [doc["description"] for doc in self.documents]
         self.metadata = [{"intend": doc["intend"]} for doc in self.documents]
@@ -105,9 +107,15 @@ class RetrievalSystem:
 
         # Reranking
         reranked_results = sorted(fused_results, key=lambda x: x["score"], reverse=True)[:self.top_r]
+        # print(reranked_results)
 
         # Return top labels
-        return [res["intend"] for res in reranked_results]
+        label_list = [res["intend"] for res in reranked_results]
+        # label_descr_dict = {item['intend']: item['description'] for item in reranked_results}
+        return label_list
+    
+    def get_description(self, label):
+        return self.data[label]
 
 
 # Example Usage
