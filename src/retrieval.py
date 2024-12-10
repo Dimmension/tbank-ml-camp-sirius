@@ -12,15 +12,15 @@ class RetrievalSystem:
     """A retrieval system combining semantic search with BM25."""
 
     def __init__(self,
-                 data_path,
+                 data_path=r"data\labels_with_description.json",
                  model_name="BAAI/bge-large-en",
                  reranker_name="BAAI/bge-reranker-v2-m3",
-                 top_k=40,
-                 top_n=40,
+                 top_k=50,
+                 top_n=50,
                  top_r=30,
-                 top_m=15,
+                 top_m=30,
                  theshhold=1e-6,
-                 fusion_weight=0.7,
+                 fusion_weight=0.5,
                  query_instruction="retrieve most appropriate labels: "):
         """
         Initialize the retrieval system.
@@ -39,7 +39,7 @@ class RetrievalSystem:
         self.top_k = top_k  # for semantic search
         self.top_n = top_n  # for BM25
         self.top_r = top_r  # top from semantic + BM25
-        self.top_m = top_m # for BGE reranking
+        self.top_m = top_m  # for BGE reranking
         self.fusion_weight = fusion_weight
         self.theshhold = theshhold
 
@@ -50,7 +50,6 @@ class RetrievalSystem:
         # Prepare documents and metadata
         self.data = {key: value for key, value in data.items()}
         self.labels = list(self.data.keys())
-        # self.data = {item['intend']: item['description'] for item in data.items()}
         self.documents = [{"intend": intend, "description": description} for intend, description in data.items()]
         self.descriptions = [doc["description"] for doc in self.documents]
         self.metadata = [{"intend": doc["intend"]} for doc in self.documents]

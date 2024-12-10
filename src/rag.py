@@ -1,11 +1,14 @@
 from retrieval import RetrievalSystem
 from gemini import GeminiAI
+from llama import Llama
 import random
+import time
+
 
 # retrieving label candidates
-data_path = r"data\labels_with_description.json"
-retrieval = RetrievalSystem(data_path)
-model = GeminiAI()
+retrieval = RetrievalSystem()
+# model = GeminiAI()
+model = Llama()
 
 
 def predict_label(query, label, n: int=3):
@@ -21,7 +24,7 @@ def predict_label(query, label, n: int=3):
                 top_labels.append(label)
                 
             top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
-            response = model.classify_intent(query=query, dataset_label=label, suggested_intends=top_labels_with_descriptions)
+            response = model.classify_intent(query=query, suggested_intends=top_labels_with_descriptions)
             label = response
 
             print(f"Top labels suggested:\n{top_labels}\n")
@@ -37,8 +40,8 @@ def predict_label(query, label, n: int=3):
 
 # exmaples of usage
 
-# query = "what's a good place to vacation"
-# label = "travel_suggestion"
+query = "what's a good place to vacation"
+label = "travel_suggestion"
 
 # query = "in what month does my credit card expire"
 # label = "travel_suggestion"
@@ -49,4 +52,7 @@ def predict_label(query, label, n: int=3):
 # query = "who formulated the theory of relativity"
 # label = "travel_suggestion"
 
-# answer = predict_label(query, label)
+
+s = time.time()
+answer = predict_label(query, label)
+print(f"Time: {time.time() - s}")
