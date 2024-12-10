@@ -5,7 +5,7 @@ import time
 
 
 with open(r"data\labels_with_description.json") as file:
-    descriptions = pd.read_csv('/kaggle/working/label_desc_context.csv')
+    descriptions = pd.read_csv('data\label_desc_context.csv')
     LABELS_DESCRIPTIONS = []
     for i, row in descriptions.iterrows():
         LABELS_DESCRIPTIONS.append({'intent': row['label'], 'description': row['intent'], 'context': row['text']})
