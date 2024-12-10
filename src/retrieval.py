@@ -3,48 +3,36 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from rank_bm25 import BM25Okapi
 from langchain_community.vectorstores import FAISS
-from sentence_transformers import SentenceTransformer
-from langchain.embeddings.base import Embeddings
-
-
-class SentenceTransformerWrapper(Embeddings):
-    """Wrapper for SentenceTransformer to match the LangChain embedding interface."""
-
-    def __init__(self, model_name: str):
-        self.model = SentenceTransformer(model_name)
-
-    def embed_documents(self, texts):
-        """Embeds a list of documents."""
-        return self.model.encode(texts, convert_to_tensor=False)
-
-    def embed_query(self, text):
-        """Embeds a single query."""
-        return self.model.encode([text], convert_to_tensor=False)[0]
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+import time
 
 
 class RetrievalSystem:
     """A retrieval system combining semantic search with BM25."""
 
-    def __init__(self, data_path,
-                 model_name="all-MiniLM-L6-v2",
+    def __init__(self,
+                 data_path,
+                 model_name="BAAI/bge-large-en",
                  top_k=15,
                  top_n=15,
                  top_r=7,
-                 fusion_weight=0.7):
+                 fusion_weight=0.7,
+                 query_instruction="retrieve most appropriate labels: "):
         """
         Initialize the retrieval system.
-        
+
         Args:
             data_path (str): Path to the JSON file containing data.
-            model_name (str): Name of the SentenceTransformer model.
+            model_name (str): Name of the BGE model.
             top_k (int): Number of results to retrieve from semantic search.
             top_n (int): Number of results to retrieve from BM25 search.
             top_r (int): Number of final results to return after reranking.
             fusion_weight (float): Weight given to BM25 scores during fusion.
+            query_instruction (str): Instruction for query embedding.
         """
         self.top_k = top_k  # for semantic search
-        self.top_n = top_n  # for bm25
-        self.top_r = top_r  # top from semantic + bm25
+        self.top_n = top_n  # for BM25
+        self.top_r = top_r  # top from semantic + BM25
         self.fusion_weight = fusion_weight
 
         # Load data
@@ -56,8 +44,17 @@ class RetrievalSystem:
         self.descriptions = [doc["description"] for doc in self.documents]
         self.metadata = [{"intend": doc["intend"]} for doc in self.documents]
 
-        # Initialize embedder and vector store
-        self.embedding_model = SentenceTransformerWrapper(model_name)
+        # Initialize HuggingFace BGE embedder
+        model_kwargs = {'device': 'cuda'}
+        encode_kwargs = {'normalize_embeddings': True}
+        self.embedding_model = HuggingFaceBgeEmbeddings(
+            model_name=model_name,
+            model_kwargs=model_kwargs,
+            encode_kwargs=encode_kwargs,
+            query_instruction=query_instruction
+        )
+
+        # Create FAISS vector store
         self.vector_store = FAISS.from_texts(
             texts=self.descriptions, embedding=self.embedding_model, metadatas=self.metadata
         )
@@ -66,7 +63,7 @@ class RetrievalSystem:
         tokenized_corpus = [text.split() for text in self.descriptions]
         self.bm25 = BM25Okapi(tokenized_corpus)
 
-    def process_query(self, query, top_r: int=7):
+    def process_query(self, query, top_r: int = 7):
         """
         Process a query to retrieve the top labels using semantic search and BM25.
 
@@ -79,6 +76,7 @@ class RetrievalSystem:
         if top_r != self.top_r:
             self.top_r = top_r
 
+        # Generate query embedding
         query_embedding = self.embedding_model.embed_query(query)
         tokenized_query = query.split()
 
@@ -112,10 +110,16 @@ class RetrievalSystem:
         return [res["intend"] for res in reranked_results]
 
 
-# exmaple
+# Example Usage
 
-# data_path = r"draft\labels_with_description.json"
-# retrieval_system = RetrievalSystem(data_path, model_name="all-MiniLM-L6-v2")
+# data_path = r"data\labels_with_description.json"
+# retrieval_system = RetrievalSystem(data_path)
+
+# s = time.time()
 # query = "can you please repeat my list back to me"
 # top_labels = retrieval_system.process_query(query, top_r=10)
+# e = time.time()
+# print(f"retrieval time: {e-s:.3f}")
+
+# print("Top Labels:")
 # print(top_labels)
