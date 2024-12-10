@@ -1,41 +1,52 @@
 from retrieval import RetrievalSystem
-from llm import GeminiAI
-
+from gemini import GeminiAI
+import random
 
 # retrieving label candidates
 data_path = r"data\labels_with_description.json"
 retrieval = RetrievalSystem(data_path)
-
-query = "what's a good place to vacation"
-label = "travel_suggestion"
-
-
-# llm calling
 model = GeminiAI()
 
-n=3
-for i in range(n):
-    print(f"Current label: {label}\n")
-    top_labels, is_oos = retrieval.process_query(query, top_r=20, top_m=10)
 
-    # check if query is out of domain example
-    if not is_oos: 
-        # check if init label is already in top label list
-        if label not in top_labels:
-            top_labels.append(label)
-            
-        top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
+def predict_label(query, label, n: int=3):
+    for _ in range(n):
+        print(f"Current label: {label}\n")
+        top_labels = retrieval.process_query(query, top_r=30, top_m=30)
 
-        print(f"Top labels suggested:\n{top_labels}\n")
-        # print(len(top_labels))
-
-        response = model.classify_intent(query=query, dataset_label=label, suggested_intends=top_labels_with_descriptions)
-        print(f"LLM response: {response}\n")
-
-        print("-------------------")
-        if response != "True":
+        # check if query is out of domain example
+        if len(top_labels) != 0:
+            if label == "oos":
+                label = random.choice(retrieval.get_labels())
+            if label not in top_labels:
+                top_labels.append(label)
+                
+            top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
+            response = model.classify_intent(query=query, dataset_label=label, suggested_intends=top_labels_with_descriptions)
             label = response
-    else:
-        print("Out of Domain example")
 
-print(f"FINAL LABEL: {label}\n")
+            print(f"Top labels suggested:\n{top_labels}\n")
+            print(f"LLM response: {response}\n")
+            print("-------------------")
+        else:
+            label = "oos"
+            print("Out of Domain example")
+
+    print(f"FINAL LABEL: {label}\n")
+    return label
+
+
+# exmaples of usage
+
+# query = "what's a good place to vacation"
+# label = "travel_suggestion"
+
+# query = "in what month does my credit card expire"
+# label = "travel_suggestion"
+
+# query = "what years has korea been at war"
+# label = "expiration_date"
+
+# query = "who formulated the theory of relativity"
+# label = "travel_suggestion"
+
+# answer = predict_label(query, label)

@@ -1,4 +1,4 @@
-from llm import GeminiAI
+from gemini import GeminiAI
 import pandas as pd
 
 

@@ -5,7 +5,6 @@ from rank_bm25 import BM25Okapi
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
-
 import time
 
 
@@ -16,8 +15,8 @@ class RetrievalSystem:
                  data_path,
                  model_name="BAAI/bge-large-en",
                  reranker_name="BAAI/bge-reranker-v2-m3",
-                 top_k=30,
-                 top_n=30,
+                 top_k=40,
+                 top_n=40,
                  top_r=30,
                  top_m=15,
                  theshhold=1e-6,
@@ -50,6 +49,7 @@ class RetrievalSystem:
 
         # Prepare documents and metadata
         self.data = {key: value for key, value in data.items()}
+        self.labels = list(self.data.keys())
         # self.data = {item['intend']: item['description'] for item in data.items()}
         self.documents = [{"intend": intend, "description": description} for intend, description in data.items()]
         self.descriptions = [doc["description"] for doc in self.documents]
@@ -80,7 +80,7 @@ class RetrievalSystem:
         tokenized_corpus = [text.split() for text in self.descriptions]
         self.bm25 = BM25Okapi(tokenized_corpus)
 
-    def process_query(self, query, top_r: int = 7):
+    def process_query(self, query, top_r: int = 7, top_m: int = 5):
         """
         Process a query to retrieve the top labels using semantic search and BM25.
 
@@ -92,6 +92,9 @@ class RetrievalSystem:
         """
         if top_r != self.top_r:
             self.top_r = top_r
+
+        if top_m != self.top_m:
+            self.top_m = top_m
 
         # Generate query embedding
         query_embedding = self.embedding_model.embed_query(query)
@@ -120,25 +123,28 @@ class RetrievalSystem:
             for res, score in zip(bm25_results, fused_scores)
         ]
 
-        # Reranking 1
-        reranked_results = sorted(fused_results, key=lambda x: x["score"], reverse=True)[:self.top_r]
-        # print(reranked_results)
-
-        # Return top labels
-        label_list = np.array([res["intend"] for res in reranked_results])
+        # Get top results
+        results_top_r = fused_results[:self.top_r]
+        label_list = np.array([res["intend"] for res in results_top_r])
         
-        # Reranking 2
+        # Reranking
         descriptions = [[query, self.get_description(label)] for label in label_list]
-        reranking2_scores = self.reranker.score(descriptions)
-        true_indices = np.argsort(reranking2_scores)[::-1]
-        top_labels = label_list[true_indices][:self.top_m]
+        reranking_scores = self.reranker.score(descriptions)
+        true_indices = np.argsort(reranking_scores)[::-1]
+        top_labels = label_list[true_indices][:self.top_m].tolist()
 
-        # check if query is 'oos'
-        is_oos = self.check_is_oos(reranking2_scores[true_indices])            
-        return top_labels, is_oos
+        # return empty list if query is 'oos'
+        is_oos = self.check_is_oos(reranking_scores[true_indices])
+        if is_oos:
+            return []
+          
+        return top_labels
     
     def get_description(self, label):
         return self.data[label]
+    
+    def get_labels(self):
+        return self.labels
     
     def check_is_oos(self, values):
         mean_diff = 0
