@@ -4,8 +4,6 @@ from sklearn.preprocessing import MinMaxScaler
 from rank_bm25 import BM25Okapi
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
-from langchain.retrievers import ContextualCompressionRetriever
-from langchain.retrievers.document_compressors import CrossEncoderReranker
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 
 import time
