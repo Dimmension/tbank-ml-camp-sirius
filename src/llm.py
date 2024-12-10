@@ -4,8 +4,11 @@ import os
 import time
 
 
-with open(r"data\classes.txt", "r") as file:
-    LABELS =  [line.strip() for line in file.readlines() if line.strip()]
+with open(r"data\labels_with_description.json") as file:
+    descriptions = pd.read_csv('/kaggle/working/label_desc_context.csv')
+    LABELS_DESCRIPTIONS = []
+    for i, row in descriptions.iterrows():
+        LABELS_DESCRIPTIONS.append({'intent': row['label'], 'description': row['intent'], 'context': row['text']})
 
 
 class GeminiAI:
@@ -17,19 +20,15 @@ class GeminiAI:
     def classify_intent(self, query, dataset_label, suggested_intends=LABELS):
         # time.sleep(5)
         system_prompt = f"""
-        You are an advanced AI designed to annotate user intends (label) for queries.
-        Follow these steps to process the query:\n
-        1. Verify if the provided label matches the query meaningfully and is part of 
-        the defined set of intents. If the label is correct, respond with 'True'.
-        2. If the provided label is incorrect, choose the most appropriate label 
+        You are an advanced AI designed to annotate user intends (label) for queries\n
+        Choose the most appropriate label 
         from the defined set of intents and respond with that label.
-        3. If the query does not fit any label in the defined set of intents, 
-        respond with 'oos', meaning 'out of scope'.
-
-        Defined set of the intends: {suggested_intends}
+        Every intent is provided with its description and the example of context in which this label may be used
+        
+        Defined set of the intends with their descriptions and examples: {suggested_intends}
         """
         
-        user_prompt = f"{system_prompt}\n\nQuery: {query}\nLabel: {dataset_label}\nIntent:"
+        user_prompt = f"{system_prompt}\n\nQuery: {query}\nIntent:"
         
         try:
             response = self.model.generate_content(user_prompt)
