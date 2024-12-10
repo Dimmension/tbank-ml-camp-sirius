@@ -4,19 +4,6 @@ import os
 import time
 import pandas as pd
 
-with open(r"data\classes.txt", "r") as file:
-    LABELS =  [line.strip() for line in file.readlines() if line.strip()]
-
-descriptions = pd.read_csv(r'data\label_desc_context_new.csv')
-LABELS_DESCRIPTIONS = []
-
-for i, row in descriptions.iterrows():
-    LABELS_DESCRIPTIONS.append({
-        'intent': row['intent'],
-        'description': row['description'],
-        'context': row['text']
-    })
-
 
 class GeminiAI:
     def __init__(self):
@@ -24,10 +11,10 @@ class GeminiAI:
         genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
         self.model = genai.GenerativeModel(model_name="gemini-1.5-flash")
         
-    def classify_intent(self, query, dataset_label, suggested_intends):
+    def classify_intent(self, query, suggested_intends):
         time.sleep(5)
         system_prompt = f"""
-        You are an advanced AI designed to annotate user intends (label) for queries\n
+        You are an advanced AI designed to annotate user intends (label) for queries
         Choose the most appropriate label from the defined set of intents and respond with that label.
         Every intent is provided with its description and the example of context in which this label may be used.
         Return only name of the correct label, nothing else!
@@ -35,14 +22,16 @@ class GeminiAI:
         Defined set of the intends with their descriptions and examples: {suggested_intends}
         """
         user_prompt = f"{system_prompt}\n\nQuery: {query}\nIntent:"
-        # print(user_prompt)
         
         try:
             response = self.model.generate_content(user_prompt)
-            if response in suggested_intends.keys():
-                return self.classify_intent(query, dataset_label, suggested_intends)
-            
-            return response.text.strip()
+            response = response.text.strip()
+            possible_label = list(suggested_intends.keys())
+
+            if not response in possible_label:
+                return self.classify_intent(query, suggested_intends)
+            return response
+        
         except Exception as e:
             print(f"Error generating intent: {e}")
             return None
