@@ -18,8 +18,6 @@ for i in range(n):
     print(f"Current label: {label}\n")
     top_labels = retrieval.process_query(query, top_r=20)
     top_labels.append(label)
-
-    # доставать описания
     top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
 
     print(f"Top labels suggested:\n{top_labels}\n")

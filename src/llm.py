@@ -4,18 +4,12 @@ import os
 import time
 import pandas as pd
 
-
 with open(r"data\classes.txt", "r") as file:
     LABELS =  [line.strip() for line in file.readlines() if line.strip()]
 
-
-# Read the CSV file into a DataFrame
 descriptions = pd.read_csv(r'data\label_desc_context.csv')
-
-# Initialize the list to store the descriptions
 LABELS_DESCRIPTIONS = []
 
-# Iterate over rows of the DataFrame and populate the list
 for i, row in descriptions.iterrows():
     LABELS_DESCRIPTIONS.append({
         'intent': row['label'],
