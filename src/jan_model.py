@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 
-class Llama:
+class JanModel:
     def __init__(self):
         self.url = "http://127.0.0.1:1337/v1/chat/completions"
         self.headers = {
@@ -28,10 +28,11 @@ class Llama:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
-            "model": "llama3.1-8b-instruct",
-            "stream": False,
-            "context_length": 60000,
-            "max_tokens": 60000,
+            # "model": "llama3.1-8b-instruct",
+            "model": "openchat-3.5-7b",
+            "stream": True,
+            # "context_length": 60000,
+            "max_tokens": 8000,
             "frequency_penalty": 0,
             "presence_penalty": 0,
             "temperature": 0.3,

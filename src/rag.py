@@ -1,6 +1,6 @@
 from retrieval import RetrievalSystem
 from gemini import GeminiAI
-from llama import Llama
+from jan_model import JanModel
 import random
 import time
 
@@ -8,13 +8,13 @@ import time
 # retrieving label candidates
 retrieval = RetrievalSystem()
 # model = GeminiAI()
-model = Llama()
+model = JanModel()
 
 
 def predict_label(query, label, n: int=3):
     for _ in range(n):
         print(f"Current label: {label}\n")
-        top_labels = retrieval.process_query(query, top_r=30, top_m=30)
+        top_labels = retrieval.process_query(query, top_r=20, top_m=10)
 
         # check if query is out of domain example
         if len(top_labels) != 0:
@@ -40,11 +40,11 @@ def predict_label(query, label, n: int=3):
 
 # exmaples of usage
 
-query = "what's a good place to vacation"
-label = "travel_suggestion"
-
-# query = "in what month does my credit card expire"
+# query = "what's a good place to vacation"
 # label = "travel_suggestion"
+
+query = "in what month does my credit card expire"
+label = "travel_suggestion"
 
 # query = "what years has korea been at war"
 # label = "expiration_date"
