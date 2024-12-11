@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  tbank_rag:
+    container_name: tbank_rag
+    build: 
+      context: ./src/app
+      dockerfile: Dockerfile.app
+    image: tbank_rag:latest
+    ports:
+      - 4830:7000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [ gpu ]
+    volumes:
+      - "./src/app:/home/root/app"

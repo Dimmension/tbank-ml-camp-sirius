@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+langchain_community
+transformers
+rank_bm25
+scikit-learn
+numpy
