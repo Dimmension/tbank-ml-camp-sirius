@@ -20,6 +20,12 @@ class RAGHadler:
                 if label not in top_labels:
                     top_labels.append(label.strip('\n').strip())
                     
+                nearest_labels = self.retriever.get_nearest_labels(label)
+                for near_label in nearest_labels:
+                    if near_label not in nearest_labels:
+                        print(near_label)
+                        top_labels.append(near_label)
+                    
                 top_labels_with_descriptions = {label: self.retriever.get_description(label) for label in top_labels}
                 response = self.llm.generate(query, top_labels_with_descriptions)
                 label = response

@@ -90,14 +90,6 @@ class RetrievalSystem:
             weights=[1 - fusion_weight, fusion_weight]
         )
 
-    def _tokenize_and_preprocess(self, text):
-        """
-        Tokenize and preprocess text using spaCy (lemmatization and stopword removal).
-        """
-        doc = self.nlp(text)
-        tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct]
-        return tokens
-
     def process_query(self, query, top_r, top_m):
         """
         Process a query to retrieve the top labels using EnsembleRetriever.

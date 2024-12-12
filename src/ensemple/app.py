@@ -9,9 +9,9 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 retriever = RetrievalSystem()
 llm_model = LLMHandler(
-    'bartowski/gemma-2-9b-it-GGUF',
-    'google/gemma-2-9b-it',
-    'Q8_0',
+    "bartowski/Llama-3.3-70B-Instruct-GGUF", # 'bartowski/gemma-2-9b-it-GGUF',
+    "unsloth/Llama-3.3-70B-Instruct" # 'google/gemma-2-9b-it',
+    'Q4_0',
 )
 rag = RAGHadler(retriever, llm_model)
 
