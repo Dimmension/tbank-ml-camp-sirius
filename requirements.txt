@@ -1,10 +1,12 @@
 torch==2.4.1
 transformers
 sentence-transformers
-google-generativeai
-python-dotenv
-langchain
-langchain-community
-langchain-huggingface
 faiss-gpu
+
+langchain_community
+langchain
+langchain_huggingface
 rank_bm25
+numpy
+spacy
+scikit-learn

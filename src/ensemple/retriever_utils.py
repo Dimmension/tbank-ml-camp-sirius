@@ -1,8 +1,10 @@
 import json
 import spacy
 import numpy as np
-from sklearn.preprocessing import MinMaxScaler
-from langchain_community.vectorstores import FAISS
+# from sklearn.preprocessing import MinMaxScaler
+# from langchain_community.vectorstores import FAISS
+from langchain_chroma import Chroma
+
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 from langchain.retrievers import EnsembleRetriever
@@ -74,10 +76,12 @@ class RetrievalSystem:
             model_kwargs=model_kwargs
         )
 
-        # Create FAISS vector store
-        self.vector_store = FAISS.from_texts(
-            texts=self.descriptions, embedding=self.embedding_model, metadatas=self.metadata
-        )
+        # # Create FAISS vector store
+        # self.vector_store = FAISS.from_texts(
+        #     texts=self.descriptions, embedding=self.embedding_model, metadatas=self.metadata
+        # )
+        
+        self.vector_store = Chroma.from_texts(texts=self.descriptions, embedding=self.embedding_model, metadatas=self.metadata)
         
         # Initialize BM25 retriever
         self.bm25_retriever = BM25Retriever.from_texts(self.descriptions, metadatas=self.metadata)
@@ -85,7 +89,8 @@ class RetrievalSystem:
         # Initialize ensemble retriever
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[
-                self.vector_store.as_retriever(search_type="similarity", search_kwargs={"k": self.top_k}),
+                # self.vector_store.as_retriever(search_type="similarity", search_kwargs={"k": self.top_k}),
+                self.vector_store.as_retriever(search_type="mmr", search_kwargs={"k": self.top_k}), #, "fetch_k": 5}),
                 self.bm25_retriever,
             ],
             weights=[1 - fusion_weight, fusion_weight]
