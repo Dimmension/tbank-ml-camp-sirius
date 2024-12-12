@@ -1,0 +1,747 @@
+{
+    "accept_reservations": [
+        "definition",
+        "travel_alert",
+        "restaurant_reservation"
+    ],
+    "account_blocked": [
+        "balance",
+        "freeze_account",
+        "card_declined"
+    ],
+    "alarm": [
+        "translate",
+        "timer"
+    ],
+    "application_status": [
+        "credit_limit",
+        "order_status",
+        "credit_limit_change"
+    ],
+    "apr": [
+        "new_card",
+        "credit_limit",
+        "interest_rate"
+    ],
+    "are_you_a_bot": [
+        "change_user_name",
+        "where_are_you_from",
+        "how_old_are_you"
+    ],
+    "balance": [
+        "payday",
+        "application_status",
+        "transactions"
+    ],
+    "bill_balance": [
+        "balance",
+        "pay_bill",
+        "bill_due"
+    ],
+    "bill_due": [
+        "improve_credit_score",
+        "payday",
+        "bill_balance"
+    ],
+    "book_flight": [
+        "translate",
+        "travel_alert",
+        "flight_status"
+    ],
+    "book_hotel": [
+        "timer",
+        "restaurant_reservation",
+        "car_rental"
+    ],
+    "calculator": [
+        "definition",
+        "what_can_i_ask_you",
+        "taxes"
+    ],
+    "calendar": [
+        "payday",
+        "date",
+        "meeting_schedule"
+    ],
+    "calendar_update": [
+        "todo_list_update",
+        "calendar",
+        "schedule_meeting"
+    ],
+    "calories": [
+        "transactions",
+        "restaurant_suggestion",
+        "nutrition_info"
+    ],
+    "cancel": [
+        "change_user_name",
+        "todo_list_update",
+        "make_call"
+    ],
+    "cancel_reservation": [
+        "application_status",
+        "restaurant_reservation",
+        "confirm_reservation"
+    ],
+    "car_rental": [
+        "calendar",
+        "uber",
+        "book_hotel"
+    ],
+    "card_declined": [
+        "application_status",
+        "report_lost_card",
+        "account_blocked"
+    ],
+    "carry_on": [
+        "travel_alert",
+        "flight_status",
+        "lost_luggage"
+    ],
+    "change_accent": [
+        "change_user_name",
+        "change_speed",
+        "change_volume"
+    ],
+    "change_ai_name": [
+        "timer",
+        "change_language",
+        "change_user_name"
+    ],
+    "change_language": [
+        "translate",
+        "change_user_name"
+    ],
+    "change_speed": [
+        "change_user_name",
+        "change_accent",
+        "change_volume"
+    ],
+    "change_user_name": [
+        "user_name",
+        "what_is_your_name",
+        "change_ai_name"
+    ],
+    "change_volume": [
+        "change_language",
+        "change_user_name",
+        "change_speed"
+    ],
+    "confirm_reservation": [
+        "flight_status",
+        "shopping_list_update",
+        "restaurant_reservation"
+    ],
+    "cook_time": [
+        "timer",
+        "restaurant_suggestion",
+        "ingredients_list"
+    ],
+    "credit_limit": [
+        "improve_credit_score",
+        "application_status",
+        "credit_limit_change"
+    ],
+    "credit_limit_change": [
+        "improve_credit_score",
+        "application_status",
+        "credit_limit"
+    ],
+    "credit_score": [
+        "transfer",
+        "insurance_change",
+        "improve_credit_score"
+    ],
+    "current_location": [
+        "time",
+        "weather",
+        "share_location"
+    ],
+    "damaged_card": [
+        "replacement_card_duration",
+        "application_status",
+        "report_lost_card"
+    ],
+    "date": [
+        "payday",
+        "time",
+        "calendar"
+    ],
+    "definition": [
+        "translate",
+        "fun_fact",
+        "spelling"
+    ],
+    "direct_deposit": [
+        "transfer",
+        "interest_rate",
+        "order_checks"
+    ],
+    "directions": [
+        "travel_alert",
+        "travel_suggestion",
+        "current_location"
+    ],
+    "distance": [
+        "timer",
+        "travel_alert",
+        "traffic"
+    ],
+    "do_you_have_pets": [
+        "where_are_you_from",
+        "who_made_you",
+        "what_are_your_hobbies"
+    ],
+    "exchange_rate": [
+        "transfer",
+        "transactions",
+        "interest_rate"
+    ],
+    "expiration_date": [
+        "improve_credit_score",
+        "payday",
+        "replacement_card_duration"
+    ],
+    "find_phone": [
+        "flight_status",
+        "change_user_name",
+        "lost_luggage"
+    ],
+    "flight_status": [
+        "calendar",
+        "order_status",
+        "traffic"
+    ],
+    "flip_coin": [
+        "transfer",
+        "transactions",
+        "roll_dice"
+    ],
+    "food_last": [
+        "travel_alert",
+        "restaurant_suggestion",
+        "nutrition_info"
+    ],
+    "freeze_account": [
+        "transactions",
+        "account_blocked",
+        "report_fraud"
+    ],
+    "fun_fact": [
+        "definition",
+        "travel_suggestion",
+        "tell_joke"
+    ],
+    "gas": [
+        "mpg",
+        "tire_pressure",
+        "gas_type"
+    ],
+    "gas_type": [
+        "mpg",
+        "oil_change_when",
+        "gas"
+    ],
+    "goodbye": [
+        "change_user_name",
+        "yes",
+        "thank_you"
+    ],
+    "greeting": [
+        "change_language",
+        "change_user_name",
+        "thank_you"
+    ],
+    "how_busy": [
+        "fun_fact",
+        "time",
+        "restaurant_reservation"
+    ],
+    "how_old_are_you": [
+        "change_user_name",
+        "where_are_you_from",
+        "are_you_a_bot"
+    ],
+    "improve_credit_score": [
+        "insurance_change",
+        "application_status",
+        "credit_score"
+    ],
+    "income": [
+        "definition",
+        "payday",
+        "taxes"
+    ],
+    "ingredient_substitution": [
+        "translate",
+        "definition",
+        "restaurant_suggestion"
+    ],
+    "ingredients_list": [
+        "nutrition_info",
+        "cook_time",
+        "recipe"
+    ],
+    "insurance": [
+        "transfer",
+        "definition",
+        "insurance_change"
+    ],
+    "insurance_change": [
+        "improve_credit_score",
+        "oil_change_how",
+        "insurance"
+    ],
+    "interest_rate": [
+        "payday",
+        "balance",
+        "transactions"
+    ],
+    "international_fees": [
+        "translate",
+        "transfer",
+        "replacement_card_duration"
+    ],
+    "international_visa": [
+        "translate",
+        "definition",
+        "travel_alert"
+    ],
+    "jump_start": [
+        "insurance_change",
+        "find_phone",
+        "oil_change_how"
+    ],
+    "last_maintenance": [
+        "oil_change_how",
+        "calendar",
+        "schedule_maintenance"
+    ],
+    "lost_luggage": [
+        "insurance_change",
+        "find_phone",
+        "flight_status"
+    ],
+    "make_call": [
+        "timer",
+        "change_language",
+        "change_user_name"
+    ],
+    "maybe": [
+        "translate",
+        "definition"
+    ],
+    "meal_suggestion": [
+        "fun_fact",
+        "restaurant_reservation",
+        "restaurant_suggestion"
+    ],
+    "meaning_of_life": [
+        "translate",
+        "definition"
+    ],
+    "measurement_conversion": [
+        "time",
+        "restaurant_suggestion",
+        "ingredient_substitution"
+    ],
+    "meeting_schedule": [
+        "todo_list_update",
+        "reminder",
+        "calendar"
+    ],
+    "min_payment": [
+        "payday",
+        "transactions",
+        "pay_bill"
+    ],
+    "mpg": [
+        "tire_pressure",
+        "gas_type",
+        "gas"
+    ],
+    "new_card": [
+        "improve_credit_score",
+        "application_status",
+        "credit_limit_change"
+    ],
+    "next_holiday": [
+        "time",
+        "travel_suggestion",
+        "calendar"
+    ],
+    "next_song": [
+        "calendar",
+        "what_song",
+        "play_music"
+    ],
+    "no": [
+        "definition",
+        "maybe",
+        "yes"
+    ],
+    "nutrition_info": [
+        "restaurant_suggestion",
+        "food_last",
+        "calories"
+    ],
+    "oil_change_how": [
+        "definition",
+        "insurance_change",
+        "oil_change_when"
+    ],
+    "oil_change_when": [
+        "timer",
+        "insurance_change",
+        "oil_change_how"
+    ],
+    "order": [
+        "shopping_list_update",
+        "order_status",
+        "ingredients_list"
+    ],
+    "order_checks": [
+        "translate",
+        "transfer",
+        "balance"
+    ],
+    "order_status": [
+        "timer",
+        "payday",
+        "application_status"
+    ],
+    "pay_bill": [
+        "spending_history",
+        "bill_due",
+        "min_payment"
+    ],
+    "payday": [
+        "transactions",
+        "calendar",
+        "bill_due"
+    ],
+    "pin_change": [
+        "transfer",
+        "improve_credit_score",
+        "report_lost_card"
+    ],
+    "play_music": [
+        "change_user_name",
+        "next_song",
+        "what_song"
+    ],
+    "plug_type": [
+        "translate",
+        "insurance_change",
+        "travel_alert"
+    ],
+    "pto_balance": [
+        "pto_request",
+        "pto_request_status",
+        "pto_used"
+    ],
+    "pto_request": [
+        "timer",
+        "pto_request_status",
+        "pto_used"
+    ],
+    "pto_request_status": [
+        "timer",
+        "pto_request",
+        "pto_balance"
+    ],
+    "pto_used": [
+        "timer",
+        "pto_request",
+        "pto_balance"
+    ],
+    "recipe": [
+        "restaurant_reservation",
+        "restaurant_suggestion",
+        "ingredients_list"
+    ],
+    "redeem_rewards": [
+        "transfer",
+        "improve_credit_score",
+        "rewards_balance"
+    ],
+    "reminder": [
+        "timer",
+        "todo_list_update",
+        "reminder_update"
+    ],
+    "reminder_update": [
+        "translate",
+        "timer",
+        "reminder"
+    ],
+    "repeat": [
+        "change_user_name",
+        "what_can_i_ask_you",
+        "what_is_your_name"
+    ],
+    "replacement_card_duration": [
+        "application_status",
+        "report_lost_card",
+        "expiration_date"
+    ],
+    "report_fraud": [
+        "transfer",
+        "freeze_account",
+        "report_lost_card"
+    ],
+    "report_lost_card": [
+        "replacement_card_duration",
+        "new_card",
+        "damaged_card"
+    ],
+    "reset_settings": [
+        "timer",
+        "find_phone",
+        "change_language"
+    ],
+    "restaurant_reservation": [
+        "change_user_name",
+        "confirm_reservation",
+        "accept_reservations"
+    ],
+    "restaurant_reviews": [
+        "restaurant_suggestion",
+        "how_busy",
+        "meal_suggestion"
+    ],
+    "restaurant_suggestion": [
+        "restaurant_reservation",
+        "travel_suggestion",
+        "meal_suggestion"
+    ],
+    "rewards_balance": [
+        "application_status",
+        "transactions",
+        "redeem_rewards"
+    ],
+    "roll_dice": [
+        "timer",
+        "fun_fact",
+        "flip_coin"
+    ],
+    "rollover_401k": [
+        "transfer",
+        "insurance_change",
+        "insurance"
+    ],
+    "routing": [
+        "translate",
+        "transfer",
+        "balance"
+    ],
+    "schedule_maintenance": [
+        "oil_change_how",
+        "calendar",
+        "last_maintenance"
+    ],
+    "schedule_meeting": [
+        "timer",
+        "calendar",
+        "meeting_schedule"
+    ],
+    "share_location": [
+        "time",
+        "sync_device",
+        "current_location"
+    ],
+    "shopping_list": [
+        "timer",
+        "application_status",
+        "shopping_list_update"
+    ],
+    "shopping_list_update": [
+        "confirm_reservation",
+        "todo_list_update",
+        "shopping_list"
+    ],
+    "smart_home": [
+        "sync_device",
+        "alarm",
+        "shopping_list"
+    ],
+    "spelling": [
+        "translate",
+        "definition"
+    ],
+    "spending_history": [
+        "improve_credit_score",
+        "payday",
+        "transactions"
+    ],
+    "sync_device": [
+        "find_phone",
+        "schedule_meeting",
+        "share_location"
+    ],
+    "taxes": [
+        "bill_due",
+        "bill_balance",
+        "income"
+    ],
+    "tell_joke": [
+        "timer",
+        "definition",
+        "fun_fact"
+    ],
+    "text": [
+        "translate",
+        "change_user_name",
+        "make_call"
+    ],
+    "thank_you": [
+        "change_user_name",
+        "what_can_i_ask_you",
+        "yes"
+    ],
+    "time": [
+        "timer",
+        "distance",
+        "timezone"
+    ],
+    "timer": [
+        "time",
+        "todo_list_update",
+        "reminder_update"
+    ],
+    "timezone": [
+        "timer",
+        "travel_alert",
+        "time"
+    ],
+    "tire_change": [
+        "travel_alert",
+        "oil_change_how",
+        "oil_change_when"
+    ],
+    "tire_pressure": [
+        "oil_change_when",
+        "gas_type",
+        "tire_change"
+    ],
+    "todo_list": [
+        "application_status",
+        "shopping_list_update",
+        "todo_list_update"
+    ],
+    "todo_list_update": [
+        "timer",
+        "shopping_list_update",
+        "todo_list"
+    ],
+    "traffic": [
+        "definition",
+        "travel_alert",
+        "distance"
+    ],
+    "transactions": [
+        "transfer",
+        "balance",
+        "spending_history"
+    ],
+    "transfer": [
+        "application_status",
+        "freeze_account",
+        "transactions"
+    ],
+    "translate": [
+        "transfer",
+        "definition",
+        "change_language"
+    ],
+    "travel_alert": [
+        "flight_status",
+        "distance",
+        "travel_suggestion"
+    ],
+    "travel_notification": [
+        "translate",
+        "transfer",
+        "travel_alert"
+    ],
+    "travel_suggestion": [
+        "definition",
+        "travel_alert",
+        "restaurant_suggestion"
+    ],
+    "uber": [
+        "distance",
+        "how_busy",
+        "car_rental"
+    ],
+    "update_playlist": [
+        "next_song",
+        "todo_list_update",
+        "play_music"
+    ],
+    "user_name": [
+        "change_language",
+        "application_status",
+        "change_user_name"
+    ],
+    "vaccines": [
+        "insurance_change",
+        "travel_alert",
+        "international_visa"
+    ],
+    "w2": [
+        "bill_due",
+        "meeting_schedule",
+        "taxes"
+    ],
+    "weather": [
+        "time",
+        "calendar",
+        "current_location"
+    ],
+    "what_are_your_hobbies": [
+        "what_can_i_ask_you",
+        "who_made_you",
+        "do_you_have_pets"
+    ],
+    "what_can_i_ask_you": [
+        "who_made_you",
+        "who_do_you_work_for",
+        "what_is_your_name"
+    ],
+    "what_is_your_name": [
+        "payday",
+        "application_status",
+        "change_user_name"
+    ],
+    "what_song": [
+        "time",
+        "next_song",
+        "play_music"
+    ],
+    "where_are_you_from": [
+        "change_user_name",
+        "what_can_i_ask_you",
+        "who_made_you"
+    ],
+    "whisper_mode": [
+        "change_user_name",
+        "change_speed",
+        "change_volume"
+    ],
+    "who_do_you_work_for": [
+        "application_status",
+        "change_user_name",
+        "where_are_you_from"
+    ],
+    "who_made_you": [
+        "fun_fact",
+        "change_user_name",
+        "where_are_you_from"
+    ],
+    "yes": [
+        "application_status",
+        "confirm_reservation",
+        "thank_you"
+    ]
+}

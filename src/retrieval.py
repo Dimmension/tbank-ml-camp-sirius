@@ -13,6 +13,7 @@ class RetrievalSystem_large:
 
     def __init__(self,
                  data_path=r"data\labels_with_description.json",
+                 nearest_labels_path=r"data\nearest_labels.json",
                  embedder_name = "BAAI/bge-large-en-v1.5",
                 #  embedder_name = r"bge_finetuned_v0",
                  reranker_name="BAAI/bge-reranker-v2-m3",
@@ -47,6 +48,8 @@ class RetrievalSystem_large:
         # Load data
         with open(data_path, "r") as f:
             data = json.load(f)
+        with open(nearest_labels_path, "r") as f:
+            self.nearest = json.load(f)
 
         # Prepare documents and metadata
         self.data = {key: value for key, value in data.items()}
@@ -127,7 +130,7 @@ class RetrievalSystem_large:
         return self.labels
     
     def get_nearest_labels(self, label):
-        pass
+        return self.nearest[label]
         
 
     def check_is_oos(self, values, top_r):
