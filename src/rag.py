@@ -1,20 +1,18 @@
-from retrieval_bge import RetrievalSystem
+from retrieval_bge_faiss_bm25 import RetrievalSystem_large
 from gemini import GeminiAI
 from jan_model import JanModel
 import random
 import time
 
 
-# retrieving label candidates
-retrieval = RetrievalSystem()
-# model = GeminiAI()
+retrieval = RetrievalSystem_large()
 model = JanModel()
 
 
-def predict_label(query, label, n: int=3):
+def predict_label(query, label, n: int=2):
     for _ in range(n):
         print(f"Current label: {label}\n")
-        top_labels = retrieval.process_query(query, top_r=30, top_m=15)
+        top_labels = retrieval.process_query(query, top_k=10)
 
         # check if query is out of domain example
         if len(top_labels) != 0:
@@ -23,7 +21,7 @@ def predict_label(query, label, n: int=3):
             if label not in top_labels:
                 top_labels.append(label)
                 
-            top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
+            top_labels_with_descriptions = {label: retrieval.get_description(label) for label in top_labels}
             response = model.classify_intent(query=query, suggested_intends=top_labels_with_descriptions)
             label = response
 
@@ -43,8 +41,8 @@ def predict_label(query, label, n: int=3):
 # query = "what's a good place to vacation"
 # label = "travel_suggestion"
 
-query = "in what month does my credit card expire"
-label = "travel_suggestion"
+# query = "in what month does my credit card expire"
+# label = "travel_suggestion"
 
 # query = "what years has korea been at war"
 # label = "expiration_date"
@@ -52,7 +50,12 @@ label = "travel_suggestion"
 # query = "who formulated the theory of relativity"
 # label = "travel_suggestion"
 
+# query = "show me recent activity in my backyard"
+# label = "oos"
 
-s = time.time()
-answer = predict_label(query, label)
-print(f"Time: {time.time() - s}")
+# query = "how do i find the area of a circle"
+# label = "calculator"
+
+# s = time.time()
+# answer = predict_label(query, label)
+# print(f"Time: {time.time() - s}")
