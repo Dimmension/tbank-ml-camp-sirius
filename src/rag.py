@@ -10,14 +10,15 @@ model = JanModel()
 
 
 def predict_label(query, label, n: int=2):
-    for _ in range(n):
-        print(f"Current label: {label}\n")
-        top_labels = retrieval.process_query(query, top_k=10)
+    top_labels = retrieval.process_query(query, top_k=10)
 
+    for _ in range(n):
         # check if query is out of domain example
         if len(top_labels) != 0:
             if label == "oos":
                 label = random.choice(retrieval.get_labels())
+            
+            # print(f"Current label: {label}\n")
             if label not in top_labels:
                 top_labels.append(label)
                 
@@ -25,14 +26,14 @@ def predict_label(query, label, n: int=2):
             response = model.classify_intent(query=query, suggested_intends=top_labels_with_descriptions)
             label = response
 
-            print(f"Top labels suggested:\n{top_labels}\n")
-            print(f"LLM response: {response}\n")
-            print("-------------------")
+            # print(f"Top labels suggested:\n{top_labels}\n")
+            # print(f"LLM response: {response}\n")
+            # print("-------------------")
         else:
             label = "oos"
-            print("Out of Domain example")
+            # print("Out of Domain example")
 
-    print(f"FINAL LABEL: {label}\n")
+    # print(f"FINAL LABEL: {label}\n")
     return label
 
 
@@ -54,7 +55,7 @@ def predict_label(query, label, n: int=2):
 # label = "oos"
 
 # query = "how do i find the area of a circle"
-# label = "calculator"
+# label = "oos"
 
 # s = time.time()
 # answer = predict_label(query, label)

@@ -48,7 +48,7 @@ class JanModel:
                 result = response.json()
                 content = result['choices'] [0] ['message'] ['content']
                 possible_label = list(suggested_intends.keys())
-                print(f"--content: {content}")
+                # print(f"--content: {content}")
                 if content != "oos" and not (content in possible_label):
                     return self.classify_intent(query, suggested_intends)
                 
