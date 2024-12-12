@@ -1,8 +1,6 @@
 import json
-import spacy
 import numpy as np
 # from sklearn.preprocessing import MinMaxScaler
-# from langchain_community.vectorstores import FAISS
 from langchain_chroma import Chroma
 
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
@@ -75,11 +73,6 @@ class RetrievalSystem:
             model_name=reranker_name,
             model_kwargs=model_kwargs
         )
-
-        # # Create FAISS vector store
-        # self.vector_store = FAISS.from_texts(
-        #     texts=self.descriptions, embedding=self.embedding_model, metadatas=self.metadata
-        # )
         
         self.vector_store = Chroma.from_texts(texts=self.descriptions, embedding=self.embedding_model, metadatas=self.metadata)
         
@@ -89,7 +82,6 @@ class RetrievalSystem:
         # Initialize ensemble retriever
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[
-                # self.vector_store.as_retriever(search_type="similarity", search_kwargs={"k": self.top_k}),
                 self.vector_store.as_retriever(search_type="mmr", search_kwargs={"k": self.top_k}), #, "fetch_k": 5}),
                 self.bm25_retriever,
             ],
@@ -133,12 +125,11 @@ class RetrievalSystem:
         
 
     def check_is_oos(self, values):
-        print(values)
         mean_diff = 0
-        for i in range(self.top_r - 1):
+        for i in range(self.top_m - 1):
             mean_diff += values[i] - values[i + 1]
 
-        mean_diff /= (self.top_r - 1)
+        mean_diff /= (self.top_m - 1)
         if mean_diff <= self.theshhold:
             return True
         return False

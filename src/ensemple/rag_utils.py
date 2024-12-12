@@ -12,7 +12,8 @@ class RAGHadler:
         logging.warning(f"QUERY:\t{query}")
         logging.warning(f"EXPECTED LABEL:\t{label}")
         for _ in range(n):
-            top_labels = self.retriever.process_query(query, top_r=30, top_m=30)
+            # m must be smaller than r
+            top_labels = self.retriever.process_query(query, top_r=30, top_m=15)
 
             if len(top_labels) != 0:
                 if label == "oos":
@@ -22,8 +23,7 @@ class RAGHadler:
                     
                 nearest_labels = self.retriever.get_nearest_labels(label)
                 for near_label in nearest_labels:
-                    if near_label not in nearest_labels:
-                        print(near_label)
+                    if near_label not in top_labels:
                         top_labels.append(near_label)
                     
                 top_labels_with_descriptions = {label: self.retriever.get_description(label) for label in top_labels}
@@ -32,5 +32,6 @@ class RAGHadler:
             else:
                 label = "oos"
                 top_labels_with_descriptions = {}
+                
         logging.warning(f"FINAL LABEL:\t{label}")
         return top_labels_with_descriptions, label

@@ -5,7 +5,7 @@ from transformers import AutoTokenizer
 from dotenv import load_dotenv
 
 
-logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
+# logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class LLMHandler:
     load_dotenv()
@@ -72,12 +72,11 @@ class LLMHandler:
             inputs,
             **self.GENERATION_CONFIG,
         )
-
         generated_text = outputs['choices'][0]['text']
 
         token_probs = outputs['choices'][0]['logprobs']['token_logprobs']
-        tokens = outputs['choices'][0]['logprobs']['tokens']
+        tokens = ' '.join(outputs['choices'][0]['logprobs']['tokens'])
 
         confidences = [round(10 ** prob, 4) for prob in token_probs]
-        logging.warning(f"TOKEN: {tokens[0]}\t CONFIDENCE: {confidences[0]}")
+        logging.warning(f"TOKEN: {tokens[0]}\t CONFIDENCE: {confidences}")
         return generated_text
