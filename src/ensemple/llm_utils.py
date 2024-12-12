@@ -2,7 +2,7 @@ import os
 from llama_cpp import Llama
 from transformers import AutoTokenizer
 from dotenv import load_dotenv
-
+import random
 
 class LLMHandler:
     load_dotenv()
@@ -50,14 +50,17 @@ class LLMHandler:
     ) -> tuple:
 
         system_prompt = f"""
-            You are an advanced AI designed to fix annotators' errors:
-            they annotated users' intends for queries.
-            Decide if a chosen label is correct and choose the most appropriate label from the defined set of intents.
-            Every intent is provided with its description. Return only name of the correct label!
-            
-            Defined set of the intends with their descriptions: {top_labels_with_descriptions}
+            You are an advanced AI designed to fix annotators' errors who annotated users' intends for queries.
+            You are given a defined set of the intends with their descriptions: {top_labels_with_descriptions}.
+            Follow the instructions:
+            1. Come up with your own description for each label.
+            2. Compare yours descriptions with provided
+            3. Decide if a chosen label by annotator is correct
+            4. Choose the most appropriate label from the defined set of intents for the query.
+            5. Return only name of the correct label!
+            # 6. If nothing suits, return "oos", meaning that for this intent there's no relevant label
         """
-        user_prompt = f"{system_prompt}\nQuery: {query}\nChosen intent: {target}\nCorrect intent:"
+        user_prompt = f"{system_prompt}\nQuery: {query}\nChosen label: {target}\nCorrect label:"
 
         history = [
             {'role': 'user', 'content': user_prompt}
@@ -80,9 +83,10 @@ class LLMHandler:
 
         confidences = [round(10 ** prob, 4) for prob in token_probs]
         print(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
+        
         is_again = self.check(confidences)
         
-        return generated_text, is_again
+        return generated_text, is_again, min(confidences)
     
     def check(self, confidences):
         for confidence in confidences:

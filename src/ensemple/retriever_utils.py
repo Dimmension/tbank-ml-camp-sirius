@@ -81,7 +81,7 @@ class RetrievalSystem:
         # Initialize ensemble retriever
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[
-                self.vector_store.as_retriever(search_type="mmr", search_kwargs={"k": self.top_k}),
+                self.vector_store.as_retriever(search_type="similarity", search_kwargs={"k": self.top_k}),
                 self.bm25_retriever,
             ],
             weights=[1 - fusion_weight, fusion_weight]

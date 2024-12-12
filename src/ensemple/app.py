@@ -16,11 +16,15 @@ llm_model = LLMHandler(
 rag = RAGHadler(retriever, llm_model, 3)
 
 if __name__ == '__main__':
-    with open('././data/data_testing.json', 'r') as f:
+    with open('././data/data_testing_oos.json', 'r') as f:
         data = json.load(f)
     
     result = []
-    k = 3
+    true = 0
     for label in list(data):
-        for query in data[label][:k]:
+        for query in data[label]:
             top_labels, predicted_label = rag.predict_label(query, label)
+            if predicted_label == label:
+                true += 1
+                
+    print(true / len(data))
