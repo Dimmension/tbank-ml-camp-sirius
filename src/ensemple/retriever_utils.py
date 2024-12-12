@@ -121,7 +121,6 @@ class RetrievalSystem:
     
     def get_nearest_labels(self, label):
         return self.nearest[label]
-        
 
     def check_is_oos(self, values):
         mean_diff = 0

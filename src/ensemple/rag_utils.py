@@ -1,6 +1,7 @@
 import random
 import numpy as np
 
+
 class RAGHadler:
     def __init__(self, retriever, llm, k):
         self.retriever = retriever

@@ -1,9 +1,9 @@
 import json
-import warnings
 from llm_utils import LLMHandler
 from rag_utils import RAGHadler
 from retriever_utils import RetrievalSystem
 
+import warnings
 warnings.filterwarnings("ignore")
 
 retriever = RetrievalSystem()

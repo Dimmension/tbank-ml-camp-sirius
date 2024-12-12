@@ -3,6 +3,7 @@ from llama_cpp import Llama
 from transformers import AutoTokenizer
 from dotenv import load_dotenv
 
+
 class LLMHandler:
     load_dotenv()
     CACHE_PATH = '/home/student/aboba/workspace/hf_cache'
@@ -49,14 +50,14 @@ class LLMHandler:
     ) -> tuple:
 
         system_prompt = f"""
-            You are an advanced AI designed to annotate user intends (label) for queries
-            Choose the most appropriate label from the defined set of intents and their descriptions and respond with that label.
-            Every intent is provided with its description and the example of context in which this label may be used.
-            You've just chose a label "{target}". Are you sure!? Return only name of the correct label!
+            You are an advanced AI designed to fix annotators' errors:
+            they annotated users' intends for queries.
+            Decide if a chosen label is correct and choose the most appropriate label from the defined set of intents.
+            Every intent is provided with its description. Return only name of the correct label!
             
-            Defined set of the intends with their descriptions and examples: {top_labels_with_descriptions}
+            Defined set of the intends with their descriptions: {top_labels_with_descriptions}
         """
-        user_prompt = f"{system_prompt}\nQuery: {query}\nIntent:"
+        user_prompt = f"{system_prompt}\nQuery: {query}\nChosen intent: {target}\nCorrect intent:"
 
         history = [
             {'role': 'user', 'content': user_prompt}
