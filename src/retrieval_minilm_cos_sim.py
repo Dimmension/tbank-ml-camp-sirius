@@ -1,8 +1,9 @@
 from sentence_transformers import CrossEncoder
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS, ScaNN
 from langchain.retrievers import EnsembleRetriever
 from langchain_community.retrievers import BM25Retriever
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
 import numpy as np
 import json
 import time
@@ -16,12 +17,9 @@ class RetrievalSystem_small:
                 #  embedder_name="BAAI/bge-large-en-v1.5",
                  embedder_name = "chinchilla04/bge-finetuned-train",
                  reranker_name="cross-encoder/ms-marco-MiniLM-L-12-v2",
-                 top_k=10,
-                 top_n=10,
-                 top_r=10,
-                 top_m=10,
+                 top_k=20,
                  threshold=1e-6,
-                 fusion_weight=0.5):
+                 fusion_weight=0):
         """
         Initialize the retrieval system.
 
@@ -36,9 +34,6 @@ class RetrievalSystem_small:
             fusion_weight (float): Weight given to BM25 scores during fusion.
         """
         self.top_k = top_k  # for semantic search
-        self.top_n = top_n  # for BM25
-        self.top_r = top_r  # top from semantic + BM25
-        self.top_m = top_m  # for reranking
         self.fusion_weight = fusion_weight
         self.threshold = threshold
 
@@ -62,56 +57,27 @@ class RetrievalSystem_small:
             encode_kwargs=encode_kwargs
         )
 
+        # chroma
+        self.db = Chroma.from_texts(self.descriptions, self.embedding_model, metadatas=self.metadata)
+
         # Initialize Cross-Encoder reranker
         self.reranker = CrossEncoder(reranker_name, device='cuda')
-
-        # Create FAISS vector store
-        self.vector_store = FAISS.from_texts(
-            texts=self.descriptions, embedding=self.embedding_model, metadatas=self.metadata
-        )
-
-        # Initialize BM25 retriever
-        self.bm25_retriever = BM25Retriever.from_texts(self.descriptions, metadatas=self.metadata)
-
-        # Initialize ensemble retriever
-        self.ensemble_retriever = EnsembleRetriever(
-            retrievers=[
-                self.vector_store.as_retriever(search_type="similarity", search_kwargs={"k": self.top_k}),
-                self.bm25_retriever,
-            ],
-            weights=[1 - fusion_weight, fusion_weight]
-        )
-
-    def _tokenize_and_preprocess(self, text):
-        """
-        Tokenize and preprocess text using spaCy (lemmatization and stopword removal).
-        """
-        doc = self.nlp(text)
-        tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct]
-        return tokens
     
-    def process_query(self, query, top_r, top_m):
+    def process_query(self, query, top_k):
         """
         Process a query to retrieve the top labels using EnsembleRetriever.
         """
-        if top_r != self.top_r:
-            self.top_r = top_r
+        if top_k != self.top_k:
+            self.top_k = top_k
 
-        if top_m != self.top_m:
-            self.top_m = top_m
-
-        # Perform ensemble retrieval
-        retrieval_results = self.ensemble_retriever.invoke(query, c=100)
-
-        # Extract top results
-        results_top_r = retrieval_results[:self.top_r]
-        label_list = [res.metadata["intend"] for res in results_top_r]
+        results = self.db.similarity_search(query, k=self.top_k)
+        label_list = [doc.metadata['intend'] for doc in results]
 
         # Reranking
         descriptions = [[query, self.get_description(label)] for label in label_list]
         reranking_scores = self.reranker.predict(descriptions)
         true_indices = np.argsort(reranking_scores)[::-1]
-        top_labels = [label_list[idx] for idx in true_indices[:self.top_m]]
+        top_labels = [label_list[idx] for idx in true_indices[:self.top_k]]
 
         # Return empty list if query is OOS
         is_oos = self.check_is_oos(reranking_scores[true_indices])
@@ -128,10 +94,10 @@ class RetrievalSystem_small:
 
     def check_is_oos(self, values):
         mean_diff = 0
-        for i in range(self.top_r - 1):
+        for i in range(self.top_k - 1):
             mean_diff += values[i] - values[i + 1]
 
-        mean_diff /= (self.top_r - 1)
+        mean_diff /= (self.top_k - 1)
         if mean_diff <= self.threshold:
             return True
         return False
@@ -139,15 +105,15 @@ class RetrievalSystem_small:
 
 # Example Usage
 
-# if __name__ == '__main__':
-#     retrieval_system = RetrievalSystem()
+if __name__ == '__main__':
+    retrieval_system = RetrievalSystem_small()
 
-#     s = time.time()
-#     query = "can you please repeat my list back to me"
-#     top_labels = retrieval_system.process_query(query, top_r=30, top_m=10)
-#     e = time.time()
-#     print(f"retrieval time: {e-s:.3f}")
+    s = time.time()
+    query = "can you please repeat my list back to me"
+    top_labels = retrieval_system.process_query(query, top_k=10)
+    e = time.time()
+    print(f"retrieval time: {e-s:.3f}")
 
-#     print("Top Labels:")
-#     print(top_labels)
+    print("Top Labels:")
+    print(top_labels)
 

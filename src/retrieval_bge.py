@@ -13,15 +13,15 @@ class RetrievalSystem_large:
 
     def __init__(self,
                  data_path=r"data\labels_with_description.json",
-                 embedder_name = "BAAI/bge-large-en-v1.5",
-                #  embedder_name = r"bge_finetuned_v0",
+                #  embedder_name = "BAAI/bge-large-en-v1.5",
+                 embedder_name = "chinchilla04/bge-finetuned-train",
                  reranker_name="BAAI/bge-reranker-v2-m3",
-                 top_k=60,
-                 top_n=60,
-                 top_r=40,
-                 top_m=30,
+                 top_k=10,
+                 top_n=10,
+                 top_r=10,
+                 top_m=10,
                  theshhold=1e-6,
-                 fusion_weight=0.5,
+                 fusion_weight=0,
         ):
         """
         Initialize the retrieval system.
