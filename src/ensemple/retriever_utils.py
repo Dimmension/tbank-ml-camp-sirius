@@ -1,6 +1,5 @@
 import json
 import numpy as np
-# from sklearn.preprocessing import MinMaxScaler
 from langchain_chroma import Chroma
 
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
@@ -82,7 +81,7 @@ class RetrievalSystem:
         # Initialize ensemble retriever
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[
-                self.vector_store.as_retriever(search_type="mmr", search_kwargs={"k": self.top_k}), #, "fetch_k": 5}),
+                self.vector_store.as_retriever(search_type="mmr", search_kwargs={"k": self.top_k}),
                 self.bm25_retriever,
             ],
             weights=[1 - fusion_weight, fusion_weight]

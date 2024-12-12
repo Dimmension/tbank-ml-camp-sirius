@@ -1,11 +1,7 @@
 import os
-import logging
 from llama_cpp import Llama
 from transformers import AutoTokenizer
 from dotenv import load_dotenv
-
-
-# logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class LLMHandler:
     load_dotenv()
@@ -82,7 +78,7 @@ class LLMHandler:
         tokens = outputs['choices'][0]['logprobs']['tokens']
 
         confidences = [round(10 ** prob, 4) for prob in token_probs]
-        logging.warning(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
+        print(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
         is_again = self.check(confidences)
         
         return generated_text, is_again

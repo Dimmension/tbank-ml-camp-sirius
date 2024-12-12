@@ -1,8 +1,5 @@
 import random
 import numpy as np
-import logging
-
-logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class RAGHadler:
     def __init__(self, retriever, llm, k):
@@ -12,7 +9,7 @@ class RAGHadler:
 
     def predict_label(self, query, target):
         is_again = True
-        logging.warning(f"EXPECTED: {target}")
+        print(f"EXPECTED: {target}")
         top_labels = self.retriever.process_query(query, top_r=30, top_m=15)
 
         if len(top_labels) != 0:
@@ -43,7 +40,7 @@ class RAGHadler:
             target = "oos"
             top_labels_with_descriptions = {}
 
-        logging.warning(f"PREDICTED: {target}")
+        print(f"PREDICTED: {target}")
         return top_labels_with_descriptions, target
     
     def find_best(self, predicted):
