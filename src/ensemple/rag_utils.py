@@ -1,37 +1,53 @@
 import random
+import numpy as np
 import logging
 
 logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class RAGHadler:
-    def __init__(self, retriever, llm):
+    def __init__(self, retriever, llm, k):
         self.retriever = retriever
         self.llm = llm
+        self.k = k
 
-    def predict_label(self, query, label, n: int=2):
-        logging.warning(f"QUERY:\t{query}")
-        logging.warning(f"EXPECTED LABEL:\t{label}")
-        for _ in range(n):
-            # m must be smaller than r
-            top_labels = self.retriever.process_query(query, top_r=30, top_m=15)
+    def predict_label(self, query, target):
+        is_again = True
+        logging.warning(f"EXPECTED: {target}")
+        top_labels = self.retriever.process_query(query, top_r=30, top_m=15)
 
-            if len(top_labels) != 0:
-                if label == "oos":
-                    label = random.choice(self.retriever.get_labels())
-                if label not in top_labels:
-                    top_labels.append(label.strip('\n').strip())
-                    
-                nearest_labels = self.retriever.get_nearest_labels(label)
-                for near_label in nearest_labels:
-                    if near_label not in top_labels:
-                        top_labels.append(near_label)
-                    
-                top_labels_with_descriptions = {label: self.retriever.get_description(label) for label in top_labels}
-                response = self.llm.generate(query, top_labels_with_descriptions)
-                label = response
-            else:
-                label = "oos"
-                top_labels_with_descriptions = {}
+        if len(top_labels) != 0:
+            if target == "oos":
+                target = random.choice(self.retriever.get_labels())
+            if target not in top_labels:
+                top_labels.append(target)
                 
-        logging.warning(f"FINAL LABEL:\t{label}")
-        return top_labels_with_descriptions, label
+            nearest_labels = self.retriever.get_nearest_labels(target)
+            for near_label in nearest_labels:
+                if near_label not in top_labels:
+                    top_labels.append(near_label)
+                    
+            top_labels_with_descriptions = {label: self.retriever.get_description(label) for label in top_labels}
+            
+            predicted, count = {}, 0
+            while is_again:
+                target, is_again = self.llm.generate(query, top_labels_with_descriptions, target)
+                count += 1
+                if target in predicted: predicted[target] += 1
+                else: predicted[target] = 1
+                
+                if count == self.k:
+                    target = self.find_best(predicted)
+                    break
+
+        else:
+            target = "oos"
+            top_labels_with_descriptions = {}
+
+        logging.warning(f"PREDICTED: {target}")
+        return top_labels_with_descriptions, target
+    
+    def find_best(self, predicted):
+        if len(predicted) == self.k: return "oos"
+        
+        labels, values = list(predicted), np.array(list(predicted.values()))
+        return labels[np.argmax(values)]

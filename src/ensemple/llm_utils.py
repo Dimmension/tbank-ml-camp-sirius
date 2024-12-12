@@ -26,7 +26,9 @@ class LLMHandler:
         llm_model_name,
         llm_tokenizer_name,
         gguf_q_type,
-    ) -> None:        
+        threshhold
+    ) -> None:
+        self.threshhold = threshhold        
         self.llm_model = Llama.from_pretrained(
             repo_id=llm_model_name,
             filename=f"*{gguf_q_type}.gguf",
@@ -46,15 +48,17 @@ class LLMHandler:
     def generate(
         self,
         query: str,
-        suggested_intents: str
+        top_labels_with_descriptions: str,
+        target: str
     ) -> tuple:
+
         system_prompt = f"""
             You are an advanced AI designed to annotate user intends (label) for queries
-            Choose the most appropriate label from the defined set of intents and respond with that label.
+            Choose the most appropriate label from the defined set of intents and their descriptions and respond with that label.
             Every intent is provided with its description and the example of context in which this label may be used.
-            Return only name of the correct label. If nothing suits, return "oos" label meaning out of domain text!
+            You've just chose a label "{target}". Are you sure!? Return only name of the correct label!
             
-            Defined set of the intends with their descriptions and examples: {suggested_intents}
+            Defined set of the intends with their descriptions and examples: {top_labels_with_descriptions}
         """
         user_prompt = f"{system_prompt}\nQuery: {query}\nIntent:"
 
@@ -75,8 +79,18 @@ class LLMHandler:
         generated_text = outputs['choices'][0]['text']
 
         token_probs = outputs['choices'][0]['logprobs']['token_logprobs']
-        tokens = ' '.join(outputs['choices'][0]['logprobs']['tokens'])
+        tokens = outputs['choices'][0]['logprobs']['tokens']
 
         confidences = [round(10 ** prob, 4) for prob in token_probs]
-        logging.warning(f"TOKEN: {tokens[0]}\t CONFIDENCE: {confidences}")
-        return generated_text
+        logging.warning(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
+        is_again = self.check(confidences)
+        
+        return generated_text, is_again
+    
+    def check(self, confidences):
+        for confidence in confidences:
+            if confidence <= self.threshhold:
+                return True
+        return False
+    
+    

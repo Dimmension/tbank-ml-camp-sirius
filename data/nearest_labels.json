@@ -6,738 +6,738 @@
     ],
     "transfer": [
         "payday",
-        "application status",
+        "application_status",
         "balance"
     ],
     "timer": [
         "time",
-        "reminder update",
+        "reminder_update",
         "alarm"
     ],
     "definition": [
         "translate"
     ],
-    "meaning of life": [
-        "fun fact",
-        "application status",
-        "shopping list update"
+    "meaning_of_life": [
+        "fun_fact",
+        "application_status",
+        "shopping_list_update"
     ],
-    "insurance change": [
-        "travel alert",
-        "oil change how",
-        "rollover 401k"
+    "insurance_change": [
+        "travel_alert",
+        "oil_change_how",
+        "rollover_401k"
     ],
-    "find phone": [
+    "find_phone": [
         "definition",
-        "sync device",
-        "report lost card"
+        "sync_device",
+        "report_lost_card"
     ],
-    "travel alert": [
-        "insurance change",
-        "fun fact",
+    "travel_alert": [
+        "insurance_change",
+        "fun_fact",
         "distance"
     ],
-    "pto request": [
+    "pto_request": [
         "timer",
-        "pto request status",
-        "pto balance"
+        "pto_request_status",
+        "pto_balance"
     ],
-    "improve credit score": [
-        "application status",
-        "credit score",
-        "credit limit change"
+    "improve_credit_score": [
+        "application_status",
+        "credit_score",
+        "credit_limit_change"
     ],
-    "fun fact": [
+    "fun_fact": [
         "translate"
     ],
-    "change language": [
+    "change_language": [
         "translate",
-        "change user name"
+        "change_user_name"
     ],
     "payday": [
-        "pto request",
-        "application status",
+        "pto_request",
+        "application_status",
         "balance"
     ],
-    "replacement card duration": [
-        "credit limit change",
-        "redeem rewards",
-        "expiration date"
+    "replacement_card_duration": [
+        "credit_limit_change",
+        "redeem_rewards",
+        "expiration_date"
     ],
     "time": [
         "translate",
         "distance",
         "timezone"
     ],
-    "application status": [
+    "application_status": [
         "transfer",
-        "shopping list update",
+        "shopping_list_update",
         "balance"
     ],
-    "flight status": [
-        "travel alert",
+    "flight_status": [
+        "travel_alert",
         "distance",
-        "order status"
+        "order_status"
     ],
-    "flip coin": [
-        "spending history",
-        "sync device",
-        "roll dice"
+    "flip_coin": [
+        "spending_history",
+        "sync_device",
+        "roll_dice"
     ],
-    "change user name": [
-        "change language",
-        "user name",
-        "change ai name"
+    "change_user_name": [
+        "change_language",
+        "user_name",
+        "change_ai_name"
     ],
-    "where are you from": [
-        "travel alert",
-        "fun fact",
-        "who made you"
+    "where_are_you_from": [
+        "travel_alert",
+        "fun_fact",
+        "who_made_you"
     ],
-    "shopping list update": [
+    "shopping_list_update": [
         "translate",
         "transfer",
-        "application status"
+        "application_status"
     ],
-    "what can i ask you": [
-        "where are you from",
-        "who made you",
-        "what is your name"
+    "what_can_i_ask_you": [
+        "where_are_you_from",
+        "who_made_you",
+        "what_is_your_name"
     ],
     "maybe": [
-        "freeze account",
+        "freeze_account",
         "yes",
         "no"
     ],
-    "oil change how": [
+    "oil_change_how": [
         "definition",
-        "insurance change",
-        "gas type"
+        "insurance_change",
+        "gas_type"
     ],
-    "restaurant reservation": [
-        "confirm reservation",
-        "restaurant suggestion",
-        "how busy"
+    "restaurant_reservation": [
+        "confirm_reservation",
+        "restaurant_suggestion",
+        "how_busy"
     ],
     "balance": [
         "translate",
         "transfer"
     ],
-    "confirm reservation": [
+    "confirm_reservation": [
         "translate",
         "definition",
-        "travel alert"
+        "travel_alert"
     ],
-    "freeze account": [
-        "spending history",
-        "travel notification",
+    "freeze_account": [
+        "spending_history",
+        "travel_notification",
         "cancel"
     ],
-    "rollover 401k": [
+    "rollover_401k": [
         "translate",
-        "insurance change"
+        "insurance_change"
     ],
-    "who made you": [
+    "who_made_you": [
         "definition",
-        "fun fact",
-        "where are you from"
+        "fun_fact",
+        "where_are_you_from"
     ],
     "distance": [
         "translate",
-        "travel alert",
+        "travel_alert",
         "time"
     ],
-    "user name": [
-        "insurance change",
-        "fun fact",
-        "change user name"
+    "user_name": [
+        "insurance_change",
+        "fun_fact",
+        "change_user_name"
     ],
     "timezone": [
         "translate",
         "time"
     ],
-    "next song": [
-        "todo list update",
-        "what song",
-        "update playlist"
+    "next_song": [
+        "todo_list_update",
+        "what_song",
+        "update_playlist"
     ],
     "transactions": [
-        "rewards balance",
-        "spending history",
-        "shopping list"
+        "rewards_balance",
+        "spending_history",
+        "shopping_list"
     ],
-    "restaurant suggestion": [
-        "travel alert",
-        "restaurant reservation",
-        "travel suggestion"
+    "restaurant_suggestion": [
+        "travel_alert",
+        "restaurant_reservation",
+        "travel_suggestion"
     ],
-    "rewards balance": [
-        "application status",
+    "rewards_balance": [
+        "application_status",
         "balance",
-        "credit limit"
+        "credit_limit"
     ],
-    "pay bill": [
+    "pay_bill": [
         "calculator",
-        "bill due",
-        "min payment"
+        "bill_due",
+        "min_payment"
     ],
-    "spending history": [
-        "fun fact",
+    "spending_history": [
+        "fun_fact",
         "balance",
         "transactions"
     ],
-    "pto request status": [
-        "insurance change",
-        "pto request",
-        "pto balance"
+    "pto_request_status": [
+        "insurance_change",
+        "pto_request",
+        "pto_balance"
     ],
-    "credit score": [
-        "improve credit score",
+    "credit_score": [
+        "improve_credit_score",
         "balance",
-        "rewards balance"
+        "rewards_balance"
     ],
-    "new card": [
-        "restaurant suggestion",
-        "expiration date",
-        "card declined"
+    "new_card": [
+        "restaurant_suggestion",
+        "expiration_date",
+        "card_declined"
     ],
-    "lost luggage": [
-        "insurance change",
-        "find phone",
-        "travel alert"
+    "lost_luggage": [
+        "insurance_change",
+        "find_phone",
+        "travel_alert"
     ],
     "repeat": [
-        "spending history",
+        "spending_history",
         "reminder",
-        "todo list"
+        "todo_list"
     ],
     "mpg": [
-        "oil change how",
+        "oil_change_how",
         "distance",
-        "gas type"
+        "gas_type"
     ],
-    "oil change when": [
-        "replacement card duration",
-        "oil change how",
-        "tire change"
+    "oil_change_when": [
+        "replacement_card_duration",
+        "oil_change_how",
+        "tire_change"
     ],
     "yes": [
         "maybe",
         "no",
-        "thank you"
+        "thank_you"
     ],
-    "travel suggestion": [
-        "insurance change",
-        "travel alert",
-        "restaurant suggestion"
+    "travel_suggestion": [
+        "insurance_change",
+        "travel_alert",
+        "restaurant_suggestion"
     ],
     "insurance": [
         "translate",
         "definition",
-        "insurance change"
+        "insurance_change"
     ],
-    "todo list update": [
-        "insurance change",
+    "todo_list_update": [
+        "insurance_change",
         "reminder",
-        "todo list"
+        "todo_list"
     ],
     "reminder": [
-        "todo list update",
-        "reminder update",
-        "todo list"
+        "todo_list_update",
+        "reminder_update",
+        "todo_list"
     ],
-    "change speed": [
-        "change user name",
-        "change accent",
-        "change volume"
+    "change_speed": [
+        "change_user_name",
+        "change_accent",
+        "change_volume"
     ],
-    "tire pressure": [
-        "travel alert",
-        "gas type",
-        "tire change"
+    "tire_pressure": [
+        "travel_alert",
+        "gas_type",
+        "tire_change"
     ],
     "no": [
-        "find phone",
-        "flip coin",
+        "find_phone",
+        "flip_coin",
         "maybe"
     ],
     "apr": [
-        "international fees",
+        "international_fees",
         "taxes",
-        "interest rate"
+        "interest_rate"
     ],
-    "nutrition info": [
-        "fun fact",
-        "cook time",
-        "ingredients list"
+    "nutrition_info": [
+        "fun_fact",
+        "cook_time",
+        "ingredients_list"
     ],
     "calendar": [
-        "restaurant suggestion",
+        "restaurant_suggestion",
         "date",
-        "meeting schedule"
+        "meeting_schedule"
     ],
     "uber": [
-        "travel alert",
-        "restaurant reservation",
-        "schedule meeting"
+        "travel_alert",
+        "restaurant_reservation",
+        "schedule_meeting"
     ],
     "calculator": [
-        "fun fact",
-        "restaurant suggestion",
-        "pay bill"
+        "fun_fact",
+        "restaurant_suggestion",
+        "pay_bill"
     ],
     "date": [
-        "pto request",
+        "pto_request",
         "time",
         "timezone"
     ],
-    "carry on": [
-        "travel alert",
-        "flight status",
-        "lost luggage"
+    "carry_on": [
+        "travel_alert",
+        "flight_status",
+        "lost_luggage"
     ],
-    "pto used": [
-        "pto request",
-        "pto request status",
-        "pto balance"
+    "pto_used": [
+        "pto_request",
+        "pto_request_status",
+        "pto_balance"
     ],
-    "schedule maintenance": [
+    "schedule_maintenance": [
         "date",
-        "schedule meeting",
-        "last maintenance"
+        "schedule_meeting",
+        "last_maintenance"
     ],
-    "travel notification": [
-        "travel alert",
-        "freeze account",
-        "report fraud"
+    "travel_notification": [
+        "travel_alert",
+        "freeze_account",
+        "report_fraud"
     ],
-    "sync device": [
+    "sync_device": [
         "translate",
-        "find phone",
-        "reminder update"
+        "find_phone",
+        "reminder_update"
     ],
-    "thank you": [
-        "find phone",
+    "thank_you": [
+        "find_phone",
         "yes",
         "greeting"
     ],
-    "roll dice": [
-        "travel alert",
-        "fun fact",
-        "flip coin"
+    "roll_dice": [
+        "travel_alert",
+        "fun_fact",
+        "flip_coin"
     ],
-    "food last": [
-        "travel alert",
-        "oil change when",
+    "food_last": [
+        "travel_alert",
+        "oil_change_when",
         "insurance"
     ],
-    "cook time": [
-        "restaurant suggestion",
-        "nutrition info",
-        "ingredients list"
+    "cook_time": [
+        "restaurant_suggestion",
+        "nutrition_info",
+        "ingredients_list"
     ],
-    "reminder update": [
+    "reminder_update": [
         "translate",
         "timer",
         "reminder"
     ],
-    "report lost card": [
-        "insurance change",
-        "find phone",
-        "damaged card"
+    "report_lost_card": [
+        "insurance_change",
+        "find_phone",
+        "damaged_card"
     ],
-    "ingredient substitution": [
-        "fun fact",
-        "restaurant suggestion",
+    "ingredient_substitution": [
+        "fun_fact",
+        "restaurant_suggestion",
         "recipe"
     ],
-    "make call": [
-        "sync device",
-        "reminder update",
+    "make_call": [
+        "sync_device",
+        "reminder_update",
         "routing"
     ],
     "alarm": [
         "translate",
         "timer"
     ],
-    "todo list": [
-        "spending history",
+    "todo_list": [
+        "spending_history",
         "repeat",
         "reminder"
     ],
-    "change accent": [
-        "change language",
-        "change user name",
-        "change speed"
+    "change_accent": [
+        "change_language",
+        "change_user_name",
+        "change_speed"
     ],
     "w2": [
-        "insurance change",
-        "pto request",
-        "replacement card duration"
+        "insurance_change",
+        "pto_request",
+        "replacement_card_duration"
     ],
-    "bill due": [
+    "bill_due": [
         "payday",
-        "pay bill",
-        "bill balance"
+        "pay_bill",
+        "bill_balance"
     ],
     "calories": [
-        "rewards balance",
-        "nutrition info",
-        "ingredient substitution"
+        "rewards_balance",
+        "nutrition_info",
+        "ingredient_substitution"
     ],
-    "damaged card": [
-        "insurance change",
-        "pay bill",
-        "report lost card"
+    "damaged_card": [
+        "insurance_change",
+        "pay_bill",
+        "report_lost_card"
     ],
-    "restaurant reviews": [
-        "travel alert",
-        "restaurant reservation",
-        "restaurant suggestion"
+    "restaurant_reviews": [
+        "travel_alert",
+        "restaurant_reservation",
+        "restaurant_suggestion"
     ],
     "routing": [
         "balance",
-        "make call",
-        "pin change"
+        "make_call",
+        "pin_change"
     ],
-    "do you have pets": [
-        "change user name",
-        "where are you from",
-        "who do you work for"
+    "do_you_have_pets": [
+        "change_user_name",
+        "where_are_you_from",
+        "who_do_you_work_for"
     ],
-    "schedule meeting": [
+    "schedule_meeting": [
         "calendar",
         "uber",
         "date"
     ],
-    "gas type": [
-        "insurance change",
-        "oil change how",
+    "gas_type": [
+        "insurance_change",
+        "oil_change_how",
         "mpg"
     ],
-    "plug type": [
+    "plug_type": [
         "time",
-        "measurement conversion",
+        "measurement_conversion",
         "weather"
     ],
-    "tire change": [
-        "insurance change",
-        "oil change when",
-        "tire pressure"
+    "tire_change": [
+        "insurance_change",
+        "oil_change_when",
+        "tire_pressure"
     ],
-    "exchange rate": [
+    "exchange_rate": [
         "time",
-        "flip coin",
-        "spending history"
+        "flip_coin",
+        "spending_history"
     ],
-    "next holiday": [
-        "travel alert",
-        "restaurant suggestion",
+    "next_holiday": [
+        "travel_alert",
+        "restaurant_suggestion",
         "calendar"
     ],
-    "change volume": [
-        "flip coin",
-        "change user name",
-        "change speed"
+    "change_volume": [
+        "flip_coin",
+        "change_user_name",
+        "change_speed"
     ],
-    "who do you work for": [
-        "fun fact",
-        "change user name",
-        "where are you from"
+    "who_do_you_work_for": [
+        "fun_fact",
+        "change_user_name",
+        "where_are_you_from"
     ],
-    "credit limit": [
-        "replacement card duration",
+    "credit_limit": [
+        "replacement_card_duration",
         "balance",
-        "rewards balance"
+        "rewards_balance"
     ],
-    "how busy": [
+    "how_busy": [
         "translate",
         "timer",
         "time"
     ],
-    "accept reservations": [
-        "replacement card duration",
-        "restaurant reservation",
-        "restaurant reviews"
+    "accept_reservations": [
+        "replacement_card_duration",
+        "restaurant_reservation",
+        "restaurant_reviews"
     ],
-    "order status": [
-        "travel alert",
+    "order_status": [
+        "travel_alert",
         "time",
-        "flight status"
+        "flight_status"
     ],
-    "pin change": [
-        "rollover 401k",
-        "direct deposit",
-        "credit limit change"
+    "pin_change": [
+        "rollover_401k",
+        "direct_deposit",
+        "credit_limit_change"
     ],
     "goodbye": [
         "yes",
         "no",
-        "thank you"
+        "thank_you"
     ],
-    "account blocked": [
-        "report lost card",
-        "report fraud",
-        "card declined"
+    "account_blocked": [
+        "report_lost_card",
+        "report_fraud",
+        "card_declined"
     ],
-    "what song": [
-        "user name",
-        "what is your name",
-        "play music"
+    "what_song": [
+        "user_name",
+        "what_is_your_name",
+        "play_music"
     ],
-    "international fees": [
-        "report fraud",
-        "expiration date",
-        "card declined"
+    "international_fees": [
+        "report_fraud",
+        "expiration_date",
+        "card_declined"
     ],
-    "last maintenance": [
-        "spending history",
+    "last_maintenance": [
+        "spending_history",
         "date",
-        "schedule maintenance"
+        "schedule_maintenance"
     ],
-    "meeting schedule": [
-        "fun fact",
-        "restaurant suggestion",
+    "meeting_schedule": [
+        "fun_fact",
+        "restaurant_suggestion",
         "calendar"
     ],
-    "ingredients list": [
+    "ingredients_list": [
         "reminder",
-        "nutrition info",
-        "cook time"
+        "nutrition_info",
+        "cook_time"
     ],
-    "report fraud": [
-        "pay bill",
-        "travel notification",
-        "report lost card"
+    "report_fraud": [
+        "pay_bill",
+        "travel_notification",
+        "report_lost_card"
     ],
-    "measurement conversion": [
-        "flip coin",
-        "credit score",
+    "measurement_conversion": [
+        "flip_coin",
+        "credit_score",
         "weather"
     ],
-    "smart home": [
-        "travel alert",
-        "fun fact",
-        "current location"
+    "smart_home": [
+        "travel_alert",
+        "fun_fact",
+        "current_location"
     ],
-    "book hotel": [
-        "how busy",
-        "book flight",
-        "car rental"
+    "book_hotel": [
+        "how_busy",
+        "book_flight",
+        "car_rental"
     ],
-    "current location": [
-        "insurance change",
-        "travel alert",
+    "current_location": [
+        "insurance_change",
+        "travel_alert",
         "time"
     ],
     "weather": [
-        "travel alert",
+        "travel_alert",
         "time",
         "timezone"
     ],
     "taxes": [
         "calculator",
-        "bill due",
-        "interest rate"
+        "bill_due",
+        "interest_rate"
     ],
-    "min payment": [
-        "fun fact",
-        "restaurant suggestion",
-        "pay bill"
+    "min_payment": [
+        "fun_fact",
+        "restaurant_suggestion",
+        "pay_bill"
     ],
-    "whisper mode": [
-        "change user name",
-        "change speed",
-        "change volume"
+    "whisper_mode": [
+        "change_user_name",
+        "change_speed",
+        "change_volume"
     ],
     "cancel": [
-        "change user name",
-        "freeze account",
-        "change volume"
+        "change_user_name",
+        "freeze_account",
+        "change_volume"
     ],
-    "international visa": [
-        "carry on",
+    "international_visa": [
+        "carry_on",
         "weather",
         "vaccines"
     ],
     "vaccines": [
-        "insurance change",
-        "travel alert",
-        "international visa"
+        "insurance_change",
+        "travel_alert",
+        "international_visa"
     ],
-    "pto balance": [
-        "insurance change",
-        "pto request",
-        "pto used"
+    "pto_balance": [
+        "insurance_change",
+        "pto_request",
+        "pto_used"
     ],
     "directions": [
-        "travel alert",
-        "restaurant suggestion",
-        "current location"
+        "travel_alert",
+        "restaurant_suggestion",
+        "current_location"
     ],
     "spelling": [
-        "update playlist",
-        "meal suggestion",
+        "update_playlist",
+        "meal_suggestion",
         "order"
     ],
     "greeting": [
-        "thank you",
-        "what are your hobbies",
-        "tell joke"
+        "thank_you",
+        "what_are_your_hobbies",
+        "tell_joke"
     ],
-    "reset settings": [
+    "reset_settings": [
         "translate",
-        "insurance change",
-        "change language"
+        "insurance_change",
+        "change_language"
     ],
-    "what is your name": [
-        "insurance change",
-        "change user name",
-        "user name"
+    "what_is_your_name": [
+        "insurance_change",
+        "change_user_name",
+        "user_name"
     ],
-    "direct deposit": [
-        "pin change",
-        "interest rate",
-        "credit limit change"
+    "direct_deposit": [
+        "pin_change",
+        "interest_rate",
+        "credit_limit_change"
     ],
-    "interest rate": [
-        "insurance change",
+    "interest_rate": [
+        "insurance_change",
         "balance",
         "apr"
     ],
-    "credit limit change": [
+    "credit_limit_change": [
         "transfer",
-        "insurance change",
-        "pin change"
+        "insurance_change",
+        "pin_change"
     ],
-    "what are your hobbies": [
-        "who do you work for",
+    "what_are_your_hobbies": [
+        "who_do_you_work_for",
         "greeting",
-        "how old are you"
+        "how_old_are_you"
     ],
-    "book flight": [
-        "restaurant reservation",
+    "book_flight": [
+        "restaurant_reservation",
         "distance",
         "uber"
     ],
-    "shopping list": [
+    "shopping_list": [
         "transactions",
-        "todo list update",
+        "todo_list_update",
         "reminder"
     ],
     "text": [
-        "restaurant suggestion",
+        "restaurant_suggestion",
         "calendar",
-        "make call"
+        "make_call"
     ],
-    "bill balance": [
+    "bill_balance": [
         "balance",
-        "pay bill",
-        "bill due"
+        "pay_bill",
+        "bill_due"
     ],
-    "share location": [
+    "share_location": [
         "time",
         "timezone",
-        "current location"
+        "current_location"
     ],
-    "redeem rewards": [
+    "redeem_rewards": [
         "transfer",
-        "replacement card duration",
-        "rewards balance"
+        "replacement_card_duration",
+        "rewards_balance"
     ],
-    "play music": [
-        "user name",
-        "change accent",
-        "what song"
+    "play_music": [
+        "user_name",
+        "change_accent",
+        "what_song"
     ],
-    "calendar update": [
+    "calendar_update": [
         "repeat",
-        "todo list update",
-        "reminder update"
+        "todo_list_update",
+        "reminder_update"
     ],
-    "are you a bot": [
-        "change user name",
-        "where are you from",
-        "who do you work for"
+    "are_you_a_bot": [
+        "change_user_name",
+        "where_are_you_from",
+        "who_do_you_work_for"
     ],
     "gas": [
         "mpg",
-        "tire pressure",
-        "gas type"
+        "tire_pressure",
+        "gas_type"
     ],
-    "expiration date": [
-        "insurance change",
-        "replacement card duration",
-        "bill due"
+    "expiration_date": [
+        "insurance_change",
+        "replacement_card_duration",
+        "bill_due"
     ],
-    "update playlist": [
+    "update_playlist": [
         "repeat",
         "spelling",
-        "calendar update"
+        "calendar_update"
     ],
-    "cancel reservation": [
+    "cancel_reservation": [
         "time",
-        "restaurant reservation",
-        "restaurant suggestion"
+        "restaurant_reservation",
+        "restaurant_suggestion"
     ],
-    "tell joke": [
-        "thank you",
-        "change volume",
+    "tell_joke": [
+        "thank_you",
+        "change_volume",
         "greeting"
     ],
-    "change ai name": [
-        "insurance change",
-        "change language",
-        "change user name"
+    "change_ai_name": [
+        "insurance_change",
+        "change_language",
+        "change_user_name"
     ],
-    "how old are you": [
-        "who do you work for",
+    "how_old_are_you": [
+        "who_do_you_work_for",
         "greeting",
-        "what are your hobbies"
+        "what_are_your_hobbies"
     ],
-    "car rental": [
+    "car_rental": [
         "timezone",
         "date",
-        "schedule maintenance"
+        "schedule_maintenance"
     ],
-    "jump start": [
-        "travel alert",
-        "oil change how",
+    "jump_start": [
+        "travel_alert",
+        "oil_change_how",
         "calculator"
     ],
-    "meal suggestion": [
-        "fun fact",
-        "restaurant reservation",
-        "restaurant suggestion"
+    "meal_suggestion": [
+        "fun_fact",
+        "restaurant_reservation",
+        "restaurant_suggestion"
     ],
     "recipe": [
-        "travel alert",
-        "fun fact",
-        "restaurant suggestion"
+        "travel_alert",
+        "fun_fact",
+        "restaurant_suggestion"
     ],
     "income": [
-        "fun fact",
+        "fun_fact",
         "payday",
         "balance"
     ],
     "order": [
-        "nutrition info",
-        "ingredients list",
+        "nutrition_info",
+        "ingredients_list",
         "spelling"
     ],
     "traffic": [
-        "travel alert",
+        "travel_alert",
         "distance",
-        "current location"
+        "current_location"
     ],
-    "order checks": [
-        "account blocked",
-        "credit limit change",
+    "order_checks": [
+        "account_blocked",
+        "credit_limit_change",
         "order"
     ],
-    "card declined": [
-        "pay bill",
-        "report lost card",
-        "account blocked"
+    "card_declined": [
+        "pay_bill",
+        "report_lost_card",
+        "account_blocked"
     ]
 }
