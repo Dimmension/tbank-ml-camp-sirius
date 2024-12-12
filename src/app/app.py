@@ -1,32 +1,38 @@
-import uvicorn
-from fastapi import FastAPI, HTTPException
-from fastapi.responses import JSONResponse
-from pydantic import BaseModel
-from rag import predict_label
+import json
+import logging
+import warnings
+from llm_utils import LLMHandler
+from rag_utils import RAGHadler
+from retriever_utils import RetrievalSystem
 
-class Query(BaseModel):
-    text: str
-    label: str
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
-app = FastAPI()
+retriever = RetrievalSystem()
+llm_model = LLMHandler(
+    'bartowski/gemma-2-9b-it-GGUF',
+    'google/gemma-2-9b-it',
+    'Q8_0',
+)
+rag = RAGHadler(retriever, llm_model)
 
-@app.post("/query", response_class=JSONResponse)
-def query_rag(query_data: Query):
-    text = query_data.text
-    label = query_data.label
-    try:
-        top_labels, label = predict_label(text, label)
+if __name__ == '__main__':
+    with open('./data/data_full_spoiled.json', 'r') as f:
+        data = json.load(f)
+    
+    result_val = []
+    for candidate in data['val']:
+        text = candidate[0]
+        label = candidate[1]
+        top_labels, predicted_label = rag.predict_label(text, label)
+        result_val.append({'top_labels': [k for k in top_labels.keys()], 'predicted_label': label})
 
-        return {"top_labels": top_labels, "predicted_label": label}
+    result_oos_val = []
+    for candidate in data['oos_val']:
+        text = candidate[0]
+        label = candidate[1]
+        top_labels, predicted_label = rag.predict_label(text, label)
+        result_oos_val.append({'top_labels': [k for k in top_labels.keys()], 'predicted_label': label})
 
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error processing query: {str(e)}")
-
-if __name__ == "__main__":
-    uvicorn.run(
-        "app:app",
-        host='127.0.0.1',
-        port=4830,
-        log_level="info",
-    )
-
+    result_data = {'val': result_val, 'oos_val': result_oos_val}
+    with open('./data/predicted_val_labels.json', "w") as file:
+        json.dump(result_data, file, indent=4)

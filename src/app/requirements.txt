@@ -1,8 +1,9 @@
-fastapi
-uvicorn
-pydantic
-langchain_community
+torch==2.4.1
 transformers
+sentence-transformers
+faiss-gpu
+langchain_community
 rank_bm25
-scikit-learn
 numpy
+spacy
+scikit-learn

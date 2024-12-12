@@ -35,3 +35,9 @@ tbank-ml-camp-sirius/
     ├── app/                # ML-решение 
 README.md                   # Документация проекта
 ```
+## Установка
+```bash
+pip install -r src/app/requirements.txt
+
+CUDACXX=/usr/local/cuda/bin/nvcc CMAKE_ARGS="-DLLAMA_CUDA=on -DLLAVA_BUILD=off" FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
+```
