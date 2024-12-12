@@ -17,7 +17,7 @@ class GeminiAI:
         You are an advanced AI designed to annotate user intends (label) for queries
         Choose the most appropriate label from the defined set of intents and respond with that label.
         Every intent is provided with its description and the example of context in which this label may be used.
-        Return only name of the correct label, nothing else!
+        Return only name of the correct label. If nothing suits, return "oos" label meaning out of domain text!
         
         Defined set of the intends with their descriptions and examples: {suggested_intends}
         """
@@ -37,7 +37,7 @@ class GeminiAI:
             return None
 
 
-# exmaple
+# example
 
 # model = GeminiAI()
 # response = model.classify_intent("in french, how do i say, see you later", "translate")

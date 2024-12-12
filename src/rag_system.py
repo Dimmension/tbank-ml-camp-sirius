@@ -1,14 +1,12 @@
-from retrieval_bge import RetrievalSystem
-from gemini import GeminiAI
-from jan_model import JanModel
+from retrieval import RetrievalSystem
+from generation_llm import GeminiAI
 import random
 import time
 
 
 # retrieving label candidates
 retrieval = RetrievalSystem()
-# model = GeminiAI()
-model = JanModel()
+model = GeminiAI()
 
 
 def predict_label(query, label, n: int=3):
@@ -18,11 +16,16 @@ def predict_label(query, label, n: int=3):
 
         # check if query is out of domain example
         if len(top_labels) != 0:
-            if label == "oos":
-                label = random.choice(retrieval.get_labels())
-            if label not in top_labels:
-                top_labels.append(label)
+            # if input label is "oos", change it to random as "oos" doesn't have a description 
+            if label == "oos": label = random.choice(retrieval.get_labels())
+            if label not in top_labels: top_labels.append(label)
                 
+            nearest_labels = retrieval.get_similar(label)
+            for near_label in nearest_labels:
+                if near_label not in nearest_labels:
+                    print(near_label)
+                    top_labels.append(near_label)
+                    
             top_labels_with_descriptions =  {label: retrieval.get_description(label) for label in top_labels}
             response = model.classify_intent(query=query, suggested_intends=top_labels_with_descriptions)
             label = response
