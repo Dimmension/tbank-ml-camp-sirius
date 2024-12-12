@@ -20,7 +20,7 @@ def predict_label(query, label, n: int=3):
             if label == "oos": label = random.choice(retrieval.get_labels())
             if label not in top_labels: top_labels.append(label)
                 
-            nearest_labels = retrieval.get_similar(label)
+            nearest_labels = retrieval.get_nearest_labels(label)
             for near_label in nearest_labels:
                 if near_label not in nearest_labels:
                     print(near_label)

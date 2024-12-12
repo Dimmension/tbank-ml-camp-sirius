@@ -6,3 +6,5 @@ python-dotenv
 langchain
 langchain-community
 langchain-huggingface
+faiss-gpu
+rank_bm25
