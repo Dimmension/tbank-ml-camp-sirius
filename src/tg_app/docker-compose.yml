@@ -19,4 +19,11 @@ services:
       dockerfile: dockerfiles/triton.Dockerfile
     ports:
       - "8000:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
     command: ["tritonserver", "--model-repository=/triton_repository"]
