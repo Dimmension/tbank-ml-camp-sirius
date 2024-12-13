@@ -53,12 +53,12 @@ class LLMHandler:
             You are an advanced AI designed to fix annotators' errors who annotated users' intends for queries.
             You are given a defined set of the intends with their descriptions: {top_labels_with_descriptions}.
             Follow the instructions:
-            1. Come up with your own description for each label.
-            2. Compare yours descriptions with provided
-            3. Decide if a chosen label by annotator is correct
+            1. Come up with your own interpretation of query.
+            2. Compare it with descriptions.
+            3. Decide if a chosen label by annotator is correct.
             4. Choose the most appropriate label from the defined set of intents for the query.
             5. Return only name of the correct label!
-            # 6. If nothing suits, return "oos", meaning that for this intent there's no relevant label
+            6. If nothing suits, return "oos", meaning that for this intent there's no relevant label.
         """
         user_prompt = f"{system_prompt}\nQuery: {query}\nChosen label: {target}\nCorrect label:"
 

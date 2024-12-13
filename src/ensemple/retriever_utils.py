@@ -14,7 +14,7 @@ class RetrievalSystem:
     def __init__(self,
                  data_path="././data/labels_with_description.json",
                  nearest_labels_path="././data/nearest_labels.json", 
-                 model_name="BAAI/bge-large-en-v1.5",
+                 model_name="chinchilla04/bge-finetuned-train",
                  reranker_name="BAAI/bge-reranker-v2-m3",
                  top_k=60,
                  top_n=60,
