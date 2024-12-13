@@ -62,8 +62,7 @@ async def call_roberta(text: str, model_name: str) -> list[float]:
         print(e)
         return None
 
-# token = os.environ["BOT_TOKEN"]
-token = "7622633543:AAHTwLIoAs8Ji2fia3WA0Z18hAa_CcqAYf8"
+token = os.environ["BOT_TOKEN"]
 bot = Bot(token=token)
 dp = Dispatcher(bot)
 
