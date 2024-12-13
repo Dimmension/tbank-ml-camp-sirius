@@ -1,4 +1,4 @@
-name: "dirty_roberta"
+name: "clean_roberta"
 backend: "onnxruntime"
 max_batch_size: 8
 input: [
@@ -8,14 +8,14 @@ input: [
     dims: [-1]
   },
   {
-    name: "attention_mask",
+    name: "attention_masks",
     data_type: TYPE_INT64,
     dims: [-1]
   }
 ]
 output: [
   {
-    name: "logits",
+    name: "outputs",
     data_type: TYPE_FP32,
     dims: [151]
   }
