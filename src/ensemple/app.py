@@ -18,13 +18,16 @@ rag = RAGHadler(retriever, llm_model, 3)
 l = 100
 
 if __name__ == '__main__':
-    df = pd.read_csv('././data/llm_val_dataset.csv')
-    output_path = '././data/val_result.json'
+    # df = pd.read_csv('././data/llm_val_dataset.csv')
+    df = pd.read_csv('././data/llm_train_dataset.csv')
+    # output_path = '././data/val_result.json'
+    output_path = '././data/train_result2.json'
     result = []
     
-    for i, row in df.iterrows():
+    for i, row in df[6401:].iterrows():
         top_labels, predicted_label = rag.predict_label(row['text'], row['intent'])
-        result.append({'query': row['text'], 'initial label': row['true_intent'], 'predicted label': predicted_label})
+        result.append({'query': row['text'], 'initial label': row['intent'], 'predicted label': predicted_label})
+#        result.append({'query': row['text'], 'initial label': row['true_intent'], 'predicted label': predicted_label})
         
         if i % l == 0:
             with open(output_path, "w") as f:

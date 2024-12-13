@@ -10,17 +10,17 @@ class RAGHadler:
 
     def predict_label(self, query, target):
         is_again = True
-        print(f"EXPECTED: {target}")
+        # print(f"EXPECTED: {target}")
         top_labels = self.retriever.process_query(query, top_r=20, top_k=10)
 
         if len(top_labels) != 0:
             if target == "oos": target = random.choice(top_labels)
             if target not in top_labels: top_labels.append(target)
                 
-            # nearest_labels = self.retriever.get_nearest_labels(target)
-            # for near_label in nearest_labels:
-            #     if near_label not in top_labels:
-            #         top_labels.append(near_label)
+            nearest_labels = self.retriever.get_nearest_labels(target)
+            for near_label in nearest_labels:
+                if near_label not in top_labels:
+                    top_labels.append(near_label)
                     
             top_labels_with_descriptions = {label: self.retriever.get_description(label) for label in top_labels}
             
@@ -45,7 +45,7 @@ class RAGHadler:
             target = "oos"
             top_labels_with_descriptions = {}
 
-        print(f"PREDICTED: {target}")
+        # print(f"PREDICTED: {target}")
         return top_labels_with_descriptions, target
     
     def find_best(self, predicted, mean_min_score):

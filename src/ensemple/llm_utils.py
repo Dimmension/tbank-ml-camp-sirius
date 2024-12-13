@@ -57,6 +57,7 @@ class LLMHandler:
             2. Compare it with descriptions.
             3. Decide if a chosen label by annotator is correct.
             4. Choose the most appropriate label from the defined set of intents for the query.
+            Don't create new labels!!! Choose only from those which are provided
             5. Return only name of the correct label!
             6. If nothing suits, return "oos", meaning that for this intent there's no relevant label.
         """
@@ -82,15 +83,16 @@ class LLMHandler:
         tokens = outputs['choices'][0]['logprobs']['tokens']
 
         confidences = [round(10 ** prob, 4) for prob in token_probs]
-        print(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
+        # print(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
         
         is_again = self.check(confidences)
         min_confidence = min(confidences)
         
         if generated_text != "oos" and generated_text not in list(top_labels_with_descriptions):
-            generated_text, is_again, min_confidence = self.generate()
+            print('SENSATION: ', generated_text)
+            generated_text, is_again, min_confidence = self.generate(query, top_labels_with_descriptions, target)
             
-        
+
         return generated_text, is_again, min_confidence
     
     def check(self, confidences):
