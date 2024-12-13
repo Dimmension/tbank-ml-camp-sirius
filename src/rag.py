@@ -1,11 +1,11 @@
-from retrieval_bge_faiss_bm25 import RetrievalSystem_large
+from retrieval_bge_faiss_bm25 import RetrievalSystem_faiss_bm25
 from gemini import GeminiAI
 from jan_model import JanModel
 import random
 import time
 
 
-retrieval = RetrievalSystem_large()
+retrieval = RetrievalSystem_faiss_bm25()
 model = JanModel()
 
 

@@ -3,16 +3,18 @@ from langchain.retrievers import EnsembleRetriever
 from langchain_community.retrievers import BM25Retriever
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
+from langchain_chroma import Chroma
 import numpy as np
 import json
 import time
 
 
-class RetrievalSystem_large:
+class RetrievalSystem_faiss_bm25:
     """A retrieval system combining semantic search with BM25."""
 
     def __init__(self,
                  data_path=r"data\labels_with_description.json",
+                 nearest_labels_path=r"data\nearest_labels.json",
                 #  embedder_name = "BAAI/bge-large-en-v1.5",
                  embedder_name = "chinchilla04/bge-finetuned-train",
                  reranker_name="BAAI/bge-reranker-v2-m3",
@@ -20,21 +22,9 @@ class RetrievalSystem_large:
                  top_k=10,
                  threshold_mean_diff=1e-6,
                  threshold_conf_drop=1e-5,
-                 fusion_weight=0.3,
+                 fusion_weight=0.6,
         ):
-        """
-        Initialize the retrieval system.
 
-        Args:
-            data_path (str): Path to the JSON file containing labels with descriptions.
-            model_name (str): Name of the BGE model.
-            reranker_name (str): Name of the BGE reranker.
-            top_k (int): Number of results to retrieve from semantic search.
-            top_r (int): Number of final results to return after reranking.
-            theshhold (int): Threshold for checking if query is OOS.
-            fusion_weight (float): Weight given to BM25 scores during fusion.
-            query_instruction (str): Instruction for query embedding.
-        """
         self.top_r = top_r  # top from FAISS + BM25
         self.top_k = top_k  # for BGE reranking
         self.fusion_weight = fusion_weight
@@ -44,6 +34,9 @@ class RetrievalSystem_large:
         # Load data
         with open(data_path, "r") as f:
             data = json.load(f)
+
+        with open(nearest_labels_path, "r") as f:
+            self.nearest = json.load(f)
 
         # Prepare documents and metadata
         self.data = {key: value for key, value in data.items()}
@@ -84,10 +77,13 @@ class RetrievalSystem_large:
             weights=[1 - fusion_weight, fusion_weight]
         )
 
-    def process_query(self, query, top_k):
+    def process_query(self, query, top_r, top_k):
         """
         Process a query to retrieve the top labels using EnsembleRetriever.
         """
+        if top_r != self.top_r:
+            self.top_r = top_r
+        
         if top_k != self.top_k:
             self.top_k = top_k
 
@@ -111,6 +107,9 @@ class RetrievalSystem_large:
 
     def get_description(self, label):
         return self.data[label]
+    
+    def get_nearest_labels(self, label):
+        return self.nearest[label]
 
     def get_labels(self):
         return self.labels

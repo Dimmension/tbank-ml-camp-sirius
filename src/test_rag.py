@@ -1,27 +1,27 @@
 # from retrieval_bge_cos_sim import RetrievalSystem_large
-from retrieval_bge_faiss_bm25 import RetrievalSystem_large
+from retrieval_bge_faiss_bm25 import RetrievalSystem_faiss_bm25
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.metrics import classification_report
 import json
-import time
-import tqdm
-import itertools
 
 
-def calculate_metrics(dataset: dict, dataset_new: dict):
+def calculate_metrics(dataset):
     tp, tn, fp, fn = 0, 0, 0, 0
     top_k = 10
     print(f"top_k: {top_k}")
 
-    for query, true_label in tqdm.tqdm(dataset.items()):
-        retrieved_labels = dataset_new[query]
+    for row in dataset:
+        # query = row["query"]
+        initial_label = row["initial label"]
+        predicted_label = row["predicted label"]
 
-        if true_label == 'oos':
-            if len(retrieved_labels) == 0:
+        if initial_label == 'oos':
+            if len(predicted_label) == 0:
                 tn += 1
             else:
                 fp += 1
         else:
-            if true_label in retrieved_labels:
-            # if len(retrieved_labels) > 0:
+            if initial_label == predicted_label:
                 tp += 1
             else:
                 fn += 1
@@ -49,18 +49,29 @@ def calculate_metrics(dataset: dict, dataset_new: dict):
     print("----------------------\n")
 
 
+def calculate_metrics_sklearn(dataset):
+    true_labels = [row["initial label"] for row in dataset]
+    predicted_labels = [row["predicted label"] for row in dataset]
+    
+    print(classification_report(true_labels, predicted_labels))
+
+    print(f"Accuracy: {accuracy_score(true_labels, predicted_labels)}")
+    print(f"Precision: {precision_score(true_labels, predicted_labels, average='macro')}")
+    print(f"Recall: {recall_score(true_labels, predicted_labels, average='macro')}")
+    print(f"F1-score: {f1_score(true_labels, predicted_labels, average='macro')}")
+    print("----------------------\n")
+
 # Example Usage
 
-if __name__ == '__main__':    
-    with open(r"data\data_full_spoiled.json", "r") as f:
+if __name__ == '__main__':
+    with open(r"data\val_result_full_without_neighbors.json", "r") as f:
         data = json.load(f)
 
-    val_data = data["val"] + data["oos_val"]
-    val_dict = {entity[0]: entity[1] for entity in val_data}
+    # for item in data:
+    #     print(item["query"])
+    #     print(item["initial label"])
+    #     print(item["predicted label"])
+    #     break
 
-    # прогон по ллмке
-    # val_dict.keys это запросы, values это лэйблы
-    # val_dict_new values это лэйблы, предсказанные ллкмкой
-    val_dict_new = {}
-
-    calculate_metrics(val_dict, val_dict_new)
+    calculate_metrics(data)
+    calculate_metrics_sklearn(data)
