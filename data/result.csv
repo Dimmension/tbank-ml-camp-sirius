@@ -1,7 +1,0 @@
-[
-    {
-        "query": "give me information on grub burger reservations",
-        "initial label": "accept_reservations",
-        "predicted label": "accept_reservations"
-    }
-]

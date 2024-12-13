@@ -19,7 +19,7 @@ l = 100
 
 if __name__ == '__main__':
     df = pd.read_csv('././data/llm_val_dataset.csv')
-    output_path = '././data/result.csv'
+    output_path = '././data/val_result.json'
     result = []
     
     for i, row in df.iterrows():
@@ -28,4 +28,7 @@ if __name__ == '__main__':
         
         if i % l == 0:
             with open(output_path, "w") as f:
+                json.dump(result, f, indent=4)
+    
+    with open(output_path, "w") as f:
                 json.dump(result, f, indent=4)

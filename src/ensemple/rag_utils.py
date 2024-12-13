@@ -17,10 +17,10 @@ class RAGHadler:
             if target == "oos": target = random.choice(top_labels)
             if target not in top_labels: top_labels.append(target)
                 
-            nearest_labels = self.retriever.get_nearest_labels(target)
-            for near_label in nearest_labels:
-                if near_label not in top_labels:
-                    top_labels.append(near_label)
+            # nearest_labels = self.retriever.get_nearest_labels(target)
+            # for near_label in nearest_labels:
+            #     if near_label not in top_labels:
+            #         top_labels.append(near_label)
                     
             top_labels_with_descriptions = {label: self.retriever.get_description(label) for label in top_labels}
             

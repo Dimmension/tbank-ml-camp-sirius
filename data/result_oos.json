@@ -1,0 +1,497 @@
+[
+    {
+        "query": "a show on broadway",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "who has the best record in the nfl",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how do i find the area of a circle",
+        "initial label": "oos",
+        "predicted label": "calculator"
+    },
+    {
+        "query": "how many onions do i have on hand",
+        "initial label": "oos",
+        "predicted label": "ingredients_list"
+    },
+    {
+        "query": "what is the name of the 13th president",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "show me recent activity in my backyard",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how long will it take me to pay off my card if i pay an extra $50 a month over the minimum",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "does our bank have free notary",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what were the top stories this week",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "can i mix antifreeze with water",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "are any earning reports due",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "show me the channel guide",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is the pnc bank open",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "where does the power steering fluid go",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "when was the last time the president visited floridau",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how can i keep my windshield from fogging up in winter",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how do i compute the median of a set of numbers",
+        "initial label": "oos",
+        "predicted label": "calculator"
+    },
+    {
+        "query": "what is happening with brexit right nowu",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "are there any new companies to look out for",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "can you tell me how to compute price per ounce",
+        "initial label": "oos",
+        "predicted label": "measurement_conversion"
+    },
+    {
+        "query": "how to unclog a drain",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "am kind of busy now",
+        "initial label": "oos",
+        "predicted label": "how_busy"
+    },
+    {
+        "query": "what new reality shows are there for 2019",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what is the purpose or benefit of a cash advance",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how can i root an android phone",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is android better than iphone",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "are androids expensive",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how long does it take to become an architect",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "who are some famous living architects",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "find out for me as to why people get autism",
+        "initial label": "oos",
+        "predicted label": "meaning_of_life"
+    },
+    {
+        "query": "is autism a genetic disease",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is flu contagious",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is it true that nicotine is harder to kick than heroin",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "please inform me on bad habits and overcoming them",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "are bad habits closely related with addictions",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "does hypnosis work to break bad habits",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "king of acid",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "suo2",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what university in the united states offers the best biomedical engineering program",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what's the definition of nuclear engineering",
+        "initial label": "oos",
+        "predicted label": "definition"
+    },
+    {
+        "query": "when was electrical engineering created",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what is naval engineering",
+        "initial label": "oos",
+        "predicted label": "definition"
+    },
+    {
+        "query": "is it possible to survive in a black hole",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "where do black holes come from",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what are black holes",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what was the final vote count in the brexit referendum",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "can you tell me the latest georgia news",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is the brexit finalized yet",
+        "initial label": "oos",
+        "predicted label": "maybe"
+    },
+    {
+        "query": "the birds fly with there wings",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how the birds fly",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "where does cannabis originate from",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how are my cannabis stocks doing",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is marijuana addictive",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "should i hit or stay at 17 in blackjack",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what game has the best odds at a casino",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what's the best opening gambit for a game of chess",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what side in chess has the general advantage",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how do i get better at go",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how high does my sat score need to be to get into harvard",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what'll an education at boulder state college run",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what's the average gpa to get into yale",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what act score is considered good",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what cryptocurrency gained the most in 2018",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what's the best crypto to buy in 2019",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how is crypto legal",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "are there any cybersecurity jobs available in pittsburgh",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how many firewalls should i have and what type",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how can i breach a network",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how does cybersecurity work",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how many countries in the world are democracies",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is the united states a democracy",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "which nations are not democratic",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how does a democracy work",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "please get me my wheelchair",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what's the best dog food to feed my puppy",
+        "initial label": "oos",
+        "predicted label": "do_you_have_pets"
+    },
+    {
+        "query": "how do you know when your dog is ill",
+        "initial label": "oos",
+        "predicted label": "do_you_have_pets"
+    },
+    {
+        "query": "what dog breed sold the most in 2018",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how much food should i feed my cat",
+        "initial label": "oos",
+        "predicted label": "do_you_have_pets"
+    },
+    {
+        "query": "what does it mean if i dream of falling off a building",
+        "initial label": "oos",
+        "predicted label": "meaning_of_life"
+    },
+    {
+        "query": "is it bad to not remember your dreams",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "why do we dream",
+        "initial label": "oos",
+        "predicted label": "meaning_of_life"
+    },
+    {
+        "query": "do ducks eat meat, vegetables, or both",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what is the friendliest breed",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what do geese eat",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "do ducks sleep",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "are over the ear headphones better than in ear headphones",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what brand of earphones is the best reviewed of 2019",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "are white and brown eggs any different",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "where do eggs come from",
+        "initial label": "oos",
+        "predicted label": "where_are_you_from"
+    },
+    {
+        "query": "how can i easily replace a string on my guitar",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "how do you learn how to play electric violin",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "can you give me the standard tuning notes",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "what is the cheapest electric guitar",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "you want to know about current time now",
+        "initial label": "oos",
+        "predicted label": "time"
+    },
+    {
+        "query": "what does it mean to have equality",
+        "initial label": "oos",
+        "predicted label": "definition"
+    },
+    {
+        "query": "what site publishes the most fake news",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "can you tell me some fake news",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "is cnn really fake news",
+        "initial label": "oos",
+        "predicted label": "oos"
+    },
+    {
+        "query": "why is there fake news",
+        "initial label": "oos",
+        "predicted label": "oos"
+    }
+]
