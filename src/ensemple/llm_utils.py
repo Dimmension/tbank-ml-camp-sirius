@@ -85,8 +85,13 @@ class LLMHandler:
         print(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
         
         is_again = self.check(confidences)
+        min_confidence = min(confidences)
         
-        return generated_text, is_again, min(confidences)
+        if generated_text != "oos" and generated_text not in list(top_labels_with_descriptions):
+            generated_text, is_again, min_confidence = self.generate()
+            
+        
+        return generated_text, is_again, min_confidence
     
     def check(self, confidences):
         for confidence in confidences:

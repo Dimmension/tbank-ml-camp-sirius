@@ -11,7 +11,7 @@ class RAGHadler:
     def predict_label(self, query, target):
         is_again = True
         print(f"EXPECTED: {target}")
-        top_labels = self.retriever.process_query(query, top_r=20, top_m=10)
+        top_labels = self.retriever.process_query(query, top_r=20, top_k=10)
 
         if len(top_labels) != 0:
             if target == "oos": target = random.choice(top_labels)
@@ -54,3 +54,4 @@ class RAGHadler:
         
         labels, values = list(predicted), np.array(list(predicted.values()))
         return labels[np.argmax(values)]
+    
