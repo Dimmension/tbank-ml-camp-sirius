@@ -58,9 +58,10 @@ class LLMHandler:
             3. Decide if a chosen label by annotator is correct.
             4. Choose the most appropriate label from the defined set of intents for the query.
             Don't create new labels!!! Choose only from those which are provided
-            5. Return only name of the correct label!
-            6. If nothing suits, return "oos", meaning that for this intent there's no relevant label.
+            5. RETURN ONLY NAME OF THE CORRECT LABEL AND NOTHING ELSE!!!
         """
+#            6. If nothing suits, return "oos", meaning that for this intent there's no relevant label.
+
         user_prompt = f"{system_prompt}\nQuery: {query}\nChosen label: {target}\nCorrect label:"
 
         history = [
