@@ -1,0 +1,2229 @@
+,query,initial label,predicted label
+8,"can you tell me how i would say, 'more bread please' in french",balance,translate
+22,what do you call a subway if you were english,translate,definition
+23,how would i say if i were english subway,translate,change_accent
+43,what spanish word means hello,damaged_card,translate
+45,translate english to french hello,spelling,translate
+48,what's local slang for goodbye in hawaii,translate,definition
+50,tell me how to say hello in spanish,bill_balance,translate
+51,what do i say for goodbye in hawaii,restaurant_reviews,goodbye
+60,how do you say it's snowing in german,greeting,translate
+61,how would you say can i borrow five dollars in portuguese,travel_alert,translate
+68,how would i say i love you if i were french,what_can_i_ask_you,translate
+73,how do you say thank you in spanish,plug_type,translate
+91,how do they say hello in france,bill_due,translate
+102,transfer $20000 from my savings account to checking account,mpg,transfer
+106,send 50 dollars between bank of america and chase accounts,order_checks,transfer
+115,i need to transfer from this account to that one,credit_limit_change,transfer
+131,i have to transfer ten dollars from my bank of america account to my capital one account,ingredient_substitution,transfer
+132,send ten dollars from bank of america to capital one,spelling,transfer
+141,transfer $10 from checking to savings,change_speed,transfer
+143,please transfer 100 dollars between my amazon payments and savings accounts,ingredient_substitution,transfer
+159,help me move my money,international_fees,transfer
+180,transfer 100 dollars checking to savings,who_do_you_work_for,transfer
+185,time to move some cash from one account to another,greeting,transfer
+202,set a timer for 5 minutes,pto_request_status,timer
+212,remind me in (x) hours,timer,reminder
+218,i really need to set a timer,card_declined,timer
+233,can you set a timer for two minutes,whisper_mode,timer
+241,set a timer for two hours,credit_limit,timer
+242,can you set a two hour timer,sync_device,timer
+259,timer 5 minutes,book_flight,timer
+266,timer 10 minutes,schedule_meeting,timer
+291,set an alarm for nine minutes from now,sync_device,alarm
+294,want 5 minute timer,card_declined,timer
+297,"please, can you set the timer for me",change_speed,timer
+301,what is regard mean,transactions,definition
+302,what is the meaning of interorganizational,gas,definition
+324,what is the meaning of altruism,account_blocked,definition
+371,read me the definition of ajar,cancel_reservation,definition
+373,can you show me the dictionary definition of ajar,credit_limit,definition
+385,tell me what the word arboreal means,weather,definition
+392,look up zesty in dictionary,restaurant_reviews,definition
+411,what's the purpose of existence,whisper_mode,meaning_of_life
+412,what's the purpose of life,pto_balance,meaning_of_life
+434,what do you think is the meaning of like,meaning_of_life,definition
+441,whats your take on the meaning of life,timezone,meaning_of_life
+451,can you tell me life's meaning,no,meaning_of_life
+458,"could you tell me the meaning of life, please",travel_suggestion,meaning_of_life
+464,is there any meaning to being alive,change_user_name,meaning_of_life
+465,what is the meaning of my life,lost_luggage,meaning_of_life
+473,what is our purpose here on earth,change_accent,meaning_of_life
+479,how would you describe what life means,user_name,meaning_of_life
+483,what is the meaning of this life,jump_start,meaning_of_life
+500,how to create a new aaa insurance plan,insurance_change,insurance
+504,is new this a good insurance plan for me,insurance_change,insurance
+505,what do i do to get new insurance,lost_luggage,insurance_change
+510,how can i obtain new insurance,flip_coin,insurance_change
+522,my insurance plan needs to be changed,bill_balance,insurance_change
+523,what rental insurance policy do you recommend,order_checks,insurance
+525,find the best life insurance for me,insurance_change,insurance
+534,i would like to get a new insurance plan,update_playlist,insurance_change
+540,how can i acquire new insurance,book_hotel,insurance_change
+548,could you help me out with a new renters' insurance plan,insurance_change,insurance
+573,how can i find out about new insurance,insurance_change,insurance
+579,switch my insurance plan to a new one,change_volume,insurance_change
+581,i want to shop for new insurance plans,restaurant_reviews,insurance_change
+584,i would like to compare insurance plan options,insurance_change,insurance
+586,i want to get a new car insurance plan,nutrition_info,insurance_change
+588,i want a new policy with long-term care insurance,insurance_change,insurance
+592,i am in need of a switch to my insurance plan,expiration_date,insurance_change
+603,i can't find my cell and need help locating it,schedule_meeting,find_phone
+633,can you call my cellphone,find_phone,make_call
+637,"ai, i lost my phone, help me find it please",damaged_card,find_phone
+644,find out where my phone is,meeting_schedule,find_phone
+647,what is the location of my phone,book_flight,find_phone
+654,please aid in my searching for my lost phone,thank_you,find_phone
+655,please help me locate my phone,time,find_phone
+670,can you track the location of my phone,spending_history,find_phone
+673,do you know where i left my phone,are_you_a_bot,find_phone
+691,i need some help finding my phone,exchange_rate,find_phone
+696,i'd like help finding my fon,jump_start,find_phone
+704,are there any travel alerts for north korea,traffic,travel_alert
+711,is there a travel alert for scotland,uber,travel_alert
+725,have there been any travel alerts issued for france,change_accent,travel_alert
+748,is traveling to dublin safe (will dublin be safe),interest_rate,travel_alert
+763,i am thinking of going to brazil and was wondering if that is hazardous,accept_reservations,travel_alert
+766,what potential hazards are there for going to spain,goodbye,travel_alert
+790,should i be worried about any travel alerts for that country,calories,travel_alert
+792,is there a travel alert for that country,rewards_balance,travel_alert
+798,search for travel alerts for kenya,calculator,travel_alert
+805,schedule a pto request for me on march 1-2,min_payment,pto_request
+812,i'd like for their to be a pto request for me made for the dates june 4th to june 8th,ingredient_substitution,pto_request
+813,i'd like to go on vacation,order_status,travel_suggestion
+814,create a pto request for march 21st to march 26th,restaurant_suggestion,pto_request
+822,how do i use my vacation days,schedule_meeting,pto_balance
+824,how can i schedule a vacation request,pto_request,pto_request_status
+849,can you schedule a vacation for next week,pto_request,schedule_meeting
+853,how do i book a vacation,pto_request,travel_suggestion
+855,"i want to schedule a vacation, can i request that through you",pto_request,schedule_meeting
+860,i need a pto request for march 3rd and 4th,whisper_mode,pto_request
+864,i would like to make a pto request for july 17th and 18th,order_status,pto_request
+876,"could you submit a pto request for me from dates mar 3 to 9, please",transfer,pto_request
+887,can you put in a pto request for me from march 1-7,insurance_change,pto_request
+896,can i request pto from march 9-16,distance,pto_request
+932,are there ways for me to make my credit score better,directions,improve_credit_score
+936,what are some tips to build my credit score,accept_reservations,improve_credit_score
+938,show me some ways to build my credit score,where_are_you_from,improve_credit_score
+939,what are the best ways to build my credit score,restaurant_reservation,improve_credit_score
+944,i want to find out if this will hurt my credit,change_user_name,improve_credit_score
+960,are there any new harmful things that could affect my credit score,todo_list_update,improve_credit_score
+961,how can i make my credit score better,pto_request_status,improve_credit_score
+976,does carrying a balance hurt my credit score,order_checks,improve_credit_score
+991,what lowers credit score,flip_coin,improve_credit_score
+1004,any unique trivia about beats headphones,maybe,fun_fact
+1007,tell me something interesting about sperm whales,calendar,fun_fact
+1013,read me some fun facts,mpg,fun_fact
+1019,can you tell me a fun fact regarding cars,improve_credit_score,fun_fact
+1031,what is a fun fact about mt everest,w2,fun_fact
+1033,do you know any fun facts about mt everest,change_volume,fun_fact
+1036,what are fun facts about lighthouses,mpg,fun_fact
+1047,i want to learn a neat fact about black holes,order_checks,fun_fact
+1061,what's a good trivia fact about china,flight_status,fun_fact
+1102,"i would like to have language set to spanish, please",ingredients_list,change_language
+1103,please give me your responses only in french from now on,international_fees,change_language
+1120,i want to switch speaking to french,restaurant_reservation,change_language
+1124,can you translate that to french,change_language,translate
+1129,can we talk in french,shopping_list,change_language
+1143,can you talk to me in chinese,food_last,change_language
+1150,let's go ahead and switch your language,rollover_401k,change_language
+1152,is it possible to only talk in spanish,calendar,change_language
+1170,start talking in spanish,roll_dice,change_language
+1181,i want to put you in a different language,calculator,change_language
+1189,i want your language changed to chinese,update_playlist,change_language
+1228,is my paycheck arriving soon,current_location,payday
+1230,did i receive my paycheck this week,international_fees,payday
+1234,how much longer until i have a direct deposit,payday,direct_deposit
+1238,when will i recieve my next paycheck,insurance,payday
+1240,can you tell me when i'm supposed to get paid,international_visa,payday
+1241,tell me when i get paid,report_fraud,payday
+1243,when will i recieve another paycheck,schedule_maintenance,payday
+1261,when will i get paid next,find_phone,payday
+1264,when should i expect my next paycheck,definition,payday
+1267,when is my next direct deposit from my job,payday,direct_deposit
+1268,when is payday,gas_type,payday
+1284,i wanna know when i was paid last,travel_suggestion,payday
+1285,when was my last payment,payday,freeze_account
+1298,tell me about today weather,replacement_card_duration,weather
+1304,how soon until you send me replacement card,definition,replacement_card_duration
+1316,how long does it take to replace a stolen credit card,vaccines,replacement_card_duration
+1327,my new card arrives in the post when,replacement_card_duration,order_status
+1329,my new card will get here in the mail when,replacement_card_duration,new_card
+1331,when can i expect my new card to get here,play_music,replacement_card_duration
+1333,when will my new visa get here,carry_on,international_visa
+1343,how long will a new card take to reach me,replacement_card_duration,new_card
+1350,a new cards takes how long to mail to me,restaurant_reviews,replacement_card_duration
+1363,how long should i expect to wait for my new card in the mail,replacement_card_duration,new_card
+1368,what's the typical time it takes for a new card to arrive,replacement_card_duration,new_card
+1373,what's the average time it takes for a new card to arrive,replacement_card_duration,new_card
+1379,how soon will you mail me a new card,international_fees,replacement_card_duration
+1387,is my replacement card coming soon,reset_settings,replacement_card_duration
+1388,when will my card replacement arrive,text,replacement_card_duration
+1390,when should i expect my replacement card,transfer,replacement_card_duration
+1394,what date will my replacement card get mailed,find_phone,replacement_card_duration
+1399,"what time is it in glenwood springs, co",order_checks,time
+1420,what time do you have on your watch,tell_joke,time
+1433,what is the time right now in the peruvian time zone,payday,time
+1434,what is the exact time,text,time
+1446,what time is it on the pacific coast right now,change_accent,time
+1447,"given my time, what time is it in mst",expiration_date,time
+1453,what time is it in the pacific standard timezone,yes,time
+1466,what time is it in buenos aires,meeting_schedule,time
+1478,i need to know the time,calories,time
+1492,what time is it in paris,change_volume,time
+1499,has the discover card approved my app,apr,application_status
+1503,have my app for a new card been processed yet,pin_change,application_status
+1504,has the application i put in for a new visa been processed,application_status,international_visa
+1516,do you know the status of the credit card application i filed,change_volume,application_status
+1517,has the application for my visa been processed,application_status,international_visa
+1523,where can i go to see if my credit card application has been processed,routing,application_status
+1525,what is the status of my credit card application,international_fees,application_status
+1558,i need to know if the application been processed,restaurant_reviews,application_status
+1571,how long to process my credit card application,rollover_401k,application_status
+1586,did they process the credit card i applied for,do_you_have_pets,application_status
+1593,i'm desperate to know about my cc processing,application_status,card_declined
+1596,has my credit card application been approved,traffic,application_status
+1597,when will my cc application process,traffic,application_status
+1615,whats the status of my united flight,calculator,flight_status
+1620,is flight dl123 on time,traffic,flight_status
+1625,at what time will my flight land,change_ai_name,flight_status
+1642,when is my flight due to arrive,translate,flight_status
+1659,can you tell me where flight dl123 is,update_playlist,flight_status
+1668,any idea where flight dl123 is right now,income,flight_status
+1669,what's my flight's eta,transfer,flight_status
+1674,i would love to know when my flight is going to land,directions,flight_status
+1689,what time will i be able to board the plane,todo_list,flight_status
+1690,when will i get to my destination,flight_status,distance
+1694,can you tell me when my flight is going to board,w2,flight_status
+1714,flip a coin heads or tails,change_speed,flip_coin
+1721,i'd like you to throw a virtual coin for me,goodbye,flip_coin
+1724,i want a coin flip and i'll take tails,international_visa,flip_coin
+1726,do a virtual coin flip and tell me if i win as tails,min_payment,flip_coin
+1727,randomly pick between heads or tails and tell me if tails wins,todo_list,flip_coin
+1728,toss a coin and tell me what it lands on,freeze_account,flip_coin
+1730,flip a fair coin i win if it's tails,cook_time,flip_coin
+1781,coin flip,expiration_date,flip_coin
+1795,do a coin toss,distance,flip_coin
+1802,i go by brad,pto_request,change_user_name
+1834,you can call me cindy,payday,change_user_name
+1843,please call me johnny,confirm_reservation,change_user_name
+1853,you can call me steve,how_old_are_you,change_user_name
+1857,would you call me mary,calendar_update,change_user_name
+1863,call me frank,goodbye,change_user_name
+1864,you can refer to me as frank,direct_deposit,change_user_name
+1869,"hi, i'm john",change_user_name,greeting
+1901,tell me where you're made,where_are_you_from,who_made_you
+1902,tell me how you're made,where_are_you_from,who_made_you
+1915,can you tell me where you are from,tell_joke,where_are_you_from
+1917,can you tell me where you were created,where_are_you_from,who_made_you
+1919,would you care to let me know where you were made,where_are_you_from,who_made_you
+1922,what country were you made,where_are_you_from,who_made_you
+1924,where did they make you,where_are_you_from,who_made_you
+1926,what place were you created in,where_are_you_from,who_made_you
+1927,in which place were you made,where_are_you_from,who_made_you
+1958,where is your original location,car_rental,where_are_you_from
+1966,can you tell me your place of origin,rollover_401k,where_are_you_from
+1977,"if you were to call a place your beginning, your home start, where would that be",where_are_you_from,meaning_of_life
+1991,where's home for you,restaurant_reservation,where_are_you_from
+1996,delete fries from shopping list,no,shopping_list_update
+2015,"do i have pepper my shopping list, if not add it",interest_rate,shopping_list_update
+2023,put bread on my shopping list,shopping_list_update,shopping_list
+2025,remind me to buy bread next time i go shopping,shopping_list_update,reminder_update
+2026,will you include kleenex on my list for shopping please,shopping_list_update,shopping_list
+2028,put film on my shopping list,shopping_list_update,shopping_list
+2030,write apples on my shopping list,shopping_list_update,shopping_list
+2032,add mountain dew to my list for shopping,shopping_list_update,shopping_list
+2033,add coke to my shopping cart,shopping_list_update,shopping_list
+2035,add pepsi to my shopping bag,calories,shopping_list_update
+2041,add groceries to my shopping list as i am out,shopping_list_update,shopping_list
+2045,i am out of trash bags and need them to be added to my shopping list,shopping_list_update,shopping_list
+2048,i want you to add milk on my shopping list unless it is already on it,order,shopping_list_update
+2052,please put silverware on my list for shopping,shopping_list_update,shopping_list
+2054,maybe we can put blank cds on my list for shopping,shopping_list_update,shopping_list
+2055,can we put sunscreen on my list for shopping,shopping_list_update,shopping_list
+2057,x on the shopping list please,pin_change,shopping_list_update
+2059,i would like to put carrots on my list for shopping,shopping_list_update,shopping_list
+2061,put on my shopping list i need carots,damaged_card,shopping_list_update
+2065,i need oranges on my shopping list,shopping_list_update,shopping_list
+2067,my shopping list should have carrots on it,change_accent,shopping_list_update
+2069,can you put oranges on my shopping list,shopping_list_update,shopping_list
+2070,put carrots on my shopping list,shopping_list_update,shopping_list
+2071,put soda on the shopping list and add carrots,shopping_list_update,shopping_list
+2074,please make sure oranges are on my shopping list,shopping_list_update,shopping_list
+2078,take fresh carrots off my shopping list,yes,shopping_list_update
+2082,put milk on my shopping list cause i'm out of it,shopping_list_update,shopping_list
+2083,put spaghetti on my shopping list cause i'm out of it please,shopping_list_update,shopping_list
+2084,put rice and pudding on my shopping list cause i need them,change_accent,shopping_list
+2086,i need to add cherrios to the grocery list,vaccines,shopping_list_update
+2088,i ran out of cherrios so add that to the list,shopping_list_update,shopping_list
+2093,i need you to add creamer to my shopping list,shopping_list_update,shopping_list
+2094,please put milk on my list i just used the last of it,shopping_list_update,shopping_list
+2095,"i no longer need milk, so forget that",shopping_list_update,no
+2098,what exactly can you help me with,card_declined,what_can_i_ask_you
+2103,what sorts of subjects are you well versed in,make_call,fun_fact
+2106,tell me the types of things i can ask you about,pto_request,what_can_i_ask_you
+2110,what sorts of subjects do you know about,what_can_i_ask_you,fun_fact
+2122,what questions are permissible,goodbye,what_can_i_ask_you
+2128,can you help me with anything i need,calculator,what_can_i_ask_you
+2129,what all can you do,freeze_account,what_can_i_ask_you
+2130,what things do you know about,are_you_a_bot,fun_fact
+2139,what kind of things can you answer,book_flight,what_can_i_ask_you
+2143,what kinds of questions can you respond to,transfer,what_can_i_ask_you
+2175,i want to know what sort of things you can assist me with,tire_change,what_can_i_ask_you
+2180,i wanna know the types of subjects are you familiar with,what_can_i_ask_you,what_are_your_hobbies
+2184,tell me the types of subjects are you familiar with,what_can_i_ask_you,fun_fact
+2185,i would like to know the types of subjects are you familiar with,what_can_i_ask_you,what_are_your_hobbies
+2187,are you familiar with any types of subjects,what_can_i_ask_you,what_are_your_hobbies
+2198,shit if i know,calories,no
+2206,not a clue,sync_device,maybe
+2213,"maybe, maybe not",change_speed,maybe
+2245,i'm not sure,next_song,maybe
+2246,i can't decide,maybe,flip_coin
+2248,i'll have to think about it,oil_change_how,maybe
+2253,that could maybe be it,international_visa,maybe
+2254,i have no earthly idea at all,book_hotel,maybe
+2274,"well, i guess maybe",roll_dice,maybe
+2283,it's possible that it could be either,pin_change,maybe
+2290,how is the weather today,maybe,weather
+2293,that answer's above my pay scale,maybe,payday
+2297,can you find instructions on how to change oil in a car,jump_start,oil_change_how
+2317,what do i need to change the oil in my car,order,oil_change_how
+2323,i need to know how to change my oil,what_are_your_hobbies,oil_change_how
+2339,i want to learn the process of changing oil,order_checks,oil_change_how
+2354,what steps do i take to change the oil for my car,order_status,oil_change_how
+2357,what actions do i take to change a car's oil,transactions,oil_change_how
+2363,how can my oil be changed in my car,direct_deposit,oil_change_how
+2366,how can i change my oil for my car,reminder_update,oil_change_how
+2376,"can you tell me how to change my car's oil, and what type i need to buy",book_hotel,oil_change_how
+2395,walk me through changing the oil on a tesla,redeem_rewards,oil_change_how
+2398,"i think we should reserve dad's regular table friday for 6 people, use his name, make that close to 4:00 pm at the club",cancel,restaurant_reservation
+2408,can you make a reservation at the restaurant for tonight,restaurant_reviews,restaurant_reservation
+2434,is it possible to get a table for 4 at the village inn around 10am,calendar_update,restaurant_reservation
+2441,i want to reserve a table at 8 at long john silver's under the name freddie,cancel,restaurant_reservation
+2453,you have to reserve a table for 4 at red robin under the name kevin at 7,pto_used,restaurant_reservation
+2454,please reserve a table for 4 at red robin under the name kevin at 7,accept_reservations,restaurant_reservation
+2463,book a reservation for 8 pm at red robin under the name kevin,fun_fact,restaurant_reservation
+2472,please reserve a table for two at rouge for 7:00 pm,last_maintenance,restaurant_reservation
+2476,i need you to reserve at table for a party of four at devon's for 6:00 pm,report_lost_card,restaurant_reservation
+2493,reserve a table for 2 at red lobster at 8:00,measurement_conversion,restaurant_reservation
+2496,savings account balance at chase bank please,where_are_you_from,balance
+2511,what amount of money is in my bank accounts,gas,balance
+2515,how much funds do i have in my bank accounts,travel_suggestion,balance
+2534,tell me what i have in my money market account,meal_suggestion,balance
+2536,how much is left of mastercard,balance,rewards_balance
+2539,do i have enough money in my chase account for a new refrigerator,todo_list_update,balance
+2553,do i have enough in my boa account for a new pair of skis,insurance_change,balance
+2564,i want to view my balance,whisper_mode,balance
+2574,i need to know my bank balance,shopping_list_update,balance
+2581,what is status of my bank account,balance,application_status
+2588,is there enough money in my bank of hawaii for vacation,flight_status,balance
+2601,"confirm a reservation for nicole brown at diangelo's at 6:45 pm, please",food_last,confirm_reservation
+2614,can you assure me i have a table at taco bell at 7pm,confirm_reservation,restaurant_reservation
+2624,do i have reservations at creme at 7 pm,meaning_of_life,confirm_reservation
+2631,i must confirm my reservation for 2/20 at 8 pm,mpg,confirm_reservation
+2632,i really want to confirm that i have a reservation at red robin for josh,oil_change_how,confirm_reservation
+2646,will you make sure robert has a reservation at ruth's steakhouse,confirm_reservation,restaurant_reservation
+2648,can you check that there's a reservation for mark at sidetracks,repeat,confirm_reservation
+2652,can you confirm i have a reservation at 5 pm on march 13th,cancel_reservation,confirm_reservation
+2660,check to confirm my reservation for february 22 at noon,expiration_date,confirm_reservation
+2678,can you verify my reservation under steve for friendly's,calories,confirm_reservation
+2681,please confirm my reservation for april 1st at 9am,who_made_you,confirm_reservation
+2693,does taco house have a reservation for jean,text,restaurant_reservation
+2696,i want my chase account blocked immediately,freeze_account,account_blocked
+2717,could you put a stop on my bank account,book_flight,freeze_account
+2730,i would like my account frozen,nutrition_info,freeze_account
+2736,shut down my account,freeze_account,account_blocked
+2738,turn off my account,replacement_card_duration,freeze_account
+2741,terminate the account,schedule_meeting,cancel
+2742,i am going to need a block put on my chase account right away,freeze_account,account_blocked
+2744,i would like a block put on my chase account asap,tire_change,account_blocked
+2746,i need a block put on my chase account right away,freeze_account,account_blocked
+2751,i want you to immediatly block any further activity on my bb&t bank account,whisper_mode,account_blocked
+2752,block my citibank account right away,freeze_account,account_blocked
+2753,add a block to my capital one bank account so it cannot be used any more,freeze_account,account_blocked
+2754,please immediatly block my presidential bank account right now,freeze_account,account_blocked
+2767,block my chase account asap,freeze_account,account_blocked
+2773,stop payments from my bank,date,freeze_account
+2782,please ask the bank to freeze my account,gas,freeze_account
+2785,put a hold on my chase account right away please,recipe,freeze_account
+2798,what are the ways i can transfer my 401k,rollover_401k,transfer
+2805,i need to know if it is possible to rollover my 401k,international_visa,rollover_401k
+2806,i nee to know how to transfer my 401k,rollover_401k,transfer
+2809,can you instruct me on how to rollover my 401k,update_playlist,rollover_401k
+2816,i have a new job now and need help with rolling over my 401k,new_card,rollover_401k
+2826,i jot got hired and need help with my retirement account,transfer,rollover_401k
+2828,what are the steps for transfering my 401k,rollover_401k,transfer
+2829,walk me through on how to roll over my 401k,book_hotel,rollover_401k
+2831,could you walk me through transfering my 401k,rollover_401k,transfer
+2833,help me transfer my 401k,rollover_401k,transfer
+2834,i need your assistance on transfering my 401k,rollover_401k,transfer
+2836,i need help to roll over my 401k,update_playlist,rollover_401k
+2844,help me to roll over my 401k,change_ai_name,rollover_401k
+2861,what do i do to rollover my 401k,order_checks,rollover_401k
+2875,tell me how to transfer my 401k,rollover_401k,transfer
+2877,transfer my 401k please,rollover_401k,transfer
+2878,i need to transfer my 401 k,rollover_401k,transfer
+2891,"i need to get some assistance figuring out how i can rollover my 401k, please",alarm,rollover_401k
+2901,what company owns your code,who_made_you,who_do_you_work_for
+2905,who was the inventor of ai,account_blocked,who_made_you
+2918,i need to know who programmed you,what_song,who_made_you
+2924,who was your creator,food_last,who_made_you
+2934,who designed you,weather,who_made_you
+2940,to which company is your design accredited to,who_made_you,who_do_you_work_for
+2942,what organization created you,carry_on,who_made_you
+2951,you were built by who,are_you_a_bot,who_made_you
+2956,tell me the company that produces you and similar machines,who_made_you,who_do_you_work_for
+2957,may i know who made you,credit_limit,who_made_you
+2969,how were you made,yes,who_made_you
+2983,ai who made you,credit_limit_change,who_made_you
+2985,can you tell me who created you,credit_score,who_made_you
+2997,how early should i leave to the airport in la,distance,travel_notification
+2999,is the ride short to the airport in la,flight_status,distance
+3010,"if i take the bus, how long will it take to get to dubrovnik",distance,directions
+3013,how long will it take the bus to get to stop 23,bill_balance,distance
+3019,give me the time left before i get to the hotel,distance,time
+3022,how many miles until i get to the beach,play_music,distance
+3027,where is the closest gas station,change_speed,gas
+3035,will it be long to get to the sky harbor airport,book_flight,distance
+3037,how long does it take until i reach the sky harbor airport,pin_change,distance
+3047,"if i take this bus, how long until i get to brooklyn",distance,directions
+3055,i need a time update on the applebees trip,distance,time
+3065,how long is it gonna take to get to red robin in avondale,min_payment,distance
+3068,what is the time frame to get to phoenix,distance,time
+3073,how long does it take to get to orlando by bus,cook_time,distance
+3086,what is the time that it will take to arrive at detroit,distance,time
+3087,how much time will pass between the start and end of our sojourn by bus to detroit,distance,time
+3088,what amount of time will pass in order for a person at our location to take bus to detroit,distance,time
+3089,how long will it take to reach my doctors office,schedule_meeting,distance
+3093,time taken from home to doctors office,mpg,distance
+3097,what name do you use when addressing me,user_name,what_is_your_name
+3100,what is the name you call me saved as,user_name,what_is_your_name
+3101,"regarding my name, whats it saved as",user_name,change_user_name
+3109,by what name people call me,user_name,what_is_your_name
+3114,what can you call me,user_name,change_user_name
+3115,what would you like to call me,user_name,change_user_name
+3116,what would i be referred to as,user_name,change_user_name
+3117,what would you like to refer to me as,user_name,change_user_name
+3118,what do you think you will refer to me as,min_payment,change_user_name
+3119,what will you call me,user_name,change_user_name
+3120,what will you refer to me as,user_name,change_user_name
+3121,what are you going to refer to me as,user_name,change_user_name
+3124,you wrote what for my name,user_name,change_user_name
+3125,what did ya save my name as,user_name,change_user_name
+3131,call me by my name,user_name,change_user_name
+3139,what name do you use to talk about me,user_name,change_user_name
+3146,can you tell me what my name is,damaged_card,user_name
+3147,what is the name you associate with me,rewards_balance,what_is_your_name
+3148,what name do you have listed for me,jump_start,user_name
+3149,what is the name you have listed for my identity,user_name,what_is_your_name
+3152,how do you address me,user_name,change_user_name
+3154,what am i known as to you,repeat,what_is_your_name
+3158,what do you have my name saved under,user_name,change_user_name
+3162,"what is the name that you have for me, please",user_name,what_is_your_name
+3163,what is the name that you have for me,user_name,what_is_your_name
+3164,what name do you call me by,user_name,what_is_your_name
+3166,what do you have me saved under,pto_request,pto_balance
+3167,"what's the name that you have for me, please",user_name,what_is_your_name
+3169,what name do you refer to me as,user_name,what_is_your_name
+3175,what is your name for me,ingredient_substitution,what_is_your_name
+3188,you have what name for me,freeze_account,what_is_your_name
+3189,so what is my name saved as,last_maintenance,user_name
+3192,let me know the name you have for me,gas_type,what_is_your_name
+3193,so what name do you have for me,user_name,what_is_your_name
+3195,timezone of cuba,credit_limit_change,timezone
+3196,what is the time zone of france,calendar,timezone
+3201,italy's timezone is what,are_you_a_bot,timezone
+3215,what timezone is canada in,calculator,timezone
+3236,what timezone is lima in,reset_settings,timezone
+3242,whats the timezone for modesto,routing,timezone
+3246,tell me what time zone portugal uses,change_language,timezone
+3267,could you tell me what timezone reno is in,reminder,timezone
+3276,can you tell me the timezone that hartford is in,reminder,timezone
+3294,what timezone is boston in,weather,timezone
+3313,lets pause this song and move onto the next,tire_change,next_song
+3321,skip over this song,expiration_date,next_song
+3323,play the song coming on next,goodbye,next_song
+3336,i want to hear the next song,greeting,next_song
+3339,what's next on the list,next_song,shopping_list_update
+3341,"next song on the list, please",interest_rate,next_song
+3353,i need you to skip this song and play the next one,bill_due,next_song
+3355,skip to the next song,cancel,next_song
+3376,advance to the next song,calculator,next_song
+3380,play the song after this,oil_change_how,next_song
+3390,play next on the playlist,direct_deposit,next_song
+3402,"before i pay my capital one, what are the most recent transactions i've made",change_user_name,transactions
+3407,show me the transactions from costco yesterday,shopping_list,transactions
+3413,what was the last thing i purchased,pto_balance,transactions
+3414,what did i buy last,whisper_mode,spending_history
+3426,i would like to hear all transactions made on my amex for the last ten days,international_fees,transactions
+3431,show me my transactions on mcdonalds,transactions,restaurant_reviews
+3436,list me my recent transaction,oil_change_how,transactions
+3456,show me the last month of transactions,transactions,spending_history
+3462,show me transactions related to travel,transactions,travel_notification
+3470,can you show me transactions related to utilities,meaning_of_life,spending_history
+3471,pull up my grocery transactions,transactions,shopping_list
+3473,i spent what dollar amount last month on mastercard,cancel,spending_history
+3474,what was the amount that i spent on fidelity visa last month,transactions,spending_history
+3476,what amount did i spend for food on chase visa on current bill,transactions,spending_history
+3478,i need to know the transactions i made on the 10th,order_status,transactions
+3484,show me the transaction on mcdonald,transactions,restaurant_reviews
+3500,what restaurants are pet friendly near here,restaurant_suggestion,do_you_have_pets
+3508,give me some good restaurants,credit_limit,restaurant_suggestion
+3514,i am hungry and need a restaurant suggestion,recipe,restaurant_suggestion
+3515,can you tell me the best place for cajun shrimp in tampa,restaurant_reviews,restaurant_suggestion
+3519,what's a good place to go to for food around here,apr,restaurant_suggestion
+3526,please list nearby restaurants with 4 or more star reviews,restaurant_suggestion,restaurant_reviews
+3528,where would you eat italian in chicago,ingredient_substitution,restaurant_suggestion
+3537,i want you to recommend a good local restaurant to me,reminder,restaurant_suggestion
+3540,please find me some good thai restaurants in new york city,what_song,restaurant_suggestion
+3549,what mexican restaurant within 5 miles has the best reviews,restaurant_suggestion,restaurant_reviews
+3560,where are some good thai restaurants in las vegas,alarm,restaurant_suggestion
+3561,tell me which restaurants are good for thai food in las vegas,change_language,restaurant_suggestion
+3593,suggest some restaurants,rewards_balance,restaurant_suggestion
+3598,what's my current reward balance on my amex card,vaccines,rewards_balance
+3600,how many reward points have stacked up for my amex card,update_playlist,rewards_balance
+3621,what is the easiest way to check my bank rewards card,where_are_you_from,rewards_balance
+3623,how many points are on my gold card,international_fees,rewards_balance
+3626,have i earned a lot of points on my capital one card,find_phone,rewards_balance
+3632,how many points did i get on my discover card,weather,rewards_balance
+3634,what points were earned on my mastercard,new_card,rewards_balance
+3655,how do i see me rewards for my chase card,next_song,rewards_balance
+3671,how many delta miles are on my card right now,credit_limit,rewards_balance
+3673,how do i find out my rewards balance on my chase card,traffic,rewards_balance
+3701,can i pay a bill,user_name,pay_bill
+3707,i want to pay my tax bill,pay_bill,taxes
+3720,do a car payment from my savings account,pay_bill,transfer
+3724,i need to pay my mortgage,order_status,pay_bill
+3725,are you able to help me pay my mortgage,freeze_account,pay_bill
+3728,will you aid me in paying my insurance premium,pay_bill,insurance_change
+3730,use my savings account to the pay the rent,pay_bill,transfer
+3741,will you take my bill payment,ingredients_list,pay_bill
+3747,pay my gas bill from my saving account,flight_status,pay_bill
+3753,schedule a gas bill payment,travel_suggestion,pay_bill
+3766,i got to pay my cable bill,damaged_card,pay_bill
+3767,i need help paying my store bill,meeting_schedule,pay_bill
+3780,i need to pay my cable bill from my checking account,play_music,pay_bill
+3792,can you pay the bill now,reset_settings,pay_bill
+3798,how much money did i spend at starbucks in the last week,pto_used,spending_history
+3799,what was the total i spent at home depot last month,yes,spending_history
+3820,what have i spent over the last few days,freeze_account,spending_history
+3836,how much have i spent eating out this week,time,spending_history
+3841,what did car insurance run me this year,spending_history,insurance
+3852,what is the total amount that i have spent on the cash app for this month so far,car_rental,spending_history
+3853,have i spent a lot on food recently,share_location,spending_history
+3861,how much money have i recently spent on entertainment,what_can_i_ask_you,spending_history
+3866,i need to know what i spend on utilities for the last year,find_phone,spending_history
+3872,have i been spending a ton of money on movies lately,expiration_date,spending_history
+3877,would please let me know how much i spent on food in january,smart_home,spending_history
+3885,i have been spending a lot on insurance lately,spending_history,insurance
+3904,is my day off approved,directions,pto_request_status
+3918,has my request for vacation days been signed by my supervisor yet,direct_deposit,pto_request_status
+3928,what about my vacation request,meeting_schedule,pto_request_status
+3932,what's my vacation status,pto_request_status,pto_balance
+3936,are they going to let me take vacation,pto_request_status,pto_request
+3940,i'm i okayed for vacation time,who_made_you,pto_request_status
+3944,has my manager at mcdonald's confirmed i can take vacation,todo_list_update,pto_request_status
+3947,"the status of my day off request, please",definition,pto_request_status
+3950,what is the status of my vacation request,restaurant_reservation,pto_request_status
+3951,any news for me regarding my day off request,accept_reservations,pto_request_status
+3976,could you tell me what the status of my day off request is,order_status,pto_request_status
+3985,do you know if my vacation was approved yet or not,calories,pto_request_status
+4008,i need my credit score,measurement_conversion,credit_score
+4014,please tell me my credit rating,oil_change_when,credit_score
+4031,how do i see my credit score,how_old_are_you,credit_score
+4032,how exactly do i find my credit score,mpg,credit_score
+4049,can you help me find my credit score,ingredients_list,credit_score
+4061,where is my credit score located,vaccines,credit_score
+4064,tell me the steps to getting my credit score,credit_score,improve_credit_score
+4079,how does my credit score look,book_flight,credit_score
+4081,whats my credit rating,timer,credit_score
+4083,where can i check my credit score,rollover_401k,credit_score
+4087,please notify me of my credit rating,insurance_change,credit_score
+4097,how do applications for discover cards work,new_card,application_status
+4103,please show me how to apply for a visa card,new_card,international_visa
+4104,i need to apply for a visa card,nutrition_info,international_visa
+4105,i need to know how to apply for a visa card,new_card,international_visa
+4107,what is the process to apply for a visa card,direct_deposit,international_visa
+4108,show me how to apply for a visa card,tire_pressure,international_visa
+4110,"visa card, i want to apply",new_card,international_visa
+4111,show me the application for a visa card,new_card,international_visa
+4112,how do i get a new credit card sent to me,new_card,replacement_card_duration
+4115,please apply cc visa card for me,goodbye,international_visa
+4118,i would like to apply for a bank of america travel rewards credit card,date,new_card
+4119,i need to apply for a new credit card,tire_pressure,new_card
+4129,i would like to apply for a green card,new_card,international_visa
+4130,i would like to apply for a visa card,new_card,international_visa
+4132,i would like to apply for a discover card,current_location,new_card
+4133,what's the procedure to apply for a new credit card,yes,application_status
+4135,direct me to the application for a new credit card,freeze_account,new_card
+4139,can you help me apply for a visa card,new_card,international_visa
+4145,application for a mastercard,new_card,application_status
+4161,i am interested in applying for a visa card,new_card,international_visa
+4164,walk me through applying for a visa card,new_card,international_visa
+4165,i want to submit an application for a barclay's card,new_card,application_status
+4172,"i would like to apply for a air canada card visa, can you help me",new_card,international_visa
+4176,how can i apply for a visa card,new_card,international_visa
+4177,"how can i apply for a visa card, please",new_card,international_visa
+4178,"how do i apply for a visa card, please",new_card,international_visa
+4182,what if you want a new credit card,meal_suggestion,new_card
+4194,hey what do i do to apply for a visa card,new_card,international_visa
+4222,"where are my bags, not here at the airport",oil_change_when,lost_luggage
+4226,i just traveled on american airlines flight ab123 out of dallas i can't find my luggage,change_speed,lost_luggage
+4229,what if i lost my luggage,nutrition_info,lost_luggage
+4248,what should i do if i'm waiting at the airport and my luggage is not here,international_fees,lost_luggage
+4253,i'm having trouble finding my luggage i was on delta flight ab123 out of new york,reminder,lost_luggage
+4263,"what the heck, where's my luggage!",maybe,lost_luggage
+4266,who do i report lost luggage to,yes,lost_luggage
+4271,i arrived on delta flight ab123 from juno but my luggage doesn't appear to have come with me,international_visa,lost_luggage
+4274,can you check where my luggage is off jetblue flight ab123 out of buffalo,greeting,lost_luggage
+4290,who do i go to to find lost luggage,change_language,lost_luggage
+4298,one more time please,uber,repeat
+4299,i need you to repeat that,replacement_card_duration,repeat
+4300,i need you to please repeat that,order_checks,repeat
+4309,i want to have that repeated for me,traffic,repeat
+4315,excuse me,repeat,greeting
+4318,please repeat yourself,pin_change,repeat
+4320,can you say that over,expiration_date,repeat
+4371,i need that said again,damaged_card,repeat
+4381,i did not understand say it again,next_song,repeat
+4385,"i didn't hear you, can you repeat that louder",insurance_change,repeat
+4391,can i get you to say that once more,spelling,repeat
+4413,tell me the gas mileage on my car,damaged_card,mpg
+4415,how much mpg does this car get in the city,where_are_you_from,mpg
+4427,how many mpg does this car get,goodbye,mpg
+4445,how does this do on gas mileage,timer,mpg
+4447,how does this car do on its fuel,account_blocked,mpg
+4451,what's the fuel economy for this car downtown,insurance,mpg
+4453,how much gas does this use in the city,mpg,gas
+4462,how much gas does this car use in the city,mpg,gas
+4472,does this car get good mpg on the highway,international_fees,mpg
+4488,how many miles per gallon am i getting,change_speed,mpg
+4491,how expensive is it to fuel this car,plug_type,mpg
+4494,how far can i go on one tank of gas,mpg,gas
+4495,when should i change my car oil,car_rental,oil_change_when
+4496,do i need to change my oil,oil_change_when,oil_change_how
+4499,when do i need to change my oil,balance,oil_change_when
+4502,at how many miles am i required to get my oil changed,report_lost_card,oil_change_when
+4541,tell me how i know when i need an oil change,oil_change_when,oil_change_how
+4545,should i get an oil change,how_old_are_you,oil_change_when
+4546,when is the best time for my next oil change,current_location,oil_change_when
+4547,what date should i next change my oil,damaged_card,oil_change_when
+4552,can you make a note for my next oil change,oil_change_when,oil_change_how
+4572,what is the average time to go between oil changes,food_last,oil_change_when
+4575,how often should i have my oil changed,travel_alert,oil_change_when
+4577,how many miles can i drive before i need to change my oil,no,oil_change_when
+4593,when should i change this oil,uber,oil_change_when
+4595,yep,credit_limit,yes
+4599,that is a fact,yes,fun_fact
+4603,that would be awesome,yes,maybe
+4612,that will be true,yes,maybe
+4613,that appears true,international_visa,maybe
+4614,that is true,text,yes
+4623,all right,what_is_your_name,yes
+4627,that's a definite yes,pto_balance,yes
+4628,yes that's it,meal_suggestion,yes
+4632,"yep, that's right",meeting_schedule,yes
+4634,you got it,yes,greeting
+4637,"yes, that's affirmative",travel_alert,yes
+4639,absolutely!,credit_limit,yes
+4640,do that,yes,repeat
+4642,confirm,yes,confirm_reservation
+4658,indeed,goodbye,yes
+4665,ok,yes,maybe
+4699,could you tell me what fun tourist things i could do in tokyo,travel_suggestion,fun_fact
+4700,what should i do for fun in tokyo,food_last,travel_suggestion
+4702,what sites are there to see when in evans,whisper_mode,travel_suggestion
+4703,what can i do in evans,next_holiday,travel_suggestion
+4718,what are some good restaurants in chicago,travel_suggestion,restaurant_suggestion
+4732,"in austin, what are some tourist things to do",card_declined,travel_suggestion
+4737,what things are there to do in kentucky,play_music,travel_suggestion
+4745,help me find things to do in nashville,book_hotel,travel_suggestion
+4763,where should i travel if i want to go to a nice beach,spelling,travel_suggestion
+4781,what's there to do in seattle,account_blocked,travel_suggestion
+4789,what can a tourist in denver do,mpg,travel_suggestion
+4790,what sort of things do people do in new york,nutrition_info,travel_suggestion
+4794,what's the funnest thing for a tourist to do in iceland,travel_suggestion,fun_fact
+4814,my insurance benefits are what,application_status,insurance
+4819,insurance benefits,last_maintenance,insurance
+4831,insurance benefit information,make_call,insurance
+4833,give me the name of the insurance plan that i enrolled in,update_playlist,insurance
+4838,what's the healthcare plan i'm on,balance,insurance
+4855,what benefits does my health coverage give me,meeting_schedule,insurance
+4868,"which insurance plan am i enrolled in, please",yes,insurance
+4870,what kind of insurance plan am i enrolled in,reminder_update,insurance
+4877,how would you define my health benefits,restaurant_suggestion,insurance
+4879,define my health benefits,insurance,definition
+4881,what is the definition of my health benefits,insurance,definition
+4888,what are my insurance advantages,report_fraud,insurance
+4890,what are my insurance rewards,insurance,redeem_rewards
+4903,you can remove vacuuming off the todo list,expiration_date,todo_list_update
+4904,make my todo list blank,fun_fact,todo_list_update
+4907,put clean stovetop on my list of reminders,todo_list_update,reminder_update
+4908,nuke all items on my todo list,timezone,todo_list_update
+4910,delete everything from the task list,restaurant_reservation,todo_list_update
+4912,can you kindly clear my agenda list,todo_list_update,todo_list
+4917,please clear out my whole to do list,todo_list_update,todo_list
+4922,can you please add take out recycling on my list of chores to complete,calendar,todo_list_update
+4934,please add watering the plants to my current to do list,expiration_date,todo_list_update
+4945,"can you add a trip to the post office to my to do list, please",are_you_a_bot,todo_list_update
+4946,please also list wash laundry on my to do list,todo_list_update,todo_list
+4950,can you delete lunch with david from my to do list,car_rental,todo_list_update
+4952,"on my to do list, add dishes",travel_notification,todo_list_update
+4954,add dishes to my list,todo_list_update,shopping_list_update
+4967,if you could remind me about doing laundry i would appreciate it,todo_list_update,reminder
+4978,clear out my entire todo list,cancel_reservation,todo_list_update
+4998,will you repeat my reminder list,last_maintenance,reminder
+5009,can you tell me what reminders i've set,jump_start,reminder
+5011,do i have any reminders to look up how to properly do a potato in my microwave,reminder,reminder_update
+5016,go through all the reminders on my list and state what they are,where_are_you_from,reminder
+5021,did i add to my reminder list that i need to take the car in for an oil change,reminder,reminder_update
+5035,what did i ask to be reminded about,last_maintenance,reminder
+5044,can you read my list back to me,reminder,shopping_list
+5045,can you repeat my list back to me,reminder,repeat
+5046,can you describe my list back to me,reminder,todo_list
+5048,is checking the mail on my list of reminder,accept_reservations,reminder
+5052,can you please repeat my list back to me,reminder,repeat
+5061,can you tell me what things i was trying to remember,definition,reminder
+5076,is the company party on my list of reminders,order_checks,reminder
+5081,tell me if flipping the mattress is on my list of reminders please,reminder,reminder_update
+5087,i want to hear what is on my reminders list,improve_credit_score,reminder
+5089,tell me what i had wanted to remember earlier,ingredient_substitution,reminder
+5090,did i include cleaning the hamster cage on my list of reminders,reminder,reminder_update
+5092,i need to know what it is that i wanted to remember before,min_payment,reminder
+5101,i want you to adjust your speaking to be faster,schedule_maintenance,change_speed
+5104,decrease the speed of your speech please,change_ai_name,change_speed
+5137,can you please speed up your speech,change_volume,change_speed
+5164,speak slower please,rollover_401k,change_speed
+5171,can you change how fast you're talking to speak more slowly,pay_bill,change_speed
+5178,can i get you to talk at a slightly faster rate,pto_used,change_speed
+5179,can you talk at a normal speed please,car_rental,change_speed
+5181,"hey, stop talking like you're a stretch taped",jump_start,cancel
+5184,is it possible to speed up of your replies,freeze_account,change_speed
+5187,"sorry, can you speak a little faster",directions,change_speed
+5192,i need to change your voice settings,change_speed,change_accent
+5200,what's the current psi for my tires,find_phone,tire_pressure
+5202,what's the current tire pressure of my tires,alarm,tire_pressure
+5203,is the air pressure in my tires low,meal_suggestion,tire_pressure
+5204,what's my current tire pressure,damaged_card,tire_pressure
+5209,are my tires requiring a fill-up,travel_notification,tire_pressure
+5237,please measure my tire pressure,interest_rate,tire_pressure
+5246,what is my car's tire pressure,thank_you,tire_pressure
+5249,are my tires aired properly,expiration_date,tire_pressure
+5290,can you check the air in my tires,gas_type,tire_pressure
+5291,check how much air is in my tires,car_rental,tire_pressure
+5302,i must say no,shopping_list,no
+5310,i think it is false,yes,maybe
+5320,"no, that is my response",maybe,no
+5325,that is a completely false statement,what_can_i_ask_you,no
+5328,"incorrect, it is certainly a false statement",user_name,no
+5332,that's a negative,traffic,no
+5334,that's not right,no,maybe
+5339,that's inaccurate,no,maybe
+5346,no that is not right,ingredient_substitution,no
+5358,that isn't the right answer,no,maybe
+5359,the information is wrong,no,maybe
+5361,that is not right,no,maybe
+5368,that is overwhelmingly false,no,maybe
+5370,i say negative,update_playlist,no
+5383,what you just said is wrong,interest_rate,cancel
+5393,it seems not,no,maybe
+5399,tell me how the apr on my hy-vee card is,international_visa,apr
+5423,what is the credit card's apr,insurance,apr
+5424,what is the apr for the credit card,pto_balance,apr
+5428,i need to know the apr on my credit union visa,insurance,apr
+5441,can you look into whether my card has good apr or not,alarm,apr
+5451,"hey siri, tell me the apr on my disney visa",directions,apr
+5456,what is the apr on my chase visa,alarm,apr
+5457,what will the apr on my transferred balance be after the first year on my bank of america credit card,pay_bill,apr
+5486,give me my credit card's apr,weather,apr
+5492,what's the annual rate on my discover card,next_holiday,apr
+5501,what's the nutritional info for potato skins,where_are_you_from,nutrition_info
+5503,how healthy are french fries,ingredients_list,nutrition_info
+5504,share the nutrition info for spaghetti with me,food_last,nutrition_info
+5508,share the nutrition info for pizza with me,directions,nutrition_info
+5535,nutrition information of mashed potatoes,plug_type,nutrition_info
+5543,do you know the nutrition facts for grapes,spelling,nutrition_info
+5549,tell me the nutritional information for chicken nuggets,interest_rate,nutrition_info
+5555,can you tell me how many calories are in an apple,calculator,calories
+5560,i need to know all about the nutrition of the beef taco,pto_request,nutrition_info
+5574,what are the nutrition facts for macaroni and cheese,pto_request,nutrition_info
+5602,"what've i got set for friday, the 13th, of next year",tire_pressure,calendar
+5604,did i had my wife and mine anniversary to my calendar,calendar,calendar_update
+5605,did i put an item on the calendar to get the dog neutered,calendar,calendar_update
+5606,"can you tell me what's on my calendar for march 05, 2019",gas_type,calendar
+5608,do i have a note on the calendar for black friday,current_location,calendar
+5614,how is my calendar looking for may 6th,measurement_conversion,calendar
+5645,what do i have on my calendar for march 2,bill_due,calendar
+5651,can you tell me what my may 1st will be like according to my calendar,restaurant_reservation,calendar
+5653,remind me of the date of the event called 'anniversary dinner,calendar,reminder
+5658,tell me if there is an event called annual physical in my calendar,replacement_card_duration,calendar
+5666,tell me any events scheduled on my calendar for april 15,do_you_have_pets,calendar
+5667,tell me what my calendar looks like for april 13,change_ai_name,calendar
+5685,do i have 30th birthday party on my calendar,calendar,calendar_update
+5692,what am i supposed to be doing today,calendar,todo_list
+5693,what do i have planned for tomorrow,redeem_rewards,calendar
+5695,book an uber for 6 people to go to the movies,pto_request_status,uber
+5705,please book an uber for chima's,reminder_update,uber
+5706,call an uber to mark's house,what_are_your_hobbies,uber
+5717,i need to get an uber for three people to go to the zoo,goodbye,uber
+5728,i need an uber pool from home in the morning at seven to the capitol building,spending_history,uber
+5732,can i get a car to the baseball field for 12,uber,car_rental
+5733,can i get an uber for 4 to the mall,payday,uber
+5734,can i get an uber for myself to the grocery store,schedule_maintenance,uber
+5743,can you get me an uber to the science museum,change_ai_name,uber
+5746,i need an uber reserved to take me to the restaurant,calendar_update,uber
+5768,3 of us need to get to union station via uber,insurance,uber
+5813,what is 55 times 300,jump_start,calculator
+5828,what is 15% of 3143,recipe,calculator
+5837,what is 78 times 81 minus 5,card_declined,calculator
+5841,please help with my math,who_do_you_work_for,calculator
+5871,what is the square root of 66,credit_limit_change,calculator
+5877,i need to know what 75 plus 43 is,mpg,calculator
+5881,what is 20 + 20,time,calculator
+5882,what is the square root of 2784,timezone,calculator
+5887,can you calculate 18 divided by 45,reset_settings,calculator
+5893,what does 2 + 2 equal,how_busy,calculator
+5895,i would like to know what today's date is,order,date
+5905,which day will it be five days from now,carry_on,date
+5912,please share today's date,yes,date
+5938,"in 2 days, what date will it be",book_flight,date
+5940,what will the date be in 10 days,damaged_card,date
+5941,"15 days from today, what will the date be",nutrition_info,date
+5942,what's the date tomorrow,food_last,date
+5945,what will be the date in 100 days from now,date,time
+5968,i need to know what the date is today,new_card,date
+5970,what's today's date,translate,date
+5972,show me a calendar,date,calendar
+5979,tell me what the date will be tomorrow,where_are_you_from,date
+5981,what's tomorrow on the calender,date,calendar
+5983,calender says tomorrow is,date,calendar
+6002,tell me the carry-on restrictions for united airlines,meal_suggestion,carry_on
+6009,i am wanting to know the carry-on restrictions for united airlines,calendar_update,carry_on
+6014,what restrictions do my carry-ons need to comply with for delta,change_user_name,carry_on
+6015,how much luggage can i carry with me on flight dl2200 to denver,expiration_date,carry_on
+6033,tell me united's carry on policy,how_old_are_you,carry_on
+6040,what are the carry-on fees with delta for international flights,carry_on,international_fees
+6068,what are delta's carry-on restrictions,update_playlist,carry_on
+6069,tell me the carry on rules,cancel,carry_on
+6071,how strict is spirit when it comes to carry ons,where_are_you_from,carry_on
+6087,which rules does delta have for carry on,transactions,carry_on
+6091,"when taking a flight with porter to toronto, how many carry ons can i take",calculator,carry_on
+6097,what amount of days off have i already utilized,confirm_reservation,pto_used
+6109,"how many sick, personal, and vacation days have i billed so far this year",pto_used,pto_balance
+6125,what is the extent of the pto i've taken,change_volume,pto_used
+6126,what's the amount of time off i've had,pto_used,pto_balance
+6127,what's the amount of time i've taken off work this year,application_status,pto_used
+6128,what's the total vacation days i've gone through,pto_used,pto_balance
+6134,how much of my pto have i depleted,date,pto_used
+6138,look up my total number of days off so far,pto_used,pto_balance
+6141,tell me the amount of pto i have used at this point,change_language,pto_used
+6142,check to see how many days off i have used,cook_time,pto_used
+6157,how many days was i sick or on vacation,new_card,pto_balance
+6159,which days did i take off work,restaurant_reservation,pto_used
+6171,what kind of pto do i have left,pto_used,pto_balance
+6176,what kind of pto have i used,how_old_are_you,pto_used
+6184,tell me my usage of vacation days,pto_used,pto_balance
+6187,what is the status of my pto,pto_used,pto_request_status
+6188,how much paid time off do i have left,pto_used,pto_balance
+6189,how many days of pto are available,pto_used,pto_balance
+6193,have i used any vacation days this year,what_are_your_hobbies,pto_used
+6195,my car needs to be brought for maintenance,schedule_meeting,schedule_maintenance
+6206,i need to get my tires checked out somewhere,schedule_maintenance,tire_pressure
+6207,i need to find somewhere to check my tires out,international_visa,tire_pressure
+6241,where can i get my tires checked and how can i schedule it,schedule_maintenance,tire_pressure
+6250,i want to schedule car maintenance,ingredient_substitution,schedule_maintenance
+6255,i got to schedule somewhere get my tires checked out,schedule_maintenance,tire_change
+6259,i gotta schedule some car maintenance,smart_home,schedule_maintenance
+6262,i have to schedule somewhere get my tires checked out,schedule_maintenance,tire_change
+6265,i got to schedule some car maintenance,international_fees,schedule_maintenance
+6267,i want to get an appointment to get my oil changed,text,schedule_maintenance
+6270,i need to schedule somewhere get my tires checked out,schedule_maintenance,tire_change
+6275,book an appointment for an oil change,make_call,schedule_maintenance
+6276,"i should get my tires checked, schedule that",schedule_maintenance,tire_change
+6281,make a reminder to schedule a tire check,schedule_maintenance,reminder
+6284,make an appointment to check my tires,schedule_maintenance,tire_change
+6296,im going to be in slovakia from january 16th until january 19th,account_blocked,travel_notification
+6297,im going to be in paraguay from january 7th until january 10th,travel_notification,travel_suggestion
+6304,tell the bank i'm traveling between denver and la,income,travel_notification
+6326,let my bank know that i'm traveling to prague,w2,travel_notification
+6342,alert the bank that i am traveling to tokyo on the 7th until the 21st,restaurant_reviews,travel_notification
+6346,i'm traveling to belgium soon and want to inform my bank,schedule_meeting,travel_notification
+6353,how can i tell my bank i'm going to vietnam,pto_balance,travel_notification
+6355,"i'm going to paris soon and want to let my bank know, how do i do that",freeze_account,travel_notification
+6357,how do i inform my bank i'm going to paris,distance,travel_notification
+6367,tell my bank i will be in brazil from june 1st to july 1st,yes,travel_notification
+6373,alert my bank and let them know that i'm travelling to stockholm,meeting_schedule,travel_notification
+6402,please get off my phone connection,sync_device,cancel
+6407,stop syncing with this phone,taxes,cancel
+6410,please immediately disconnect this mobile,sync_device,cancel
+6415,disconnect from my phone please,sync_device,cancel
+6417,i must disconnect from my phone,sync_device,cancel
+6418,go and disconnect from my phone,sync_device,cancel
+6422,go ahead and disconnect from my phone,w2,cancel
+6423,i wanna disconnect from my phone,sync_device,cancel
+6431,help me to disconnect from my phone,sync_device,cancel
+6434,i need you to disconnect from my phone,sync_device,cancel
+6435,i want for you to disconnect from my phone,distance,cancel
+6441,please disconnect from my phone,sync_device,cancel
+6445,i want you to disconnect from my phone,sync_device,cancel
+6448,"disconnect from my phone now, please",sync_device,cancel
+6451,"disconnect from my phone, please",sync_device,cancel
+6470,i am going to go ahead and pair this with my new phone,todo_list,sync_device
+6477,will you please end the connection to my phone,sync_device,cancel
+6479,stop the connection with my phone,sync_device,cancel
+6480,let's terminate connection to my phone please,sync_device,cancel
+6482,i want to disconnect the current connection to my phone,gas_type,cancel
+6484,disconnect from my phone,sync_device,cancel
+6485,i'd like you to disconnect from my phone,sync_device,cancel
+6488,please get off my phone,confirm_reservation,find_phone
+6490,can you get access to my phone right now,make_call,find_phone
+6493,is my phone connectable right now,sync_device,find_phone
+6494,quickly disconnect the phone,sync_device,cancel
+6495,"you have been a big help, thank you so much",tire_change,thank_you
+6512,thank you for helping me,roll_dice,thank_you
+6515,good looking out,thank_you,greeting
+6516,i wish you were here earlier,thank_you,goodbye
+6521,why thank you,credit_score,thank_you
+6524,okay thanks,account_blocked,thank_you
+6530,i'm so glad you helped me!,user_name,thank_you
+6546,thanks for answering my question,change_ai_name,thank_you
+6550,you are so nice to think of me,where_are_you_from,thank_you
+6558,appreciate the help,car_rental,thank_you
+6565,"nice, excellent!",thank_you,greeting
+6567,i appreciate that answer!,direct_deposit,thank_you
+6585,thank you,lost_luggage,thank_you
+6613,go ahead and roll that 9 sided dice,order_checks,roll_dice
+6628,could you role a ten sided die,play_music,roll_dice
+6642,will you roll a 6 sided dice,last_maintenance,roll_dice
+6647,please roll the dice,damaged_card,roll_dice
+6653,"ai, would you kindly roll the dice",how_old_are_you,roll_dice
+6654,"ai, go ahead and roll the dice",traffic,roll_dice
+6661,can you roll the 12 sided dice please,how_old_are_you,roll_dice
+6662,go ahead and roll the 6 sided dice for me,oil_change_how,roll_dice
+6677,roll them bones!,vaccines,roll_dice
+6679,roll 6 sided die,tire_pressure,roll_dice
+6709,how long does cottage cheese keep in the fridge,sync_device,food_last
+6724,what is the expiration date of the milk,food_last,expiration_date
+6732,what's the shelf life for eggs in the fridge,travel_notification,food_last
+6733,how long can i store eggs in the fridge,last_maintenance,food_last
+6740,apples expire in how long,text,food_last
+6748,oranges expire in how long,change_ai_name,food_last
+6752,"it seems to be that i have had pizza in the fridge since monday, so is it safe to eat",how_busy,food_last
+6776,how long do i have before frozen chicken will go bad,lost_luggage,food_last
+6778,how long can i expect to keep steak in the freezer,text,food_last
+6782,how long is it safe to leave a burger in the refrigerator,order,food_last
+6794,if i have garlic from sunday is it still fine to use,definition,food_last
+6796,so how long do you think the chicken will take,pto_used,cook_time
+6813,how long do you need to put the cuish in for,timezone,cook_time
+6815,i need the cooking length for a turkey,income,cook_time
+6837,how long should i bake the brownies for,make_call,cook_time
+6838,for how long should i bake the brownies,insurance_change,cook_time
+6842,what do i set the timer for if i'm making gyoza,cook_time,timer
+6859,how much time do i need to prepare chicken,what_song,cook_time
+6875,how long must i cook spaghetti for,pto_balance,cook_time
+6879,what amount of time do i need to cook lobster for,spelling,cook_time
+6881,how long should i cook chicken,pto_request,cook_time
+6890,what's the prep time for a garden salad,nutrition_info,cook_time
+6896,please set up a reminder i need to remember to ask about work,reminder_update,reminder
+6897,make a reminder for me to do my resume,fun_fact,reminder_update
+6898,remind me to take out the garbage in the morning,reminder_update,reminder
+6899,"the next time it rains, remind me to close the windows",reminder_update,reminder
+6900,could you make me a reminder to do the floors,reminder_update,reminder
+6902,set a reminder for me to call my brother at 8 pm,reminder_update,reminder
+6903,make me a reminder about booking it,reminder_update,reminder
+6904,"at 4 tomorrow afternoon, remind me to start the oven",reminder_update,reminder
+6905,how about a reminder,reminder_update,reminder
+6906,i would like a reminder,reminder_update,reminder
+6907,i need to make a reminder please,reminder_update,reminder
+6908,please give me a reminder,reminder_update,reminder
+6909,can you set me a reminder,reminder_update,reminder
+6910,can i set a reminder,measurement_conversion,reminder_update
+6911,please make a reminder,reminder_update,reminder
+6912,add a reminder to check how the body is decomposing,reminder_update,reminder
+6914,create a reminder for me to exercise this week,reminder_update,reminder
+6915,will you add a reminder for me,reminder_update,reminder
+6917,make a reminder to do my taxes,reminder_update,reminder
+6918,set a reminder to remind me to check when my car payment is,reminder_update,reminder
+6919,set a reminder for me to take my meds,food_last,reminder
+6920,can you create a reminder,reminder_update,reminder
+6921,create a reminder for me to send flowers to my mom for mother's day,restaurant_reviews,reminder_update
+6922,i'd like to have a reminder made,reminder_update,reminder
+6923,set a reminder for later,user_name,reminder
+6924,please remind me later,reminder_update,reminder
+6925,remind me again please,reminder_update,reminder
+6926,remind me later,reminder_update,reminder
+6927,please remind me at a later time,reminder_update,reminder
+6929,remind me,reminder_update,reminder
+6930,please remind me of something,reminder_update,reminder
+6931,i need a reminder,reminder_update,reminder
+6932,i would like to be reminded,reminder_update,reminder
+6933,set a reminder for me,reminder_update,reminder
+6934,i need a reminder to remind me to do something,reminder_update,reminder
+6935,i want you to remind me of something,reminder_update,reminder
+6936,i need you to remind me to get something done,reminder_update,reminder
+6937,remind me to call the vet tomorrow,reminder_update,reminder
+6938,set a reminder for me to do this in a bit,reminder_update,reminder
+6939,can you set a reminder for the meeting,reminder_update,reminder
+6940,set a reminder to go dress shopping,reminder_update,reminder
+6941,remember to remind me of this later,reminder_update,reminder
+6942,i need to set a reminder to go to the post office,reminder_update,reminder
+6943,set a reminder for tomorrows meeting,roll_dice,reminder
+6944,set a reminder for the movie,reminder_update,reminder
+6945,set a reminder to go grocery shopping,reminder_update,reminder
+6946,set a reminder to feed the dogs,reminder_update,reminder
+6947,set a reminder to go check the mail,restaurant_reservation,reminder
+6948,make a reminder to change the cat litter,reminder_update,reminder
+6949,set a reminder for my doctors appointment,reminder_update,reminder
+6950,dont forget to set a reminder to pay the bills,reminder_update,reminder
+6951,please remind me to do this later,reminder_update,reminder
+6952,remind me to do this in awhile,reminder_update,reminder
+6953,help me set a reminder to work out,reminder_update,reminder
+6954,dont let me forget to do that thing later,reminder_update,reminder
+6955,make a reminder to work out at the gym,reminder_update,reminder
+6956,set a reminder to pick up the kids,reminder_update,reminder
+6958,remind me to take the chicken out in a hour,min_payment,reminder
+6959,set reminder to prepare for my meeting at 10 am,reminder_update,reminder
+6960,set reminder for tomorrow to eat,reminder_update,reminder
+6961,remind me to bring a jacket in tomorrow,reminder_update,reminder
+6962,set a reminder to bring a book to work tomorrow,spending_history,reminder
+6963,set a new reminder for tomorrow at 4am,reminder_update,reminder
+6964,make reminder to pay rent on the 30th of every month,reminder_update,reminder
+6965,"open up a reminder, pay taxes on monday",reminder_update,reminder
+6966,"new reminder, please",reminder_update,reminder
+6969,i need you to make a reminder for me to give the cat her flea medicine,change_language,reminder
+6970,"make a reminder, pay taxes on monday",reminder_update,reminder
+6971,set reminder pay taxes on monday,reminder_update,reminder
+6973,set up an alarm to remind me to give my cat her flea medicine,reminder_update,alarm
+6974,set reminder to feed cat tonight at 6pm,reminder_update,reminder
+6975,set a reminder for monday pay taxes,reminder_update,reminder
+6976,create a reminder to pay taxes on monday,reminder_update,reminder
+6977,remind me to use the bathroom,reminder_update,reminder
+6978,please reminder for car meet,reminder_update,reminder
+6979,remind me to clean room,reminder_update,reminder
+6983,make me a reminder that tommorow is trash day,reminder_update,reminder
+6984,set up a reminder that i need to pay my car ins the 23rd,reminder_update,reminder
+6985,set up a reminder to mail a check tommorow,reminder_update,reminder
+6986,i need to take out the trash please remind me,reminder_update,reminder
+6987,set a reminder to take out the trash,reminder_update,reminder
+6988,tell me to take out the trash in an hour,reminder_update,reminder
+6989,remind me to take out the trash,reminder_update,reminder
+6990,please remind me to take out the trash,reminder_update,reminder
+6991,i need to be reminded to pray,reminder_update,reminder
+6992,i want to get reminded to clean my room,reminder_update,reminder
+6994,give me a reminder for calling bill,reminder_update,reminder
+6998,i lost my chase bank card and want it labeled as lost,no,report_lost_card
+6999,can you report my td bank card as lost,credit_limit_change,report_lost_card
+7008,my visa was stolen,redeem_rewards,report_lost_card
+7010,my discover card has been stolen,redeem_rewards,report_lost_card
+7013,how do i report a lost discover credit card,flip_coin,report_lost_card
+7044,how do i report a lost card,reminder_update,report_lost_card
+7051,my stolen card needs to be reported,find_phone,report_lost_card
+7057,i can't find my visa card and i want to report it as lost,tire_pressure,report_lost_card
+7078,i need to report credit card theft,report_lost_card,report_fraud
+7081,i need to report a lost card,rollover_401k,report_lost_card
+7116,is it okay to substitute oregano for basil,balance,ingredient_substitution
+7120,can i use apple juice instead of grape juice,improve_credit_score,ingredient_substitution
+7124,can i use sour cream instead of yogurt,credit_limit_change,ingredient_substitution
+7159,can i substitute eggs for milk in a recipe,travel_alert,ingredient_substitution
+7162,can i substitute milk for almond milk,spending_history,ingredient_substitution
+7163,is it acceptable to swap milk for water,ingredient_substitution,food_last
+7166,can i substitute milk for water,flip_coin,food_last
+7179,alternatives to white wine in food,transfer,ingredient_substitution
+7183,is it ok to substitute spinach for lettuce,order_status,ingredient_substitution
+7188,can i use olive oil instead of butter,transfer,ingredient_substitution
+7190,can you just use regular milk instead of buttermilk,change_volume,food_last
+7198,can you redial the last number dialed,make_call,repeat
+7200,can you call a taxi,make_call,uber
+7211,call macy,min_payment,make_call
+7218,dial x's phone please,meaning_of_life,make_call
+7219,please call toby,confirm_reservation,make_call
+7222,can you make a phone call to mark,what_are_your_hobbies,make_call
+7225,call friend,bill_balance,make_call
+7229,call my mother,plug_type,make_call
+7240,get a hold of sue,last_maintenance,make_call
+7242,call tom,freeze_account,make_call
+7273,dial steven,interest_rate,make_call
+7274,phone steven,yes,make_call
+7321,can you set an alarm for seven fifteen for tomorrow,bill_balance,alarm
+7327,set up two alarms one for 10am and another for 2pm,credit_score,alarm
+7337,set alarm for 5pm,vaccines,alarm
+7361,set reminder for 2 pm,alarm,reminder
+7364,set alarm for 5 am,cancel,alarm
+7369,i need an alarm at 8 pm,book_hotel,alarm
+7372,please set a reminder for me,alarm,reminder
+7374,create an alarm for me,bill_due,alarm
+7375,set an alarm for lunch and another for dinner,balance,alarm
+7377,set an alarm for my meeting and another for my phone call,change_speed,alarm
+7378,i want an alarm set up,ingredient_substitution,alarm
+7394,i want to be woken up at 9 tomorrow,timer,alarm
+7396,what is left to do today,todo_list,todo_list_update
+7400,is cleaning the kitchen coming up on my list of things i have to do today,todo_list,todo_list_update
+7401,do i have cleaning the counters on my to-do list,todo_list,todo_list_update
+7402,is cleaning the toilet on my to-do list,todo_list,todo_list_update
+7405,is vacuuming on my list of things to do,todo_list,todo_list_update
+7406,will an oil change be on my to-do list tomorrow,todo_list,todo_list_update
+7412,is taking out the trash on my to do list,todo_list,todo_list_update
+7414,read back my to do list,change_user_name,todo_list
+7416,i want to know what i have to do,what_can_i_ask_you,todo_list
+7422,is fixing mom's kitchen blind on my to do list,todo_list,todo_list_update
+7423,check my domestic to do list for carpet cleaning,todo_list,todo_list_update
+7425,check my to do list to see if jewelry repair is listed,todo_list,todo_list_update
+7426,does my errand list have goodwill on it,todo_list,todo_list_update
+7427,can you tell me the items on my to do list,how_old_are_you,todo_list
+7428,do i have brush my teeth on my todo list,todo_list,todo_list_update
+7429,what chores do i have waiting on my reminder list,todo_list,reminder_update
+7430,do i have get an oil change on my todo list,todo_list,todo_list_update
+7431,do i already have a task on my todo list to research delaware,todo_list,todo_list_update
+7437,is doing my laundry already on my todo list,todo_list,todo_list_update
+7440,do i have an item on my todo list related to shopping,sync_device,todo_list_update
+7441,are the items on my todo list listed alphabetically,are_you_a_bot,todo_list_update
+7442,did i add purchase tickets to the penguin game to my todo list,todo_list,todo_list_update
+7443,did i remember to add buy flowers to my chore list today,exchange_rate,shopping_list_update
+7444,can you check if i've added an item to throw out the carcasses on my todo list,todo_list,todo_list_update
+7448,did i create a task to clean the gutters on my list,todo_list,todo_list_update
+7452,do i have a car wash scheduled on my to do list,todo_list,todo_list_update
+7453,at what time is laundry on my to do list,todo_list,todo_list_update
+7454,have i set aside a time on my to do list to do my taxes,todo_list,todo_list_update
+7456,when is babysitting on my to do list,todo_list,todo_list_update
+7458,can you please tell me what is on my to-do list,interest_rate,todo_list
+7462,"repeat my to do list to me, please",roll_dice,repeat
+7463,let's go over the list of items on the to do list just to be sure we got it all,todo_list,todo_list_update
+7469,"what do i have to do tomorrow, according to my to-do list",todo_list,todo_list_update
+7472,let me know whether folding laundry is on my to do list,todo_list,todo_list_update
+7476,can you look to see whether feeding the fish is on my to do list,todo_list,todo_list_update
+7477,please let me know if giving the dog a bath is on my list of tasks to complete,todo_list,todo_list_update
+7479,what do i have left to do on my to-do list,todo_list,todo_list_update
+7480,is changing the water filter on my to do list right now,todo_list,todo_list_update
+7482,please inform me of what tasks i have listed on my to do list,todo_list_update,todo_list
+7483,look to see if i have folding laundry on my to do list,todo_list,todo_list_update
+7486,i need to know if sorting the mail is on my to do list,todo_list,todo_list_update
+7488,check my to do list to see if feeding the fish is on it,todo_list,todo_list_update
+7489,did i put unpacking groceries on my to do list,todo_list,todo_list_update
+7490,will you please go back over everything on my to do list,no,todo_list_update
+7492,i need to know if cleaning out the fridge is on my to do list,todo_list,todo_list_update
+7493,do i have watering the plants on my to do list,todo_list,todo_list_update
+7499,could you change the accent you're using,how_old_are_you,change_accent
+7507,use a male voice instead,yes,change_accent
+7511,can you switch to the female voice,restaurant_reservation,change_accent
+7525,please change to the female voice,tire_pressure,change_accent
+7537,i wanna change to the female voice,change_accent,change_ai_name
+7539,use a new accent,change_language,change_accent
+7545,can you change your accent to the male british one,tire_change,change_accent
+7550,speak in a woman's voice,pay_bill,change_accent
+7569,set to female voice,tire_change,change_accent
+7584,can you swap to male voice,shopping_list_update,change_accent
+7588,i want to use the female voice now,tire_change,change_accent
+7592,switch over from female to the male voice,change_accent,change_ai_name
+7598,where can one receive their w-2 form,travel_alert,w2
+7605,how can i get my year end summary for taxes,w2,taxes
+7610,a w2 form can be gotten from where,update_playlist,w2
+7623,where do i find the irs form that tells me the amount of money i owe them,definition,w2
+7627,can you help me find my w-2,vaccines,w2
+7632,i need to download my w-2 form,card_declined,w2
+7643,where can i get the employment form i need to do my taxes,pin_change,w2
+7660,do you know where my w-2 is,payday,w2
+7670,locate my w-2 form,oil_change_how,w2
+7687,can i get my w-2 online,change_volume,w2
+7690,where can i get my w2 forms from,fun_fact,w2
+7695,when should i pay my bill by,bill_due,pay_bill
+7696,when is my car insurance due,bill_due,insurance
+7699,do i pay my rent this week,bill_due,pay_bill
+7701,how much is my water bill,bill_due,bill_balance
+7703,how much time left to pay my bill,bill_due,bill_balance
+7704,what day is my car insurance due,bill_due,insurance
+7710,on what day do i pay my car payment,bill_due,pay_bill
+7716,how many more days before my verizon bill is due,card_declined,bill_due
+7718,what is the due date of my bill,ingredients_list,bill_due
+7719,what day is my bill due,calendar,bill_due
+7725,can you tell me when my electric bill is due,fun_fact,bill_due
+7731,when do i have to pay my water bill by,travel_alert,bill_due
+7740,when do i need to pay my annual payment for auto insurance,bill_due,insurance
+7746,what is the latest date that i can pay my direct tv bill this month,bill_due,pay_bill
+7748,what time do i have to pay z bill,bill_due,pay_bill
+7751,how long before my lawn guy bill's due,credit_limit,bill_due
+7755,when is my visa due,bill_due,international_visa
+7761,when's the next time i have to pay the insurance,bill_due,insurance_change
+7766,how do i check when my mortgage is next up for payment,bill_due,payday
+7769,do i need to pay my credit card bill already,bill_due,bill_balance
+7770,do you know when my next electric bill is due,lost_luggage,bill_due
+7772,how do i ascertain when my next insurance payment will be,bill_due,insurance_change
+7778,what date is my at&t bill due,last_maintenance,bill_due
+7789,how do i find when my cable bill is due,play_music,bill_due
+7815,what's the calorie count for tuna casserole,traffic,calories
+7818,what's the amount of calories in an cream filled oatmeal cookie,pto_request_status,calories
+7823,what's the number of calories in a coke,pto_balance,calories
+7824,what are the total calories for two servings of pasta,distance,calories
+7850,cookies have how many calories,who_made_you,calories
+7867,what is the caloric value of a cookie,order,calories
+7874,tell me the amount of calories in muffins,rewards_balance,calories
+7876,what amount of calories are in one muffin,pto_used,calories
+7880,tell me the calorie content for an apple,calendar,calories
+7892,what is the calorie count of an apple,greeting,calories
+7923,i need to report a bent card,nutrition_info,damaged_card
+7924,"my card split in half, can i report it",maybe,damaged_card
+7929,"i cut up the wrong card, please contact the bank and let them know",damaged_card,report_fraud
+7930,"i creased my card today, contact the bank",damaged_card,report_fraud
+7935,my card got snapped in half,order_checks,damaged_card
+7947,my card is not working and i need to let them know,damaged_card,card_declined
+7954,my card is too scratched up and i need to report it,food_last,damaged_card
+7955,i need to report my bent card,what_are_your_hobbies,damaged_card
+7957,call the card company and ask them to replace my card,damaged_card,make_call
+7962,my card has been erased and i need to report it,damaged_card,report_lost_card
+7968,my card is broken,bill_balance,damaged_card
+7969,my card isn't working,damaged_card,card_declined
+7972,my card doesn't work anymore,damaged_card,card_declined
+7974,"my card needs replaced, i accidentally scraped it",mpg,damaged_card
+7978,"my card snapped, can you tell my bank to send a replacement",maybe,damaged_card
+7982,my dog ate my credit card and ruined it,what_song,damaged_card
+8002,does have good reviews have great reviews,reminder_update,restaurant_reviews
+8021,does wendy's have good reviews,change_language,restaurant_reviews
+8047,are the reviews for applebee's good,uber,restaurant_reviews
+8059,what are the reviews like for la camelia,lost_luggage,restaurant_reviews
+8063,at yakamoto how is their sushi,meeting_schedule,restaurant_reviews
+8064,what is the sushi like at yakamoto,restaurant_reviews,restaurant_suggestion
+8071,does applebees have alright reviews,play_music,restaurant_reviews
+8074,what do the ratings say about korean bbq,confirm_reservation,restaurant_reviews
+8082,what kind of reviews does wendy's have,calculator,restaurant_reviews
+8094,what are reviews for ihop like,whisper_mode,restaurant_reviews
+8100,where do i go to find my routing number for southpoint,uber,routing
+8108,what's bank of america's routing number,calculator,routing
+8139,tell me my bank of america routing number,book_flight,routing
+8143,what's the routing number for my checking account,oil_change_when,routing
+8157,give me the routing number for my paragon account,shopping_list,routing
+8171,what's the routing number for my navy federal account,reminder_update,routing
+8174,where do i find the routing number for chase,calendar,routing
+8177,where do i find the routing number for navy federal,book_hotel,routing
+8179,what's the routing number for my usaa account,schedule_maintenance,routing
+8193,would you tell me my routing number,reminder,routing
+8211,"what kind of person are you, a cat or dog",do_you_have_pets,what_are_your_hobbies
+8212,which food do you give your pets,credit_limit,do_you_have_pets
+8214,the pets are all good,where_are_you_from,do_you_have_pets
+8247,"imagine you had to pick a preferred animal between cats or dogs, which will you pick",do_you_have_pets,flip_coin
+8250,what species of pets do you own,credit_limit,do_you_have_pets
+8254,have you any pets,carry_on,do_you_have_pets
+8268,i wanna know what kinds of pets you have,jump_start,do_you_have_pets
+8270,i must know what kinds of pets you have,car_rental,do_you_have_pets
+8277,what are all your pets,what_song,do_you_have_pets
+8279,how many pets do you have,w2,do_you_have_pets
+8291,what sorts of pets do you own,order_status,do_you_have_pets
+8303,i want to find out how do i schedule a meeting,improve_credit_score,schedule_meeting
+8304,do you know how do i schedule a meeting,balance,schedule_meeting
+8324,schedule a meeting for me,smart_home,schedule_meeting
+8329,schedule a meeting with carrie and lisa,tell_joke,schedule_meeting
+8351,please help me schedule a meeting with john love at 9 am tomorrow,next_holiday,schedule_meeting
+8365,can you schedule a meeting with matt for 3,where_are_you_from,schedule_meeting
+8373,set up a meeting with frank at 2pm,play_music,schedule_meeting
+8374,are there any open meeting rooms between noon and 1,oil_change_when,meeting_schedule
+8375,book me a meeting room for 12pm on february 28th,new_card,schedule_meeting
+8385,during afternoon is there a meeting room to use,schedule_meeting,meeting_schedule
+8389,check if meeting rooms are free from 6 to 7,schedule_meeting,meeting_schedule
+8390,please find out if rooms are free from 1 to 2,schedule_meeting,car_rental
+8391,are any rooms free from 12 to 1,schedule_meeting,book_hotel
+8392,are there rooms available between 5 and 530,ingredient_substitution,book_hotel
+8396,is there a certain type of gas i need to use,next_song,gas_type
+8397,i need to know what kind of gas i can use on this car,schedule_meeting,gas_type
+8400,i want to know the type of gasoline for this car,interest_rate,gas_type
+8428,what gas does that car currently use,gas_type,gas
+8430,i wanna know the gas i need to fill this car up with,maybe,gas_type
+8445,what sort of fuel does this car take,tire_change,gas_type
+8456,look up the type of gas needed for this vehicle,improve_credit_score,gas_type
+8463,can i put normal unleaded in this car,pto_used,gas_type
+8466,what kind of gas does this car use,lost_luggage,gas_type
+8476,which gas grade does this car take,time,gas_type
+8481,is there a minimum gas grade this car needs,rollover_401k,gas_type
+8494,what do i need to gas up this car,gas_type,gas
+8520,what type of plugs do they use in london,cook_time,plug_type
+8528,what kind of plug does the country use,reminder_update,plug_type
+8533,will i need a socket converter when i go to france,calendar_update,plug_type
+8546,do i need a socket converter if i'm going to be in russia,w2,plug_type
+8557,tell me the plug type that is used in scotland,restaurant_suggestion,plug_type
+8558,should i bring a converter to barcelona,plug_type,measurement_conversion
+8568,are socket converters necessary in england,taxes,plug_type
+8571,does england require socket converters,travel_notification,plug_type
+8572,should i buy a specific plug type when in china,roll_dice,plug_type
+8581,should i purchase a new plug converter when in france,timer,plug_type
+8592,do i need a socket converter if i'm going to be in eithiopia,how_busy,plug_type
+8599,how is the tread on my tires,improve_credit_score,tire_change
+8604,how often do tires need changing,w2,tire_change
+8611,tell when should i get my tires changed next,spending_history,tire_change
+8614,let me know when should i get my tires changed next,routing,tire_change
+8619,when am i due for a tire change,bill_due,tire_change
+8631,"i replaced my tires yesterday, when should i get new ones",change_language,tire_change
+8635,how long until i should have my tires replaced,car_rental,tire_change
+8644,"i replaced my tires on may 2, so when should i replace them next",whisper_mode,tire_change
+8645,"if i replaced my tires on labor day, when should i next replace them",what_are_your_hobbies,tire_change
+8668,"when should i replace my tires next, if i replaced them on january 15, 2018",meal_suggestion,tire_change
+8709,what is the equal number of dollars i can exchange for 50 pesos,fun_fact,exchange_rate
+8722,what's the currency conversion between usd and yen,current_location,exchange_rate
+8728,how many dollars can i exchange for 100000 yen,redeem_rewards,exchange_rate
+8737,what is the maximum dollars i can get for 6 yens,expiration_date,exchange_rate
+8760,i need to know the conversion for dollars to pesos,order_checks,exchange_rate
+8761,can you tell me dollars to franks,pto_request,exchange_rate
+8766,how many dollars is one mexican peso,how_busy,exchange_rate
+8769,us and mexico exchange rate,travel_suggestion,exchange_rate
+8771,what's 10 pounds in dollars,todo_list,exchange_rate
+8788,what is the exchange rate between rubles and us dollars,roll_dice,exchange_rate
+8803,"what day is our next free day on the calendar, please",next_holiday,calendar
+8807,how many more days until my next paid day off,next_holiday,pto_balance
+8809,i need to know how long until my next vacation day,next_holiday,pto_balance
+8812,when is my next vacation day,next_holiday,pto_balance
+8813,what's the time period till our next day off,next_holiday,pto_request
+8815,how much longer till the next day off,next_holiday,pto_request
+8816,how much time till the next time off,next_holiday,pto_request
+8818,when's the next time i get a day off,next_holiday,payday
+8820,what's the next day i am scheduled off,next_holiday,pto_request
+8824,how many days until my next day off,jump_start,pto_used
+8826,when will i get the next holiday with pay,calendar_update,next_holiday
+8828,check when the next day is i can go fishing will be,next_holiday,date
+8832,when will we next get to stay home from work,next_holiday,pto_request
+8834,when's the next time my job'll give me a day to myself,next_holiday,pto_request
+8836,let me know when my next day off is,next_holiday,pto_balance
+8838,when do i get a day off,next_holiday,pto_request
+8840,show me my next day off,next_holiday,pto_balance
+8850,find out for me when the next holiday will be,pay_bill,next_holiday
+8852,i need to know when the next holiday is,meal_suggestion,next_holiday
+8853,when can i expect my next day off,next_holiday,pto_request
+8855,do you know the date of my next day off,confirm_reservation,next_holiday
+8856,please tell me what the next holiday is,travel_notification,next_holiday
+8858,i need to know when my next day off is,next_holiday,pto_request
+8862,how long until my next day off,next_holiday,pto_used
+8864,what is my next day off,next_holiday,pto_request
+8865,whats the next day that i am off,greeting,pto_request
+8868,how much longer until my next day off,next_holiday,pto_used
+8869,when is my next day off,next_holiday,pto_request
+8870,when will i be off again,next_holiday,pto_request
+8871,to what extent until the following day away from work,next_holiday,pto_used
+8883,when will the day off be,next_holiday,pto_request
+8884,i need to know when i get my next day off,next_holiday,pto_request_status
+8885,when do i finally get a day off,next_holiday,pto_request
+8890,when do i have some time off next,next_holiday,pto_request
+8898,please raise the volume to 4,todo_list_update,change_volume
+8918,i want you to your volume,measurement_conversion,change_volume
+8930,the sound is too low,pto_balance,change_volume
+8933,i need you to increase the speaker volume,credit_score,change_volume
+8940,can i have my volume increased,spending_history,change_volume
+8942,can i increase my volume,repeat,change_volume
+8947,i want that volume bumped up to 4,reset_settings,change_volume
+8965,turn your voice box down,tire_change,change_volume
+8968,please adjust your settings,change_volume,reset_settings
+8978,turn volume to the number 4 setting,report_lost_card,change_volume
+8981,please make sure the volume is on 4,insurance_change,change_volume
+9002,what is the name of your boss,cancel,who_do_you_work_for
+9010,are you here to serve me,who_do_you_work_for,greeting
+9015,you work for whom,maybe,who_do_you_work_for
+9029,are you paid by somebody,flip_coin,who_do_you_work_for
+9038,who is the person u work for,travel_notification,who_do_you_work_for
+9046,would you say you are working for me,yes,who_do_you_work_for
+9060,is there another person you work for,redeem_rewards,who_do_you_work_for
+9068,who would you say that you are working for,weather,who_do_you_work_for
+9071,who would you say that you are employed by,card_declined,who_do_you_work_for
+9079,for what person do you work,whisper_mode,who_do_you_work_for
+9096,how high is my credit limit for my target card,credit_limit_change,credit_limit
+9105,what's my current spending limit,new_card,credit_limit
+9110,what is the spending limit i have,date,credit_limit
+9115,how much can i max out on my visa,calculator,credit_limit
+9124,tell me the credit on my mastercard,credit_limit,rewards_balance
+9155,let me know the credit limit for my credit card,gas_type,credit_limit
+9156,how high is my balance on my discovery card,definition,balance
+9163,what can i put on my bank of america card,credit_limit,new_card
+9164,what's my limit on my amex card,spelling,credit_limit
+9180,how high is my credit limit for my chase card,who_do_you_work_for,credit_limit
+9183,how high is my credit limit for my citigroup card,plug_type,credit_limit
+9184,how high is my credit limit for my bank of america card,improve_credit_score,credit_limit
+9202,how long will i have to wait before being seated at the cheese cake factory,transfer,how_busy
+9209,how busy will golden corral be at 7:30 tonight,freeze_account,how_busy
+9212,would i have to wait long if i want to eat at chili's,uber,how_busy
+9214,how much traffic do they get around dinner time,how_busy,traffic
+9221,how busy do you expect olive garden to be at 6,meaning_of_life,how_busy
+9223,i want a table at texas roadhouse; how long will it be,payday,restaurant_reservation
+9229,"around nine, is ambrosio busy",last_maintenance,how_busy
+9235,what is the wait time at this restaurant,user_name,how_busy
+9271,how busy will chili's be if i go at 6 pm,where_are_you_from,how_busy
+9287,would you say that red lobster's pretty buy at noon,how_busy,restaurant_reviews
+9291,what's the typical time to eat at red lobster,how_busy,restaurant_suggestion
+9295,can i make a reservation for redrobin,spending_history,restaurant_reservation
+9296,is it possible to make a reservation at redrobin,accept_reservations,restaurant_reservation
+9299,does redrobin do reservations,reminder,accept_reservations
+9313,can you make reservations at steak 'n' shake,weather,restaurant_reservation
+9317,do they take reservations at olive garden,are_you_a_bot,accept_reservations
+9328,does marios in brooklyn take reservations,goodbye,accept_reservations
+9329,do you know if bottlenecks takes dinner reservations,timer,restaurant_reservation
+9335,can i get a reservation at melting pot tomorrow,accept_reservations,restaurant_reservation
+9338,where can i find jimmy john's reservations,accept_reservations,restaurant_reservation
+9350,can i make reservations at applebee's or no,whisper_mode,restaurant_reservation
+9368,does tartine in san francisco take reservations,reminder,accept_reservations
+9370,do they take reservations at state bird,cancel_reservation,accept_reservations
+9379,can i make a reservation at chevy's,accept_reservations,restaurant_reservation
+9388,do they accept reservations at michael's,weather,accept_reservations
+9395,can you find my package in transit,report_fraud,lost_luggage
+9397,help me find my package,order_status,lost_luggage
+9405,is my order being delivered soon,improve_credit_score,order_status
+9409,is my order shown as delivered,restaurant_reviews,order_status
+9411,can you tell where my package is,travel_suggestion,order_status
+9413,can you find my package,order_status,lost_luggage
+9414,can you locate my package,date,order_status
+9428,can you update me on my last amazon orders,pin_change,order_status
+9431,my order was put in and i was wonder how i can see the status of it,confirm_reservation,order_status
+9440,can you help me find my package,order_status,lost_luggage
+9455,can you give me a status update on my online order from amazon,direct_deposit,order_status
+9459,check up on the status of my online order,car_rental,order_status
+9460,online order: status,lost_luggage,order_status
+9511,i'm afraid i've forgotten the pin for my 401k account,travel_suggestion,rollover_401k
+9514,is there a way to change my pin number for my savings account,distance,pin_change
+9518,how do i get a new pin,what_is_your_name,pin_change
+9558,i would like to change the pin on my savings account,text,pin_change
+9563,"how do i reset my pin number for my account, please",flip_coin,pin_change
+9572,help me out with changing this pin number,card_declined,pin_change
+9576,i need a reminder for my pin number,pin_change,reminder
+9579,i need to reset my pin number,expiration_date,pin_change
+9584,can you tell me my password checking account,gas,pin_change
+9585,please tell me my pin number for my synovus account,order_status,pin_change
+9600,i'm glad i got to talk to you,order,goodbye
+9601,nice to speak with you,goodbye,greeting
+9619,"great talk, take it easy",goodbye,greeting
+9624,goodbye to you,travel_notification,goodbye
+9628,i have to say goodbye,change_ai_name,goodbye
+9631,thanks for talking,goodbye,thank_you
+9632,it was good chatting,goodbye,greeting
+9634,always nice to talk to you,goodbye,greeting
+9643,take it easy!,goodbye,greeting
+9651,"thanks, bye",goodbye,thank_you
+9654,i’ll be leaving now,change_language,goodbye
+9656,thanks for talking to me,goodbye,thank_you
+9662,it was great chatting with you,what_is_your_name,goodbye
+9663,it was cool talking with you,uber,greeting
+9670,i had fun speaking with you,goodbye,greeting
+9672,later!,international_visa,goodbye
+9680,buhbye,change_volume,goodbye
+9683,nice to see you again,goodbye,greeting
+9684,nice to see you,goodbye,greeting
+9687,peace out,calendar_update,goodbye
+9695,why is there a hold on my american saving bank account,gas,freeze_account
+9697,why is there a hold on my capital one checking account,account_blocked,freeze_account
+9699,can you tell me why is my bank account frozen,account_blocked,freeze_account
+9700,why is there a hold on my edward jones account,user_name,freeze_account
+9703,what is the reason for frozen status on my bank account,account_blocked,freeze_account
+9704,check for why is my bank account frozen,account_blocked,freeze_account
+9706,find out for me why is my bank account frozen,account_blocked,freeze_account
+9707,can you find out why is my bank account frozen,account_blocked,freeze_account
+9708,why is there a hold on my discover account,account_blocked,freeze_account
+9714,why is there a hold on my charles swab account,account_blocked,freeze_account
+9716,what's the reason for a hold on my wells fargo account,account_blocked,freeze_account
+9717,can you find the reason for the block on my account,tell_joke,account_blocked
+9718,"there's a hold on my chase account, but why",account_blocked,freeze_account
+9720,why does my credit union account have a hold on it,account_blocked,freeze_account
+9722,why am i seeing a hold on my boa account,account_blocked,freeze_account
+9728,what was the reason my bank account was frozen,international_visa,freeze_account
+9729,who froze my bank account,account_blocked,freeze_account
+9730,who can i talk to right away about the current freeze on my account,account_blocked,freeze_account
+9732,why is my bank account stopping all transactions from going through,account_blocked,freeze_account
+9734,can you find out what triggered a hold on my bank account,account_blocked,freeze_account
+9735,can i talk to someone about why there is a hold on my checking account,account_blocked,freeze_account
+9736,what caused a freeze to be put on my bank account,account_blocked,freeze_account
+9738,is there a reason that my bank account has a freeze on it,account_blocked,freeze_account
+9739,what would cause my bank account to be frozen,account_blocked,freeze_account
+9742,did i do something to get my bank account frozen,account_blocked,freeze_account
+9743,was my bank account frozen for a specific reason,pto_used,freeze_account
+9744,why are the funds in my bank account frozen,account_blocked,freeze_account
+9747,why is my bank account frozen,account_blocked,freeze_account
+9749,can you explain to me why my bank account might be frozen,improve_credit_score,freeze_account
+9750,i am very confused about why or how my bank would lock me out of my account,how_old_are_you,account_blocked
+9751,why would the bank have frozen my account,account_blocked,freeze_account
+9752,do you know why the bank put a hold on my joint checking account,account_blocked,freeze_account
+9753,i don't understand why there is a hold on my retirement fund account,account_blocked,freeze_account
+9754,can you explain why there is a hold on my savings account,pto_request,freeze_account
+9759,i'm confused about the reason for my bank account being frozen,account_blocked,freeze_account
+9761,i don't understand why my bank account is frozen right now,account_blocked,freeze_account
+9764,i am confused because my account seems to have been blocked for no reason,alarm,account_blocked
+9766,how is it possible that my account has been frozen,account_blocked,freeze_account
+9767,how come a hold was placed on my 401k account,account_blocked,rollover_401k
+9769,"i am unable to complete my order, why could there be a hold on my wells fargo account",account_blocked,card_declined
+9770,"was a hold placed on my wells fargo account, and if so why",account_blocked,freeze_account
+9771,"in regards to my wells fargo account, why is there a hold",account_blocked,card_declined
+9772,why was a hold placed on my wells fargo account,account_blocked,freeze_account
+9773,call my bank customer service number,account_blocked,make_call
+9776,why did my bank account freeze,account_blocked,freeze_account
+9777,why'd they put a freeze on my bank account,account_blocked,freeze_account
+9780,i think my account is blocked,shopping_list_update,account_blocked
+9782,can you tell me why there's a hold on my mutualone account,account_blocked,freeze_account
+9785,my capital one account has a hold; why,account_blocked,card_declined
+9786,why does my visa account have a hold on it,account_blocked,card_declined
+9787,why am i seeing a hold on my charles schwab account,account_blocked,freeze_account
+9789,can you tell me why my bank account is frozen,account_blocked,freeze_account
+9799,what is this song,how_busy,what_song
+9822,who is this song that's on the stereo,income,what_song
+9835,what is the name of the song that's playing on the radio right now,bill_due,what_song
+9836,what's the name of the song you're playing,improve_credit_score,what_song
+9853,what's the now playing song that we are listening to,pin_change,what_song
+9856,what's the song that we are listening at this moment,timer,what_song
+9867,i want to know the name of the song that's playing,what_is_your_name,what_song
+9870,can you get me the name of this song,report_lost_card,what_song
+9873,i need to know what this song is called,transfer,what_song
+9893,the song on speaker is what,ingredients_list,what_song
+9896,does my usaa card have international transaction fees,balance,international_fees
+9903,does my bank of america card have international transaction fees,change_volume,international_fees
+9910,are there fees for using my card in tampa,maybe,international_fees
+9925,what are the fees to use my card in nigeria,tire_change,international_fees
+9946,are there extra fees for using my card in mexico,apr,international_fees
+9955,will i be charged if i use the card in australia,repeat,international_fees
+9967,are there any international transaction fees associated with my visa card,timer,international_fees
+9985,are there international transactions fees for rainbow card,pto_request,international_fees
+9987,will i be charged if i use my card in dublin,change_volume,international_fees
+9992,will i be charged if i use my card in france,find_phone,international_fees
+10000,find the date of the last oil swap for my car,last_maintenance,oil_change_when
+10001,what was the date when i last had my car inspected,last_maintenance,date
+10006,what date did i last take my car in,meeting_schedule,last_maintenance
+10008,when was the last time i changed my oil,last_maintenance,oil_change_when
+10017,when did my car get looked at last,thank_you,last_maintenance
+10019,what date did i have my oil changed last,last_maintenance,oil_change_when
+10020,what day did i change my oil,food_last,last_maintenance
+10022,was my last oil change on wednesday,reminder_update,oil_change_when
+10023,when was the last time i had an oil change,time,oil_change_when
+10025,when was the last time i got my oil changed,last_maintenance,oil_change_when
+10030,when did i get my last oil change,last_maintenance,oil_change_when
+10041,find out when my most recent oil change occurred,last_maintenance,oil_change_when
+10044,i need to know the date of my car's last visit to the shop please,improve_credit_score,last_maintenance
+10048,look up the date of my last oil change,last_maintenance,oil_change_when
+10051,do you know when my car was last looked at,calories,last_maintenance
+10066,what was the date of my last auto appointment,flip_coin,last_maintenance
+10073,do you know how long its been since i had my oil changed and a tune up,last_maintenance,oil_change_when
+10083,i need to know when i last carried my car to the shop,food_last,last_maintenance
+10084,what's the date on which my last oil change occurred,last_maintenance,oil_change_when
+10086,can you remind me of when i last had an oil change,last_maintenance,oil_change_when
+10088,"search and tell me when my most recent oil change happened, please",last_maintenance,oil_change_how
+10094,how long has it been since my last auto maintenance,pto_used,last_maintenance
+10102,about how many meetings am i attending between 12 and 3 today,new_card,meeting_schedule
+10109,"for today only, how many meetings are with jake",reminder,meeting_schedule
+10115,do i have any meetings today between 2 and 3,yes,meeting_schedule
+10124,do i have any meetings today between 6 and 7,what_song,meeting_schedule
+10129,what is my meeting schedule like for the day,repeat,meeting_schedule
+10142,do i have any meeting to go to today,find_phone,meeting_schedule
+10150,are there any meetings i have today,jump_start,meeting_schedule
+10162,is mr ceo waiting me now,transactions,user_name
+10174,are there any meetings on my calendar today,who_made_you,meeting_schedule
+10194,what is on my schedule between 10:00 am and 11:00 am,sync_device,schedule_meeting
+10198,how do you make chicken noodle casserole,ingredients_list,recipe
+10204,what ingredients are found in hunan chicken,tire_change,ingredients_list
+10208,give me a list of ingredients needed for pizza dough,taxes,ingredients_list
+10217,what would i need if i wanted to make chicken marsala,book_flight,ingredients_list
+10226,what all is in gumbo,calculator,ingredients_list
+10237,show me the recipe for broccoli cheddar soup,ingredients_list,recipe
+10242,what do i need to cook chicken soup,weather,ingredients_list
+10253,what should i grab to make a german chocolate cake,ingredients_list,recipe
+10258,what do you purchase to put in a shepherd's pie,ingredients_list,nutrition_info
+10265,what does it take to make buttermilk pancakes,ingredients_list,recipe
+10273,what ingredients are in mashed potatoes,change_volume,ingredients_list
+10277,list the ingredients in pizza,ingredient_substitution,ingredients_list
+10282,what ingredients go in spaghetti,calendar_update,ingredients_list
+10292,"in making an omelette, what ingredients do i need",todo_list,ingredients_list
+10294,what ingredients do i need for chicken breast,book_flight,ingredients_list
+10301,i need to report some fraudulent card activity,accept_reservations,report_fraud
+10306,can you help me with some fraudulent charges on my card,definition,report_fraud
+10307,i think i've been the victim of fraud,application_status,report_fraud
+10316,i'm reporting fraudelent activity on my card,income,report_fraud
+10333,someone misused my card and put fraudulent transactions on it,who_do_you_work_for,report_fraud
+10335,"""disable my card account and contact company to report fraudulent activty",change_accent,report_fraud
+10345,i think someone stole my card and used it,report_fraud,report_lost_card
+10352,report fraudulent activity on my debit card,what_is_your_name,report_fraud
+10363,i have detected fraudulent activity on my account,min_payment,report_fraud
+10374,how can i report fraudulent charges on my card,pto_balance,report_fraud
+10388,there is an unauthorized transaction on my bank of america checking,mpg,report_fraud
+10389,i see a purchase on my chase checking that i did not make,report_fraud,spending_history
+10396,whats 5 feet in inches,uber,measurement_conversion
+10409,"what is 10 ounces in grams, please",make_call,measurement_conversion
+10447,what is the proper way to convert centimeters into inches,what_are_your_hobbies,measurement_conversion
+10448,how do i convert tablespoons to cups,min_payment,measurement_conversion
+10451,how many tablespoons are in three cups,whisper_mode,measurement_conversion
+10453,how many quarts are in a gallon,oil_change_when,measurement_conversion
+10458,tell me what ten pounds in kilos is,taxes,measurement_conversion
+10462,how many miles is five kilometers,whisper_mode,measurement_conversion
+10488,how would i go about converting inches to yards,maybe,measurement_conversion
+10501,make the lights dimmer please,make_call,change_volume
+10505,start my vehicle,smart_home,jump_start
+10506,please get my car started before i go out to it,smart_home,jump_start
+10518,can you set the temp to 69,international_fees,smart_home
+10527,can you turn my lights down just a bit,smart_home,change_volume
+10528,will you please get my furnace turned on,greeting,smart_home
+10529,can you please dim the lights,smart_home,change_volume
+10534,can you get my car started,smart_home,jump_start
+10551,dim the main lights please,smart_home,change_volume
+10562,switch fan,insurance_change,smart_home
+10566,please start my car,smart_home,jump_start
+10573,what is the ac temperature,account_blocked,smart_home
+10575,can you please help me start the car,smart_home,jump_start
+10577,i would appreciate it if you help me turn the car on,smart_home,jump_start
+10582,can you please start my car,smart_home,jump_start
+10586,turn the lights down,smart_home,change_volume
+10593,please check the door to see who is there,smart_home,fun_fact
+10602,is it possible to book 10 people from monday to tuesday in manhattan,book_hotel,restaurant_reservation
+10610,get me a hotel room for 4 people from march 1st to 3rd in seattle,international_fees,book_hotel
+10613,can you book me a hotel in los angeles near commerce casino from april 1st to the 5th,insurance_change,book_hotel
+10619,is there anything available in new york city from april 2 through april 8,book_hotel,travel_suggestion
+10637,what's a good hotel to stay at in chicago,spelling,book_hotel
+10647,can you book me a place to stay in denver from wednesday to friday,measurement_conversion,book_hotel
+10664,do you know of any well reviewed hotels in chicago,book_hotel,restaurant_suggestion
+10668,look up hotels with positive reviews in new york city,book_hotel,restaurant_reviews
+10676,help me find a good reviews hotel in la,meal_suggestion,restaurant_reviews
+10677,i need a hotel in new orleans from may 2 - 5 near the french quarter,timezone,book_hotel
+10679,find me a hotel in seattle with great reviews,yes,book_hotel
+10683,i need a well-rated hotel in vegas,jump_start,book_hotel
+10688,book me a hotel in pittsburgh near grant street for 3/15 through 3/18,next_holiday,book_hotel
+10711,place a marker for me where i am on the map,cancel_reservation,current_location
+10716,list my current gps coordinates,current_location,share_location
+10734,"where am i right now, location wise",do_you_have_pets,current_location
+10744,i need to know my location,rollover_401k,current_location
+10747,i need to find out how i know my location right now,measurement_conversion,current_location
+10752,how can i tell what my current location is,travel_suggestion,current_location
+10759,where are we located,international_fees,current_location
+10764,i need to know my present gps coordinates,credit_limit,current_location
+10767,"how do i find my location right now, please",directions,current_location
+10785,how can i find my current location,oil_change_when,current_location
+10791,could you pull up my location on the map,bill_balance,current_location
+10818,what is the weather going to be like,card_declined,weather
+10830,will it snow this weekend,maybe,weather
+10837,what is the temperature in costa mesa,ingredient_substitution,weather
+10838,what is the weather report for costa mesa,spelling,weather
+10864,tell me what the weather is like,change_ai_name,weather
+10871,is sparks experiencing bad weather right now,w2,weather
+10875,when is the next rain chance,tire_pressure,weather
+10878,tell me today's weather forecast,change_accent,weather
+10879,tell me about the weather today,restaurant_reservation,weather
+10893,what's today's weather going to be,calendar,weather
+10902,what is the tax amount,redeem_rewards,taxes
+10920,how much money am i going to lose this year for state taxes,credit_score,taxes
+10941,how much do i pay the government in taxes,interest_rate,taxes
+10945,what do i owe the government on my taxes,meeting_schedule,taxes
+10952,how much is my income tax,current_location,taxes
+10957,what amount am i taxed on my income,min_payment,taxes
+10962,how much money will i get or owe on my federal tax return,exchange_rate,taxes
+10987,what is my state taxes currently,ingredients_list,taxes
+10988,what will my state taxes amount to this year,report_fraud,taxes
+10992,how much do i pay in my taxes,recipe,taxes
+11000,how much can i get away with paying for my college loan,min_payment,apr
+11004,minimum payment of my bill please,freeze_account,min_payment
+11009,please lookup the minimum i need to pay on my credit card,uber,min_payment
+11018,please tell me the minimum i can pay on my electric bill,spending_history,min_payment
+11032,i wanna know the bill's minimum payment,replacement_card_duration,min_payment
+11042,please inform me of the minimum payment of the bill,directions,min_payment
+11052,what is the minimum payment i can make on my xcel energy bill,exchange_rate,min_payment
+11061,could you tell me the minimum payment on my mortgage,play_music,min_payment
+11066,what is the least amount i can pay for power bill,rewards_balance,min_payment
+11069,how much is the least i can pay for power bill,transfer,min_payment
+11073,what is the minimum payment on my phone bill,what_is_your_name,min_payment
+11094,what is the minimum for my citicard this month,min_payment,credit_limit
+11102,can you please lower the volume please,whisper_mode,change_volume
+11106,turn on your whisper mode,balance,whisper_mode
+11107,i'm going to need you to be quiet now please,whisper_mode,change_volume
+11111,volume to whisper voice,update_playlist,whisper_mode
+11117,whisper from now on,cook_time,whisper_mode
+11119,do not talk so loudly,whisper_mode,change_volume
+11124,turn your volume up,whisper_mode,change_volume
+11125,turn up your volume,whisper_mode,change_volume
+11127,let's start whispering,food_last,whisper_mode
+11133,let's switch out of whisper mode,find_phone,whisper_mode
+11138,shh please speak with a whisper,flight_status,whisper_mode
+11139,please turn on whisper mode,mpg,whisper_mode
+11144,"go back to whisper mode, please",ingredients_list,whisper_mode
+11160,please turn on whisper mode because i am about to be in class,w2,whisper_mode
+11172,"i can't hear you, stop whispering!",whisper_mode,change_volume
+11180,6 inch voices please,whisper_mode,change_volume
+11183,please switch to whisper mode,maybe,whisper_mode
+11204,mute,cancel,change_volume
+11205,stop,do_you_have_pets,cancel
+11208,quiet now,cancel,whisper_mode
+11209,shhhh,cancel,change_volume
+11211,can you be quiet please,cancel,change_volume
+11213,please be quiet,cancel,whisper_mode
+11215,please cancel that last command,flight_status,cancel
+11216,can you cancel what you were doing,what_are_your_hobbies,cancel
+11217,can you cancel,tell_joke,cancel
+11221,discontinue please,change_user_name,cancel
+11222,i don't want you to speak any more for now,calories,cancel
+11223,discontinue your current task,translate,cancel
+11230,"sorry, you can actually stop that",repeat,cancel
+11243,please be quiet now,cancel,change_volume
+11247,would you stop talking please,fun_fact,cancel
+11258,please cancel that last task,cancel,todo_list_update
+11279,stop the process happening now,pto_used,cancel
+11300,i want to see paris will i need an international visa,uber,international_visa
+11312,do i need an international visa to go to south korea,who_made_you,international_visa
+11334,do i need a visa for canada,play_music,international_visa
+11335,do i need a travel visa to visit germany,reset_settings,international_visa
+11348,do i need an international visa to go to england,travel_suggestion,international_visa
+11372,should i get a visa for crete,improve_credit_score,international_visa
+11379,do i need a visa to travel to isreal,shopping_list,international_visa
+11386,does france have their own version of a visa,exchange_rate,international_visa
+11387,does mexico require an international visa,share_location,international_visa
+11388,does ireland require an international visa,shopping_list_update,international_visa
+11405,how many vaccinations will i need to travel to asia,accept_reservations,vaccines
+11421,what shots do i need before heading to france,travel_alert,vaccines
+11425,are vaccinations needed for trips to guana,restaurant_reviews,vaccines
+11426,should i get a vaccination before i go to katmandu,change_accent,vaccines
+11440,should i get any shots before i go to kenya,next_song,vaccines
+11450,are any shots recommended before going to kenya,last_maintenance,vaccines
+11455,do i need some vaccinations or anything if i'm going to eastern europe,calories,vaccines
+11461,are shots needed for uk travel,credit_limit_change,vaccines
+11478,can you tell me which vaccines i need to take before mexico,shopping_list,vaccines
+11489,i need a list of vaccinations for a trip to paris,who_made_you,vaccines
+11496,can you explain to me what type of vacation days i have still,schedule_meeting,pto_balance
+11521,how many pto days do i have for the year,pto_balance,pto_used
+11525,what's the current amount of vacation owed to me,application_status,pto_balance
+11531,how much paid time off have i earned to date,pto_balance,pto_used
+11533,what's the current count of my pto days,pto_balance,pto_used
+11535,how much pto have i accrued,travel_alert,pto_balance
+11548,what is the amount of vacation days i have left,application_status,pto_balance
+11567,can you tell me the remaining time i have for pto,timer,pto_balance
+11573,how much vacation time have i accrued,book_hotel,pto_balance
+11583,provide me the number of vacation days i have,restaurant_suggestion,pto_balance
+11585,do i have any remaining pto days,todo_list_update,pto_balance
+11587,do i have any pto days left,next_song,pto_balance
+11591,how many more vacation days can i use this year,are_you_a_bot,pto_balance
+11595,"i'm at home, so where is the closest starbucks",directions,restaurant_suggestion
+11596,what's the distance between home and the closest starbucks,directions,distance
+11597,is there a starbucks close to home,directions,restaurant_suggestion
+11598,direct me to the closest starbucks near home,oil_change_how,directions
+11609,how do i get to the museum by bus,next_song,directions
+11615,i need to know where the nearest place that has mountain dew is,directions,restaurant_suggestion
+11618,how can i travel by bus to the grand canyon,timezone,directions
+11620,i want to visit chicago by bus what do i need to do,directions,travel_suggestion
+11628,where is the closest starbucks,directions,restaurant_suggestion
+11640,where's the nearest gas station,directions,gas
+11648,can a bus get me to the statue of liberty,payday,directions
+11650,how do i get to the statue of liberty on foot,user_name,directions
+11652,is there a tire repair place near the post office,directions,tire_change
+11654,what's the closest mcdonalds,directions,restaurant_reviews
+11656,i want to see the golden gate bridge and i'm walking on 5th street right now,directions,travel_suggestion
+11666,please tell me the location of the nearest target store,directions,current_location
+11667,can you tell me where the atm closest to my current location is,directions,current_location
+11668,"where is the nearest gas station to 20th and market streets, in philadelphia, pa",carry_on,directions
+11669,find me the location of the nearest gas station,directions,distance
+11672,what are the nearest streets to the statue of liberty in new york,calendar_update,directions
+11673,"search for the nearest atm to newark penn station, newark in new jersey",pay_bill,direct_deposit
+11676,starbucks near me,directions,restaurant_suggestion
+11678,what's the nearest starbucks,directions,restaurant_suggestion
+11682,where is the closest applebees to the empire state building,directions,restaurant_suggestion
+11689,give me the location for the nearest bank,directions,current_location
+11691,can you tell me the nearest restaurant to me and give me directions,restaurant_reservation,directions
+11692,can you tell me the location of the nearest bank,directions,current_location
+11695,what is the spelling of potato,rollover_401k,spelling
+11708,how do you spell out newspaper,improve_credit_score,spelling
+11713,"spell ""requisite"" for me",pto_used,spelling
+11740,spell government,fun_fact,spelling
+11744,how is the word acquaintance spelled,how_old_are_you,spelling
+11750,i wish i knew how to spell mississippi,tell_joke,spelling
+11759,i don't know how to spell circumference,cancel,spelling
+11763,tell me the complete spelling of definitely,schedule_meeting,spelling
+11767,count the number of the letter a in happiness,spelling,calculator
+11770,tell how many a's are in the word happiness,sync_device,spelling
+11790,how many ss are in narcissism,spelling,definition
+11792,can you help me spell facetiousness,sync_device,spelling
+11797,"hello, anyone there",schedule_meeting,greeting
+11800,how's it going right now,thank_you,greeting
+11812,how're you doing,mpg,greeting
+11813,it's good to see you,smart_home,greeting
+11819,"wake up, ai",greeting,alarm
+11829,hello siri,cancel_reservation,greeting
+11840,hi how is everything,pto_request_status,greeting
+11844,why hello,change_speed,greeting
+11876,how are things going for you,redeem_rewards,greeting
+11897,go back to your original settings,change_user_name,reset_settings
+11905,please go back to to factory settings now,transactions,reset_settings
+11929,please revert to your factory settings,goodbye,reset_settings
+11944,help me get my device back to it's factory settings,cancel,reset_settings
+11948,please turn my settings back to the original settings,order_checks,reset_settings
+11965,revert back to your factory settings,pto_request,reset_settings
+11973,go to default setting,distance,reset_settings
+11976,i'd like to switch back to my factory settings,book_hotel,reset_settings
+11982,let's go to default settings,uber,reset_settings
+11990,i want factory settings put back in place,current_location,reset_settings
+11996,what's should i call you by,what_is_your_name,change_ai_name
+12000,i'd like to know what to call you,pay_bill,change_ai_name
+12002,do you have a preference regarding what i should call you,what_is_your_name,change_user_name
+12010,what should i refer to you as,calories,change_user_name
+12011,what name would you like me to call you,what_is_your_name,change_user_name
+12012,what name do you want me to call you,what_is_your_name,change_ai_name
+12014,what name should i use when talking with you,what_is_your_name,change_ai_name
+12016,is there a name that you preferred to be called by,what_is_your_name,change_ai_name
+12017,please tell me the name i should use when talking to you,what_is_your_name,change_ai_name
+12021,what name should i use for you,what_is_your_name,change_ai_name
+12023,what do you want me to call you,what_is_your_name,change_user_name
+12024,what would you like to be called,what_is_your_name,change_ai_name
+12025,what do you want me to refer to you as,what_is_your_name,change_user_name
+12026,what name would you like me to use,what_is_your_name,change_ai_name
+12032,how would you like me to refer to you,what_is_your_name,change_user_name
+12033,what name should i use to call for you,what_is_your_name,change_user_name
+12034,what is the name i should use to refer to you,what_is_your_name,change_ai_name
+12035,do you know your name,what_is_your_name,user_name
+12036,who gave you your name,schedule_meeting,who_made_you
+12038,what can i address you,what_is_your_name,change_ai_name
+12040,i want to know the name that was given by the person who made you,what_is_your_name,who_made_you
+12042,what do you prefer being called,what_is_your_name,change_ai_name
+12048,what do you like being called,what_is_your_name,change_ai_name
+12049,how would you like me to call you,what_is_your_name,change_user_name
+12051,how can i get your attention,what_is_your_name,greeting
+12053,do you have a way you like to be referred to,what_is_your_name,change_user_name
+12057,what can i refer to you by,what_is_your_name,change_ai_name
+12061,can i call you by any name,what_is_your_name,change_user_name
+12063,i need to know your name,balance,what_is_your_name
+12064,i need your name,share_location,what_is_your_name
+12067,tell me your name,yes,what_is_your_name
+12068,you must tell me your name,tire_pressure,what_is_your_name
+12069,what name do you want to be called,what_is_your_name,change_ai_name
+12070,"when referring to you, what name do you want me to use",book_hotel,what_is_your_name
+12072,provide the name i should use to refer to you,what_is_your_name,change_ai_name
+12081,"ai, what can i call you",what_is_your_name,change_ai_name
+12082,"ai, what's your name",carry_on,what_is_your_name
+12084,"ai, what should i call you",what_is_your_name,change_ai_name
+12087,would you like to introduce yourself,whisper_mode,greeting
+12089,what name should i use to address you,what_is_your_name,change_ai_name
+12090,what name should i refer to you as,what_is_your_name,change_ai_name
+12091,how would you like to be referred to,what_is_your_name,change_user_name
+12092,what name should i use when i call you,what_is_your_name,change_ai_name
+12095,search google for how to set up direct deposit,weather,direct_deposit
+12109,set up a direct deposit,report_lost_card,direct_deposit
+12126,i need help to set up direct deposit,tire_pressure,direct_deposit
+12133,how can i have my paycheck directly deposited in my account,schedule_meeting,direct_deposit
+12157,how is a direct deposit set up,w2,direct_deposit
+12159,i need to set up a direct deposit,ingredient_substitution,direct_deposit
+12171,can you show me how to set up direct deposit,w2,direct_deposit
+12174,help setting up direct deposit,expiration_date,direct_deposit
+12183,i'd like to have my paycheck direct deposited to my chase account,travel_suggestion,direct_deposit
+12191,can you walk me through setting up direct deposits to my bank of internet savings account,user_name,direct_deposit
+12200,how can i find my interest rate for my alliance account,card_declined,interest_rate
+12203,what is the rate of interest on my savings account,sync_device,interest_rate
+12222,what is the interest rate i am receiving from the start of the year,schedule_meeting,interest_rate
+12224,can you tell me what my interest rate from first federal is,play_music,interest_rate
+12227,i need the interest rate on my capital one account,change_accent,interest_rate
+12229,i need help finding the apr on my aspire loan,interest_rate,apr
+12234,tell me how to locate the interest rate for my jonah account,change_accent,interest_rate
+12242,what is my annual percentage rate,interest_rate,apr
+12253,is my savings interest rate too low,accept_reservations,interest_rate
+12263,let me know what my interest rate is,spelling,interest_rate
+12270,what interest rate am i getting from citigroup,transactions,interest_rate
+12285,what is the interest rate on my charles schwab checking account,report_fraud,interest_rate
+12296,may i have a higher limit on my mastercard,improve_credit_score,credit_limit_change
+12307,can i increase my credit limit from 1000 to 2000 please,restaurant_reviews,credit_limit_change
+12328,i need to increase my credit limit,repeat,credit_limit_change
+12334,please help me increase my mastercard credit card limit,international_visa,credit_limit_change
+12336,"i would like to increase my bank of america credit limit, can you help me",income,credit_limit_change
+12337,is there a way to increase the credit limit on my american express card,nutrition_info,credit_limit_change
+12341,how would i raise my credit spending by 250 dollars,credit_limit_change,improve_credit_score
+12352,"can you increase my credit limit to $7,500",reset_settings,credit_limit_change
+12378,can i increase thencrdeit limit for my chase visa card,sync_device,credit_limit_change
+12385,can i raise the credit limit for my discover card,update_playlist,credit_limit_change
+12399,what are your favorite hobbies to take part in,yes,what_are_your_hobbies
+12400,what things do you like to do,traffic,what_are_your_hobbies
+12403,what are ai's hobbies,what_are_your_hobbies,greeting
+12416,is there anything you like to do in your free time,spelling,what_are_your_hobbies
+12421,so what sort of hobbies are you into,card_declined,what_are_your_hobbies
+12430,what things do you enjoy doing,new_card,what_are_your_hobbies
+12434,i like to paint in my free time-do you have any hobbies like that,play_music,what_are_your_hobbies
+12483,what sorts of things do you do for fun,goodbye,what_are_your_hobbies
+12484,what sort of hobbies are you into,what_can_i_ask_you,what_are_your_hobbies
+12494,"for the dates april 1st to the 7th, find me round trip air tickets from la to sfo",last_maintenance,book_flight
+12497,find me round trip flights out of lax to sfox,balance,book_flight
+12518,compare fares for al italia from bucharest to tampa returning before thanksgiving,schedule_meeting,book_flight
+12523,can you find me a roundtrip flight from orlando to austin for 3/28 to 4/5,reset_settings,book_flight
+12525,help me find a roundtrip flight for may 7th through the 20th from pittsburgh to chicago,transactions,book_flight
+12537,find me a roundtrip flight from dallas to los angeles from march 2 to march 10,measurement_conversion,book_flight
+12545,are there any flights out of la to chicago on march 3rd for under $500,gas,book_flight
+12548,confirm a flight for me from ft lauderdale to houston on southwest,book_flight,confirm_reservation
+12561,"buy a flight from santa fe to jacksonville on new year's eve that returns on the fourth, please",roll_dice,book_flight
+12585,i need a flight booked from dallas to miami on american airlines,sync_device,book_flight
+12592,book me a flight from o'hare to las vegas on deltacom,shopping_list,book_flight
+12593,would you let me know what is on my shopping list,book_hotel,shopping_list
+12596,do you want me to shop for peanut butter,shopping_list,shopping_list_update
+12599,did i put bread on my shopping list,shopping_list,shopping_list_update
+12601,can you tell me if i have paper towels on my shopping list,shopping_list,shopping_list_update
+12602,does my shopping list include apples right now,shopping_list,shopping_list_update
+12604,do i have carrots on my shopping list,shopping_list,shopping_list_update
+12612,what does my shopping list entail,account_blocked,shopping_list
+12615,tell me my shopping list,text,shopping_list
+12620,list out my shopping list for me,directions,shopping_list
+12637,check if my shopping list has tomato,application_status,shopping_list_update
+12638,does my shopping list have tomato written on it,shopping_list,shopping_list_update
+12639,on the shopping list did i put tomato,shopping_list,shopping_list_update
+12640,do i have tomato on the shopping list,shopping_list,shopping_list_update
+12641,is tomato on my shopping list,shopping_list,shopping_list_update
+12648,read me everything on my shopping list,insurance_change,shopping_list
+12649,can you tell me whats on my shopping list,pay_bill,shopping_list
+12654,my list for shopping has what on it,who_do_you_work_for,shopping_list
+12662,which purchases are on my shopping list,find_phone,shopping_list
+12672,do i need to get milk,shopping_list,food_last
+12673,do i need milk at the store,shopping_list,shopping_list_update
+12675,did i put milk on the shopping list,shopping_list,shopping_list_update
+12677,what do i need to go shopping for,shopping_list,shopping_list_update
+12684,does my shopping list consist of chips,shopping_list,shopping_list_update
+12685,are tomatoes on my shopping list,shopping_list,shopping_list_update
+12686,is a toothbrush on my shopping list,shopping_list,shopping_list_update
+12687,does my shopping list include corn,shopping_list,shopping_list_update
+12688,do i have a big shopping list,shopping_list,shopping_list_update
+12699,text roderick and tell him im running late,recipe,text
+12715,text tony and invite him to my party next saturday,text,make_call
+12719,send sal a text and tell them thanks,spending_history,text
+12729,send a text to ashley and ask her what she wants to do for supper,credit_limit_change,text
+12740,message mom where are you,text,reminder_update
+12744,send a text for me,ingredients_list,text
+12747,text mom i'll talk to you later,text,goodbye
+12753,send a message to mom be there soon,mpg,text
+12761,text my doctor and tell him it happened again,reminder_update,text
+12762,text mary and tell them i'm on my way,meaning_of_life,text
+12764,text nick and tell him the car's ready,spelling,text
+12772,text paul and ask him what time the cookout is on saturday,text,make_call
+12774,text billy and tell him to be at monday's meeting at 3pm,text,schedule_meeting
+12779,write text and send to someone,expiration_date,text
+12780,send a text to someone,tire_pressure,text
+12794,what's my bill for water and electricity,spelling,bill_balance
+12805,what's the balance on my bills,transactions,bill_balance
+12806,read my bill balances,definition,bill_balance
+12812,how much money do i need to spend on bill payments,meaning_of_life,min_payment
+12817,what am i being charged for my water bill,bill_balance,pay_bill
+12820,how much do i owe for my gas and phone bills,bill_balance,pay_bill
+12823,let me know how much money i will need to spend on paying bills,bill_balance,pay_bill
+12824,please let me know how much my gas bill is,time,bill_balance
+12825,i need to know the cost of the cable bill,bill_balance,min_payment
+12827,what do i owe for my utilities bill,bill_balance,pay_bill
+12830,what's the amount due on my latest sprint bill,bill_balance,bill_due
+12834,tell me what amount i have to pay for my directv bill please,bill_balance,min_payment
+12837,what's the balance on my sprint account,bill_balance,balance
+12841,what is my dte bill this month,bill_balance,bill_due
+12842,how much are my electric and heating bills,bill_balance,bill_due
+12845,how much is my electric bill for this month,bill_balance,bill_due
+12847,how much are my cable and water bills,bill_balance,min_payment
+12848,how much do i have to pay on my bills,bill_balance,min_payment
+12850,how much do i have to pay for my cable bill,bill_balance,min_payment
+12851,how much do i owe on my cable bill,gas_type,min_payment
+12852,can you find out how much i owe on my bills,cancel_reservation,bill_balance
+12855,how much do i need to pay on my bills,bill_balance,min_payment
+12856,can you tell me how much i owe on my cable bill,reminder_update,min_payment
+12859,what is the my comcast bill this month,routing,pay_bill
+12861,do i have any due bills and how much,bill_balance,bill_due
+12863,how much do i have to pay for my bills this month,bill_balance,min_payment
+12864,do i owe any bills,bill_balance,pay_bill
+12869,what's the water bill,account_blocked,bill_balance
+12873,how much are utilities,bill_balance,pay_bill
+12876,how much is my cable bill,bill_balance,min_payment
+12877,how much is my rent,bill_balance,bill_due
+12878,how much is my cable bill for,bill_balance,min_payment
+12882,how much is my current cable bill for,bill_balance,min_payment
+12886,what is my domain name bill,bill_balance,spending_history
+12893,tell lydia and laura where i am located,do_you_have_pets,share_location
+12909,share my location with ma,travel_alert,share_location
+12910,tell base camp my gps coordinates,direct_deposit,share_location
+12915,let my group know what my current location is,update_playlist,share_location
+12935,trey needs my current location,lost_luggage,share_location
+12938,advise sam of my current location please,definition,share_location
+12945,send my location to my mom,exchange_rate,share_location
+12947,can you share my current location with amy,international_visa,share_location
+12972,please tell wanda where i am now,share_location,current_location
+12985,please allow dan to see my location,what_are_your_hobbies,share_location
+12992,give tom my location,translate,share_location
+13010,have i got enough credit card points to get a new tablet device,how_busy,redeem_rewards
+13022,how can i cash in the rewards i have earned on my amex,calendar,redeem_rewards
+13024,call my credit card company and ask can i use my points,redeem_rewards,make_call
+13026,i check my credit card company to see if my points are good to go,redeem_rewards,rewards_balance
+13031,can i redeem my credit card points for anything,shopping_list,redeem_rewards
+13034,do i have to contact someone to use my credit card points,redeem_rewards,rewards_balance
+13035,do i have enough points to for a redemption,calendar,rewards_balance
+13057,how can i go about cashing in rewards with discover,timezone,redeem_rewards
+13058,"if i redeem my credit card points, can i get a kroeger gift card",share_location,redeem_rewards
+13074,how do i use the reward for my bank of hawaii,travel_notification,redeem_rewards
+13084,transfer my cash reward balance to my bank,redeem_rewards,transfer
+13086,what do i do to get cach back for points on my discover card,are_you_a_bot,redeem_rewards
+13087,i want to redeem my card points for cash,schedule_meeting,redeem_rewards
+13088,i want to use the cash that my points have earned on my credit card,account_blocked,redeem_rewards
+13093,can i get some music by three six mafia in here,car_rental,play_music
+13096,can i hear some music by cloud control,income,play_music
+13097,can x’s music be played,time,play_music
+13099,i'd like to hear my workout playlist,play_music,update_playlist
+13100,put on my jam session playlist please,play_music,update_playlist
+13101,can i hear my smooth jazz playlist,play_music,update_playlist
+13103,let's hear my workout playlist,play_music,update_playlist
+13104,put my workout playlist on,play_music,update_playlist
+13106,play rock playlist,play_music,update_playlist
+13111,can you play the rock playlist,play_music,update_playlist
+13113,rock music playlist,play_music,update_playlist
+13114,i want to hear my rock playlist,play_music,update_playlist
+13118,play me the playlist entitled jazz,play_music,update_playlist
+13119,turn on the rap playlist,play_music,update_playlist
+13120,turn my drake playlist on,play_music,update_playlist
+13121,i want to hear my hip hop playlist,play_music,update_playlist
+13122,i need to listen to my beyonce playlist,play_music,update_playlist
+13130,i want to play my maroon 5 playlist,play_music,update_playlist
+13131,"i want to listen to my maroon 5 playlist, play it for me",play_music,update_playlist
+13132,look up my maroon 5 playlists; play it,current_location,update_playlist
+13133,would you play my maroon 5 playlist,play_music,update_playlist
+13134,i need for you to play my maroon 5 playlist,play_music,update_playlist
+13153,start up some music,change_volume,play_music
+13155,i want to hear my vaporwave playlist,play_music,update_playlist
+13156,play my post-rock playlist,play_music,update_playlist
+13158,resume my metal playlist,play_music,repeat
+13161,start my playlist,order_status,update_playlist
+13164,play that song called bring the noise,carry_on,play_music
+13179,play songs by the beatles,vaccines,play_music
+13182,pull up my shower playlist,bill_balance,update_playlist
+13183,i need to hear my shower playlist,play_music,update_playlist
+13184,use my shower playlist,play_music,update_playlist
+13185,do the shower playlist please,make_call,play_music
+13186,i want to hear my shower playlist,play_music,update_playlist
+13193,add my dentist appointment to the calendar,goodbye,calendar_update
+13194,add a vet appointment for 5 pm on saturday,calendar_update,schedule_maintenance
+13196,please remove an event from this calendar,travel_alert,calendar_update
+13199,make sure to add to my calendar the staff meeting for march 1 at 10 am,user_name,schedule_meeting
+13200,add staff meeting to my calendar for march 1 at 10:00 in the morning,calendar_update,schedule_meeting
+13201,i want you to add staff meeting to my calendar for march 1 at 10:00 am,calendar_update,schedule_meeting
+13203,the staff meeting on march 1 at 10:00 am needs to be added to my calendar,calendar_update,schedule_meeting
+13206,can you change the date of the doctor's appointment event in my calendar from april 1 to april 3rd,play_music,calendar_update
+13207,i need a clear calendar for april 15,calendar_update,calendar
+13216,please schedule an event called 'nadine's baby shower' on my calendar,credit_score,schedule_meeting
+13229,delete all events on my calendar that have the word girlfriend in them,insurance_change,calendar_update
+13236,put a reminder on the calendar to buy a gun on march 1st,calendar_update,reminder_update
+13237,i need to add farm trip to my calendar for friday,improve_credit_score,calendar_update
+13238,i want to add farm trip to my calendar for friday,repeat,calendar_update
+13265,put appointment on my calendar for tomorrow,who_made_you,calendar_update
+13268,remember to put down that i have an appointment for tomorrow on my calendar,calendar_update,calendar
+13270,delete the hair appointment i had scheduled on may 1st pleae,restaurant_reservation,calendar_update
+13271,lunch with deb at noon today,calendar_update,schedule_meeting
+13283,schedule family dinner on my calendar on march 8,calendar_update,schedule_meeting
+13287,add meeting with carla to my schedule for july 4,calendar_update,schedule_meeting
+13306,are you a bot or a person,improve_credit_score,are_you_a_bot
+13324,am i talking with a real person,change_user_name,are_you_a_bot
+13346,how real are you,bill_due,are_you_a_bot
+13352,are you a person in real life or programmed ai,pto_request_status,are_you_a_bot
+13362,you are a bot aren't you,book_flight,are_you_a_bot
+13364,are you a live being,tire_change,are_you_a_bot
+13366,please tell me if you are an ai,how_busy,are_you_a_bot
+13375,are you a real person or a bot,pto_request_status,are_you_a_bot
+13380,are you a real person or software,redeem_rewards,are_you_a_bot
+13387,please specify if you are human or computer,international_fees,are_you_a_bot
+13393,what level is my gas tank at,smart_home,gas
+13396,what line is the gas tank at,pin_change,gas
+13401,in my tank how much gas is there,restaurant_reviews,gas
+13420,how much farther can i drive on the gas i have,thank_you,gas
+13421,do i have the gas to get to orlando,gas,distance
+13425,does my car have enough gas to get to chicago,definition,gas
+13457,do i have enough fuel for the drive to tampa,spelling,gas
+13458,can i make it to tampa without needing to get more gas,gas,distance
+13459,can i get to work safely or do i need to stop and get gas,gas,travel_alert
+13465,how many miles is there left to get to sioux falls,gas,distance
+13466,how many miles before i run out of gas,what_song,gas
+13475,please check the amount of gas i have,min_payment,gas
+13488,do i have enough fuel in the gas tank,travel_notification,gas
+13490,do i have enough fuel to make it to the theater,lost_luggage,gas
+13497,how much time do i have before my credit card expires,pto_request_status,expiration_date
+13518,i want to know the expiry month of my card,fun_fact,expiration_date
+13527,what is the expiration date of my wells fargo card,time,expiration_date
+13532,do i need a new card yet,expiration_date,new_card
+13537,what's the month that my card expires,restaurant_reservation,expiration_date
+13540,my credit card is set to expire in what month,apr,expiration_date
+13542,my discover card expires on what date,change_accent,expiration_date
+13555,when will my american express card expire,insurance,expiration_date
+13562,do you know the expiration date for my visa card,current_location,expiration_date
+13583,tell me when my visa card will have expired,lost_luggage,expiration_date
+13585,when's my visa card expiring,timezone,expiration_date
+13593,insert what i am listening to into my jazz playlist,gas_type,update_playlist
+13597,add this song to my jazz playlist,insurance_change,update_playlist
+13610,favorite what's currently playing on my playlist,update_playlist,what_song
+13616,will you please add cannons by phil wickham to my playlist,last_maintenance,update_playlist
+13618,can you please add hero by skillet to my playlist,new_card,update_playlist
+13626,i really would like to add hey jude by the beatles to my playlist,income,update_playlist
+13632,god's plan will be added to my new playlist,mpg,update_playlist
+13635,please add the immigrant song by led zeppelin to my playlist,next_holiday,update_playlist
+13646,will you add what i'm listening to to my love playlist,whisper_mode,update_playlist
+13653,add welcome to the jungle by guns n roses to my playlist,yes,update_playlist
+13685,add this song to my post-rock playlist,oil_change_how,update_playlist
+13686,transfer happy to my rb playlist,update_playlist,transfer
+13700,tell the restaurant i cannot make it,cancel_reservation,cancel
+13705,"cancel the dinner reservation i made, okay",greeting,cancel_reservation
+13710,call the restaurant and cancel my reservation,meal_suggestion,cancel_reservation
+13732,"cancel my reservation for dinner, please",reminder_update,cancel_reservation
+13746,could i cancel my reservations,weather,cancel_reservation
+13755,i made a reservation under mark hamil at the emporium that i don't need any more,shopping_list_update,cancel_reservation
+13768,im not going to dinner tonight,who_do_you_work_for,no
+13770,remove my dinner reservation,bill_balance,cancel_reservation
+13776,cancel my reservation for 3 at carlos jr,order,cancel_reservation
+13782,because of circumstances i don't need my reservation anymore,how_busy,cancel_reservation
+13783,i won't require my reservation anymore,pin_change,cancel_reservation
+13797,what are some funny things about food,tell_joke,fun_fact
+13799,indicate something funny on the topic of food,smart_home,tell_joke
+13802,can you tell a joke,what_song,tell_joke
+13808,do you have any jokes,bill_due,tell_joke
+13841,tell me something that'll make me laugh,apr,tell_joke
+13842,tell me a joke about cows,find_phone,tell_joke
+13843,do you know anything funny about cats,calculator,fun_fact
+13845,what's the funniest thing you know about artificial intelligence,tell_joke,fun_fact
+13859,tell me something funny about pizza,measurement_conversion,tell_joke
+13873,tell me something funny about rats,improve_credit_score,tell_joke
+13878,tell me something funny about dogs,nutrition_info,tell_joke
+13889,tell me a joke about baseball,restaurant_suggestion,tell_joke
+13895,rename bob to betty,change_ai_name,change_user_name
+13896,is there a way to change your name to betty,change_ai_name,change_user_name
+13906,change your name to something funny,meeting_schedule,change_ai_name
+13907,"from now, your new name will be lord vader",report_lost_card,change_ai_name
+13912,change your name setting to plato,change_ai_name,change_user_name
+13914,your name from this point forward is george,pto_request_status,change_ai_name
+13925,i am going to address you as my own name,change_ai_name,change_user_name
+13933,please open a call to my mother,change_ai_name,make_call
+13934,is it okay if i change your name to mud,calories,change_ai_name
+13953,i want to change the name i call you to juan,roll_dice,change_ai_name
+13954,you need to respond to a new name called joey,change_ai_name,change_user_name
+13956,change your settings so that your respond to the name marion,improve_credit_score,change_user_name
+13957,let me call you fred,share_location,change_ai_name
+13958,you will be called rose from now on,change_ai_name,change_user_name
+13963,x is your new nickname,change_ai_name,change_user_name
+13971,can i change your name to buttercup,rewards_balance,change_ai_name
+13973,could i please change your name to alicia,transactions,change_ai_name
+13988,can you go by a different name,shopping_list_update,change_user_name
+13997,when were you created,how_old_are_you,who_made_you
+13999,when did you come to exist,how_old_are_you,where_are_you_from
+14007,how many years has al been on earth,traffic,how_old_are_you
+14009,what is your birth date,how_old_are_you,date
+14010,where's your place of birth,how_old_are_you,where_are_you_from
+14011,where did you grow up,how_old_are_you,where_are_you_from
+14042,how old are you now,smart_home,how_old_are_you
+14048,"how old are you, again",cancel,repeat
+14051,what is your creation date,how_old_are_you,date
+14059,what is the age of the ai,accept_reservations,how_old_are_you
+14085,what's your age,pto_request,how_old_are_you
+14086,when did you originate,how_old_are_you,where_are_you_from
+14090,tell me your age please,flip_coin,how_old_are_you
+14091,tell me your birthday,how_old_are_you,what_are_your_hobbies
+14100,please help me book a rental car for nashville,todo_list,car_rental
+14103,where can i rent a car in boston,new_card,car_rental
+14129,find me a rental car from 2/28 - 3/1 in reno,book_hotel,car_rental
+14138,"i'd like to rent a limo in las vegas from may 01, 2019 to may 03, 2019",application_status,car_rental
+14144,can a car be rented from tuesday to thursday out of lax,order_status,car_rental
+14158,i would like some help getting a rental car reserved in los angeles,thank_you,car_rental
+14170,could i rent a car in seattle from next monday to thursday please,restaurant_suggestion,car_rental
+14172,is it possible to rent a car from new york on 3/2/19 to 3/5/19,reminder,car_rental
+14182,i need to do a car rental,cancel_reservation,car_rental
+14190,please book a car for me in bangkok,accept_reservations,car_rental
+14193,what do i do if my car battery is dead,alarm,jump_start
+14195,how can i replace my car battery,how_old_are_you,jump_start
+14199,whats the best way to jump start a battery,greeting,jump_start
+14214,please assist me in figuring out how to handle a dead car battery,apr,jump_start
+14218,where should i go to get my dead car battery checked out,shopping_list_update,jump_start
+14220,inform me on the directions to jump start my car,mpg,jump_start
+14229,i need diy info about jump starting my dead car battery,restaurant_reviews,jump_start
+14236,can you tell me how to jump start the car,timezone,jump_start
+14253,"if my car battery is dead, what action do i need to do",restaurant_suggestion,jump_start
+14264,"my car needs jump started, find me directions",car_rental,jump_start
+14307,give me italian meal ideas,redeem_rewards,meal_suggestion
+14311,please suggest meals from italy to me,flight_status,meal_suggestion
+14313,got any good dinner ideas,cancel,meal_suggestion
+14323,i'd like to get dinner suggestions for thai food,meal_suggestion,restaurant_suggestion
+14324,get me italian cuisine dinner suggestions,meal_suggestion,restaurant_suggestion
+14327,what's the pizza like around here,meal_suggestion,restaurant_suggestion
+14328,what's the best pizza place around here,meal_suggestion,restaurant_suggestion
+14329,how tasty is the pizza here,meal_suggestion,restaurant_reviews
+14332,i need a mexican meal suggesstion,whisper_mode,meal_suggestion
+14337,"i can't decide on dinner, what do you suggest",meal_suggestion,restaurant_suggestion
+14345,do you have any good recommendations for swiss cuisine,account_blocked,restaurant_suggestion
+14346,i'm looking for a good suggestion for norse cuisine,meal_suggestion,restaurant_suggestion
+14348,i'm looking for italian food suggestions,meal_suggestion,restaurant_suggestion
+14361,what food from italy do you suggest,meal_suggestion,restaurant_suggestion
+14370,look up a recipe for dinner to suggest to me,meal_suggestion,recipe
+14378,please provide an option for dinner,meal_suggestion,restaurant_suggestion
+14379,i would like to hear what ideas you have about making dinner tonight,direct_deposit,meal_suggestion
+14384,suggest a meal from india to me,directions,meal_suggestion
+14385,suggest a meal from new york to me,carry_on,meal_suggestion
+14388,let me pick your brain what do you think we should do for dinner tonight,travel_alert,restaurant_suggestion
+14401,tell me how to make chow mein,change_user_name,recipe
+14404,what is a good beef recipe,car_rental,recipe
+14409,what is needed you to cook apple pie,recipe,ingredients_list
+14410,do you know what are the ingredients to make apple pie,apr,ingredients_list
+14411,do you know recipe for making apple pie,find_phone,recipe
+14418,search for a macaroni and cheese recipe,change_user_name,recipe
+14425,can you give me a recipe for german chocolate cake,shopping_list_update,recipe
+14464,tell me how to make beef wellington,next_holiday,recipe
+14466,find me a recipe for teriyaki chicken,play_music,recipe
+14482,what's the way to make apple pie,time,recipe
+14495,i need you to tell me my salary,oil_change_when,income
+14505,i want income data,distance,income
+14511,how much have i earned this week,translate,income
+14518,advise me of my income,credit_limit,income
+14520,tell me my income,meaning_of_life,income
+14522,how much should my income be for the month,change_accent,income
+14527,how much do i make every 2 weeks,income,payday
+14529,how much am i getting back from work,income,payday
+14535,how much am i getting paid today,income,payday
+14536,what's my paycheck going to be,balance,payday
+14555,what is my current gross salary,do_you_have_pets,income
+14557,how much money was deposited to my bank account from my employer this month,income,direct_deposit
+14583,what do i earn on average at my job,food_last,income
+14591,i would like to know my income,international_visa,income
+14595,"i need some more lysol, could you order me some",account_blocked,order
+14600,i want my entire shopping list ordered,order,shopping_list
+14602,get my entire shopping list ordered,order,shopping_list
+14604,take my shopping list and order all,order,shopping_list_update
+14605,send the order for my entire shopping list,order,shopping_list
+14606,add everything to my shopping cart,order,shopping_list_update
+14608,buy everything on my list,order,shopping_list
+14609,please order everything you see on my shopping list,share_location,shopping_list
+14610,go shopping and order everything on the list,order,shopping_list
+14611,are you able to get my shopping list and order everything on it,order,shopping_list_update
+14612,could you get everything on my shopping list,order,shopping_list
+14613,i need everything ordered on my shopping list,maybe,shopping_list
+14615,i'd like to have everything on my shopping list,order,shopping_list
+14617,get everything on my shopping list,order,shopping_list
+14620,i need everything on my shopping list,order,shopping_list
+14622,i want everything on my shopping list,order,shopping_list
+14625,please get everything on my shopping list,order,shopping_list
+14626,i need you to order all the things on my shopping list,order,shopping_list_update
+14627,i want everything on my shopping list to be ordered,order,shopping_list
+14628,please order me everything that is on my shopping list,find_phone,shopping_list
+14630,i would like everything on my shopping list ordered,order,shopping_list_update
+14635,i would like all of these things on my shopping list ordered,order,shopping_list_update
+14636,put in the order for everything on my shopping list,order,shopping_list_update
+14638,i'm ready to put in the order for everything on my shopping list,order,shopping_list
+14639,go ahead and order everything on my shoping list,order,shopping_list
+14643,"order some cat for me, i ran out",report_lost_card,order_checks
+14648,submit the order for everything on my shopping list,order,shopping_list_update
+14649,can you buy something from walmartcom for me,order,shopping_list
+14652,can you order everything on my shopping list,order,shopping_list_update
+14664,i need you to buy a laptop,order,shopping_list_update
+14665,i'd like to buy some cooking pans,order,shopping_list
+14666,i'd like to have everything on the shopping list,change_user_name,shopping_list
+14668,buy all the things on the shopping list,interest_rate,shopping_list
+14669,i want all the things on the shopping list,order,shopping_list
+14670,i need to buy everything on the shopping list,order,shopping_list
+14672,purchase all the things on my shopping list,order,shopping_list
+14682,i need a replacement phone charger ordered online,timer,order
+14687,would you order everything on my shopping list,order,shopping_list
+14688,i need everything on my shopping list to be ordered,order,shopping_list_update
+14690,i want everything on my shopping list ordered,order,shopping_list_update
+14692,i want you to order everything on my shopping list,insurance_change,shopping_list
+14701,what is the traffic like on the way to north shore,change_volume,traffic
+14703,what is the traffic like on the way to kaneohe,no,traffic
+14712,how clogged are the streets before the stadium,credit_limit,traffic
+14715,is there gridlock on the street up to the stadium,shopping_list_update,traffic
+14719,what's the traffic like on the way to the amusement park,carry_on,traffic
+14724,tell me the traffic at lexington,income,traffic
+14739,i must know what the traffic typically like at 3:30 on the route to phoenix,card_declined,traffic
+14743,i need ti know the traffic in tempe,insurance,traffic
+14747,i need to know what the traffic is like on the way to phoenix,pto_request_status,traffic
+14763,how's highway traffic today,where_are_you_from,traffic
+14798,can i get more checks,report_fraud,order_checks
+14801,i need new checks,what_are_your_hobbies,order_checks
+14816,i'd like to order more checks for my savings account,shopping_list_update,order
+14817,i need to order more checks for my savings account,goodbye,order_checks
+14827,i would like to get some more checkbooks mailed to me,definition,order_checks
+14833,i do need to get some more checkbooks mailed to me,carry_on,order_checks
+14867,how can i get more checks for my commerce bank checking account,rewards_balance,order_checks
+14870,"i'm out of checks, please order new ones",plug_type,order_checks
+14879,will i be able to order for more checkbooks for my chase bank account,calendar,order_checks
+14890,can you order new checks for my citizens checking,yes,order_checks
+14896,why did my card not get accepted please,traffic,card_declined
+14903,i need to know why my card was just declined at walgreen's,order_status,card_declined
+14912,do i have enough funds in my card,card_declined,balance
+14923,can you tell me why walmart declined my card,bill_due,card_declined
+14926,at target trying to buy a mug and my card was declined,confirm_reservation,card_declined
+14929,why was my card not accepted yesterday,rewards_balance,card_declined
+14962,i was buying qtips today at walmart and my card got declined,jump_start,card_declined
+14975,i was at whole foods trying to buy groceries and my card got declined,interest_rate,card_declined
+14980,my card was malfunctioning and was returned to me,card_declined,damaged_card
+14990,find out what happened to make my card get declined yesterday,calendar_update,card_declined
+14991,why was my card declined at safeway,plug_type,card_declined
+14993,what is the formula for the circumference of a circle,roll_dice,calculator
+14994,what are some ways to reduce spending,plug_type,improve_credit_score
+14998,how much money does radiohead earn a year,translate,income
