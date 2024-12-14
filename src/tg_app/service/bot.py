@@ -29,6 +29,9 @@ tokenizer = tokenizers.Tokenizer.from_file("/service/tokenizer/tokenizer/tokeniz
 with open("/service/tokenizer/id2label.json", "r") as f:
     id2label = list(zip(*sorted(json.load(f).items(), key=lambda x: int(x[0]))))[1]
 
+with open("/service/tokenizer/id2label2.json", "r") as f:
+    id2label2 = list(zip(*sorted(json.load(f).items(), key=lambda x: int(x[0]))))[1]
+
 with open("/service/tokenizer/label2desc.json", "r") as f:
     label2desc = json.load(f)
 
@@ -56,7 +59,10 @@ async def call_roberta(text: str, model_name: str) -> list[float]:
             inputs=inputs,
             outputs=[output],
         )
-        return id2label[np.argmax(results.as_numpy("outputs")[0])]
+        if model_name == "dirty_roberta":
+            return id2label[np.argmax(results.as_numpy("outputs")[0])]
+        else:
+            return id2label2[np.argmax(results.as_numpy("outputs")[0])]
     except InferenceServerException as e:
         logger.error(e)
         print(e)
