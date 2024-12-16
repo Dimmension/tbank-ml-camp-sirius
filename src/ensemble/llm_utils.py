@@ -20,10 +20,10 @@ class LLMHandler:
 
     def __init__(
         self,
-        llm_model_name,
-        llm_tokenizer_name,
-        gguf_q_type,
-        threshhold
+        llm_model_name: str='bartowski/Meta-Llama-3.1-8B-Instruct-GGUF',
+        llm_tokenizer_name: str='unsloth/Meta-Llama-3.1-8B-Instruct',
+        gguf_q_type: str='Q6_K_L',
+        threshhold: int=0.98
     ) -> None:
         self.threshhold = threshhold        
         self.llm_model = Llama.from_pretrained(
@@ -77,12 +77,10 @@ class LLMHandler:
             **self.GENERATION_CONFIG,
         )
         generated_text = outputs['choices'][0]['text']
-
         token_probs = outputs['choices'][0]['logprobs']['token_logprobs']
         tokens = outputs['choices'][0]['logprobs']['tokens']
 
         confidences = [round(10 ** prob, 4) for prob in token_probs]
-        # print(f"TOKENS: {tokens}; CONFIDENCE: {confidences}")
         
         is_again = self.check(confidences)
         min_confidence = min(confidences)

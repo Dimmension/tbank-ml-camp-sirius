@@ -13,29 +13,29 @@ class RetrievalSystem:
     """A retrieval system combining semantic search with BM25."""
 
     def __init__(self,
-                 data_path="././data/labels_with_description.json",
-                 nearest_labels_path="././data/nearest_labels.json",
-                #  embedder_name = "BAAI/bge-large-en-v1.5",
-                 embedder_name = "chinchilla04/bge-finetuned-train",
-                 reranker_name="BAAI/bge-reranker-v2-m3",
-                 top_r=20,
-                 top_k=10,
-                 threshold_mean_diff=1e-6,
-                 threshold_conf_drop=1e-5,
-                 fusion_weight=0.3,
+                 data_path: str="././data/labels_with_description.json",
+                 nearest_labels_path: str="././data/nearest_labels.json",
+                 embedder_name: str= "chinchilla04/bge-finetuned-train",
+                 reranker_name: str="BAAI/bge-reranker-v2-m3",
+                 top_r: int=20,
+                 top_k: int=10,
+                 threshold_mean_diff: int=1e-6,
+                 threshold_conf_drop: int=1e-5,
+                 fusion_weight: int=0.3,
         ):
         """
         Initialize the retrieval system.
 
         Args:
             data_path (str): Path to the JSON file containing labels with descriptions.
+            nearest_labels_path (str): Path to the JSON file containing nearest labels.
             model_name (str): Name of the BGE model.
             reranker_name (str): Name of the BGE reranker.
-            top_k (int): Number of results to retrieve from semantic search.
             top_r (int): Number of final results to return after reranking.
-            theshhold (int): Threshold for checking if query is OOS.
+            top_k (int): Number of results to retrieve from semantic search.
+            threshold_mean_diff (int): Threshold for checking if query is OOS.
+            threshold_conf_drop (int): Threshold for checking if query is OOS.
             fusion_weight (float): Weight given to BM25 scores during fusion.
-            query_instruction (str): Instruction for query embedding.
         """
         self.top_r = top_r  # top from FAISS + BM25
         self.top_k = top_k  # for BGE reranking
@@ -93,11 +93,8 @@ class RetrievalSystem:
         """
         Process a query to retrieve the top labels using EnsembleRetriever.
         """
-        if top_r != self.top_r:
-            self.top_r = top_r
-            
-        if top_k != self.top_k:
-            self.top_k = top_k
+        self.top_r = top_r
+        self.top_k = top_k
 
         # Perform ensemble retrieval
         retrieval_results = self.ensemble_retriever.invoke(query, c=100)
