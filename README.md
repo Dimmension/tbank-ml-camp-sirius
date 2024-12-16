@@ -68,6 +68,7 @@
 
 ### Интеграция
 Мы интегрировали итоговую классификационную модель в телеграмм бота, завернутого в docker с использованием triton. В нем можно посмотреть разницу в работе итоговой модели и бейзлайна, обученного на "грязном" датасете
+
 ![image](https://github.com/user-attachments/assets/7215bac8-2dc0-4733-8cae-31866e4e128b)
 ![image](https://github.com/user-attachments/assets/2ef32f14-bcdf-4a9f-b0f5-43370aadf7a8)
 
